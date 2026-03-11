@@ -17,7 +17,7 @@ Repository = "https://github.com/valsecchi75/comfyui_neural_atelier"
 Homepage = "https://github.com/valsecchi75/comfyui_neural_atelier"
 
 [tool.comfy]
-PublisherId = "sergiovalsecchi"
+PublisherId = "valsecchi1975"
 DisplayName = "Neural Atelier"
 Icon = ""
 Tags = ["fashion", "gemini", "image generation", "sketch to photo", "recolor", "AI"]
