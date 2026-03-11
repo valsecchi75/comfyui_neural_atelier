@@ -4,8 +4,8 @@
 
 Neural Atelier NA01 is a professional ComfyUI node for fashion visualization and product photography. It orchestrates Google's Gemini AI models to transform sketches, materials, and briefs into photorealistic product images.
 
-![patreion](https://github.com/user-attachments/assets/8a8dad8b-f554-463c-baf5-82e63328c82b)
 
+![lancio-1](https://github.com/user-attachments/assets/2734c3af-7a22-4e34-a3b7-fbdab0797cc3)
 
 ### Architecture
 
@@ -36,6 +36,8 @@ User Input → Gemini 3 Flash (Prompt Orchestration) → Nano Banana Pro (Image 
 
 The main node that handles the complete workflow.
 
+![image](https://github.com/user-attachments/assets/4121f034-92f4-4351-ac85-d7a2efc496ce)
+
 **Inputs:**
 
 | Input | Type | Required | Description |
@@ -58,6 +60,13 @@ The main node that handles the complete workflow.
 
 - `image`: Generated image
 - `log`: Execution summary with run_id, timings, and file paths
+
+![ComfyUI_00018_](https://github.com/user-attachments/assets/2f27e462-c7be-4140-9778-85c458e3060b)
+![ComfyUI_00019_](https://github.com/user-attachments/assets/8c250f32-a437-4605-a151-d0c9a0af7a42)
+![ComfyUI_00027_](https://github.com/user-attachments/assets/b7dd3508-fc3e-46e9-8b66-cc98c77440f4)
+![ComfyUI_00029_](https://github.com/user-attachments/assets/78bcffd9-dc47-40b4-8455-3d34f83a0170)
+![ComfyUI_00033_](https://github.com/user-attachments/assets/584cfaec-f026-47cd-ab6a-e14506a7fc8a)
+
 
 ### NA01 Verify API Key
 
