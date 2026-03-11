@@ -7,6 +7,9 @@ Neural Atelier NA01 is a professional ComfyUI node for fashion visualization and
 
 ![lancio-1](https://github.com/user-attachments/assets/2734c3af-7a22-4e34-a3b7-fbdab0797cc3)
 
+![Screenshot 2026-03-02 162601](https://github.com/user-attachments/assets/d9076154-7f3c-4874-a720-24ec19b768fb)
+
+
 ### Architecture
 
 ```
@@ -36,9 +39,11 @@ User Input → Gemini 3 Flash (Prompt Orchestration) → Nano Banana Pro (Image 
 
 The main node that handles the complete workflow.
 
-![Screenshot 2026-01-25 111226](https://github.com/user-attachments/assets/080afa26-feac-407a-afd5-7d61e30058a2)
+![image](https://github.com/user-attachments/assets/756ea0ff-6df6-4e0c-9ce2-214410a5382b)
 
-![image](https://github.com/user-attachments/assets/4121f034-92f4-4351-ac85-d7a2efc496ce)
+![image](https://github.com/user-attachments/assets/ce744e2f-626c-4d2a-8ac1-30afb30bf246)
+
+![Screenshot 2026-01-30 100917](https://github.com/user-attachments/assets/b314d29e-2c6d-44a7-957e-fc2cf73fd7e3)
 
 **Inputs:**
 
