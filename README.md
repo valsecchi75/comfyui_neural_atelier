@@ -36,6 +36,8 @@ User Input → Gemini 3 Flash (Prompt Orchestration) → Nano Banana Pro (Image 
 
 The main node that handles the complete workflow.
 
+![Screenshot 2026-01-25 111226](https://github.com/user-attachments/assets/080afa26-feac-407a-afd5-7d61e30058a2)
+
 ![image](https://github.com/user-attachments/assets/4121f034-92f4-4351-ac85-d7a2efc496ce)
 
 **Inputs:**
