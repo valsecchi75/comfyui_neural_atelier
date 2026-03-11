@@ -1,0 +1,3150 @@
+{
+  "version": "1.0.0",
+  "description": "Pantone color palette organized by family and group for NA - Recolor node | Filled from Margaret2/pantone-colors to 500 colors (macro common_name)",
+  "color_families": [
+    {
+      "value": "blues",
+      "label": "Blues",
+      "groups": [
+        {
+          "value": "navy",
+          "label": "Navy & Dark Blue",
+          "colors": [
+            {
+              "pantone_code": "19-4052 TCX",
+              "hex": "#0F4C81",
+              "rgb": "15, 76, 129",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "19-4010 TCX",
+              "hex": "#34394B",
+              "rgb": "52, 57, 75",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "19-3911 TCX",
+              "hex": "#363945",
+              "rgb": "54, 57, 69",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "19-4029 TCX",
+              "hex": "#2C4A6B",
+              "rgb": "44, 74, 107",
+              "common_name": "Blue"
+            }
+          ]
+        },
+        {
+          "value": "medium_blue",
+          "label": "Medium Blue",
+          "colors": [
+            {
+              "pantone_code": "18-4051 TCX",
+              "hex": "#2E5894",
+              "rgb": "46, 88, 148",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "17-4041 TCX",
+              "hex": "#4E97D1",
+              "rgb": "78, 151, 209",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "18-4039 TCX",
+              "hex": "#3B6E8F",
+              "rgb": "59, 110, 143",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "17-4123 TCX",
+              "hex": "#5B7C99",
+              "rgb": "91, 124, 153",
+              "common_name": "Blue"
+            }
+          ]
+        },
+        {
+          "value": "light_blue",
+          "label": "Light Blue",
+          "colors": [
+            {
+              "pantone_code": "15-4020 TCX",
+              "hex": "#6BADE4",
+              "rgb": "107, 173, 228",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "14-4318 TCX",
+              "hex": "#75AADB",
+              "rgb": "117, 170, 219",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "13-3920 TCX",
+              "hex": "#BDC6DC",
+              "rgb": "189, 198, 220",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "13-4200 TCX",
+              "hex": "#B5CEDF",
+              "rgb": "181, 206, 223",
+              "common_name": "Blue"
+            },
+            {
+              "pantone_code": "13-4308 TCX",
+              "hex": "#B5C7D3",
+              "rgb": "181, 199, 211",
+              "common_name": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "neutrals",
+      "label": "Neutrals",
+      "groups": [
+        {
+          "value": "black",
+          "label": "Black",
+          "colors": [
+            {
+              "pantone_code": "19-0303 TCX",
+              "hex": "#3E3D3D",
+              "rgb": "62, 61, 61",
+              "common_name": "Neutral"
+            }
+          ]
+        },
+        {
+          "value": "gray",
+          "label": "Gray",
+          "colors": [
+            {
+              "pantone_code": "18-0000 TCX",
+              "hex": "#545454",
+              "rgb": "84, 84, 84",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "17-5104 TCX",
+              "hex": "#6E7F80",
+              "rgb": "110, 127, 128",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-4102 TCX",
+              "hex": "#C1C6C8",
+              "rgb": "193, 198, 200",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0105 TCX",
+              "hex": "#D7D0C0",
+              "rgb": "215, 208, 192",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0106 TCX",
+              "hex": "#D3DEC4",
+              "rgb": "211, 222, 196",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0108 TCX",
+              "hex": "#D6DEC9",
+              "rgb": "214, 222, 201",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0304 TCX",
+              "hex": "#E0D5C6",
+              "rgb": "224, 213, 198",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0404 TCX",
+              "hex": "#DAD8C9",
+              "rgb": "218, 216, 201",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2901 TCX",
+              "hex": "#DFCDC6",
+              "rgb": "223, 205, 198",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2903 TCX",
+              "hex": "#DEC6D3",
+              "rgb": "222, 198, 211",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4301 TCX",
+              "hex": "#D6CEBE",
+              "rgb": "214, 206, 190",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4302 TCX",
+              "hex": "#DFDDD7",
+              "rgb": "223, 221, 215",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4305 TCX",
+              "hex": "#D3DEDF",
+              "rgb": "211, 222, 223",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4306 TCX",
+              "hex": "#DDE0DF",
+              "rgb": "221, 224, 223",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4604 TCX",
+              "hex": "#C8E0E0",
+              "rgb": "200, 224, 224",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4607 TCX",
+              "hex": "#BCD3D5",
+              "rgb": "188, 211, 213",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4610 TCX",
+              "hex": "#C9DCDC",
+              "rgb": "201, 220, 220",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4705 TCX",
+              "hex": "#D6DBD9",
+              "rgb": "214, 219, 217",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4805 TCX",
+              "hex": "#CBDCDF",
+              "rgb": "203, 220, 223",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4806 TCX",
+              "hex": "#CCDAD7",
+              "rgb": "204, 218, 215",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5201 TCX",
+              "hex": "#DADCD0",
+              "rgb": "218, 220, 208",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5202 TCX",
+              "hex": "#DED7C8",
+              "rgb": "222, 215, 200",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5203 TCX",
+              "hex": "#D2D8D2",
+              "rgb": "210, 216, 210",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5204 TCX",
+              "hex": "#CFDFDB",
+              "rgb": "207, 223, 219",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5303 TCX",
+              "hex": "#CBD7D2",
+              "rgb": "203, 215, 210",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5403 TCX",
+              "hex": "#D0D9D4",
+              "rgb": "208, 217, 212",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5406 TCX",
+              "hex": "#C3DDD6",
+              "rgb": "195, 221, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5505 TCX",
+              "hex": "#C3DBD4",
+              "rgb": "195, 219, 212",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5603 TCX",
+              "hex": "#D3D9D1",
+              "rgb": "211, 217, 209",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-6204 TCX",
+              "hex": "#D7D7C7",
+              "rgb": "215, 215, 199",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-6205 TCX",
+              "hex": "#CFDBD1",
+              "rgb": "207, 219, 209",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0000 TCX",
+              "hex": "#CDC6BD",
+              "rgb": "205, 198, 189",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0002 TCX",
+              "hex": "#DBD5D1",
+              "rgb": "219, 213, 209",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0107 TCX",
+              "hex": "#C4D1C2",
+              "rgb": "196, 209, 194",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0210 TCX",
+              "hex": "#C2CBB4",
+              "rgb": "194, 203, 180",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0401 TCX",
+              "hex": "#CBC3B4",
+              "rgb": "203, 195, 180",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0403 TCX",
+              "hex": "#CABEB5",
+              "rgb": "202, 190, 181",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0905 TCX",
+              "hex": "#DDD5C7",
+              "rgb": "221, 213, 199",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3405 TCX",
+              "hex": "#E0C7D7",
+              "rgb": "224, 199, 215",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3406 TCX",
+              "hex": "#E0D0DB",
+              "rgb": "224, 208, 219",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3801 TCX",
+              "hex": "#D7CBC4",
+              "rgb": "215, 203, 196",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3802 TCX",
+              "hex": "#DBD2DB",
+              "rgb": "219, 210, 219",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3803 TCX",
+              "hex": "#D7CDCD",
+              "rgb": "215, 205, 205",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3804 TCX",
+              "hex": "#D4CACD",
+              "rgb": "212, 202, 205",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3805 TCX",
+              "hex": "#CEC3D2",
+              "rgb": "206, 195, 210",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3820 TCX",
+              "hex": "#D2C4D6",
+              "rgb": "210, 196, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4103 TCX",
+              "hex": "#C9D3DC",
+              "rgb": "201, 211, 220",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4104 TCX",
+              "hex": "#C6C5C6",
+              "rgb": "198, 197, 198",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4105 TCX",
+              "hex": "#D0D0DA",
+              "rgb": "208, 208, 218",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4108 TCX",
+              "hex": "#D5D5D8",
+              "rgb": "213, 213, 216",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4110 TCX",
+              "hex": "#BFC7D6",
+              "rgb": "191, 199, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4111 TCX",
+              "hex": "#BFCAD6",
+              "rgb": "191, 202, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4201 TCX",
+              "hex": "#C3C6C8",
+              "rgb": "195, 198, 200",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4303 TCX",
+              "hex": "#CACCCB",
+              "rgb": "202, 204, 203",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4304 TCX",
+              "hex": "#C0CEDA",
+              "rgb": "192, 206, 218",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4305 TCX",
+              "hex": "#D1D5D0",
+              "rgb": "209, 213, 208",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4403 TCX",
+              "hex": "#D2CFC4",
+              "rgb": "210, 207, 196",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4404 TCX",
+              "hex": "#C6D2D2",
+              "rgb": "198, 210, 210",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4405 TCX",
+              "hex": "#BFCDCC",
+              "rgb": "191, 205, 204",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-4804 TCX",
+              "hex": "#C4D6D3",
+              "rgb": "196, 214, 211",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-5304 TCX",
+              "hex": "#CFC8BD",
+              "rgb": "207, 200, 189",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-5305 TCX",
+              "hex": "#C1CCC2",
+              "rgb": "193, 204, 194",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-6006 TCX",
+              "hex": "#CAD3C1",
+              "rgb": "202, 211, 193",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-6007 TCX",
+              "hex": "#BED3BB",
+              "rgb": "190, 211, 187",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-6105 TCX",
+              "hex": "#CBCEBE",
+              "rgb": "203, 206, 190",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-6106 TCX",
+              "hex": "#C5CCC0",
+              "rgb": "197, 204, 192",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-6107 TCX",
+              "hex": "#C1CEC1",
+              "rgb": "193, 206, 193",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-6108 TCX",
+              "hex": "#B8CCBA",
+              "rgb": "184, 204, 186",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-6208 TCX",
+              "hex": "#BCCAB3",
+              "rgb": "188, 202, 179",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0000 TCX",
+              "hex": "#C1B7B0",
+              "rgb": "193, 183, 176",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0002 TCX",
+              "hex": "#CAC2B9",
+              "rgb": "202, 194, 185",
+              "common_name": "Neutral"
+            }
+          ]
+        },
+        {
+          "value": "white",
+          "label": "White & Off-White",
+          "colors": [
+            {
+              "pantone_code": "11-0601 TCX",
+              "hex": "#F5F5F0",
+              "rgb": "245, 245, 240",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4800 TCX",
+              "hex": "#F0EEE9",
+              "rgb": "240, 238, 233",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0602 TCX",
+              "hex": "#EAE6DA",
+              "rgb": "234, 230, 218",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0103 TCX",
+              "hex": "#F3ECE0",
+              "rgb": "243, 236, 224",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0104 TCX",
+              "hex": "#F0EADA",
+              "rgb": "240, 234, 218",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0105 TCX",
+              "hex": "#EDE3D2",
+              "rgb": "237, 227, 210",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0106 TCX",
+              "hex": "#F0EAD6",
+              "rgb": "240, 234, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0107 TCX",
+              "hex": "#F5EDD6",
+              "rgb": "245, 237, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0110 TCX",
+              "hex": "#EFE0CD",
+              "rgb": "239, 224, 205",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0205 TCX",
+              "hex": "#ECEAD0",
+              "rgb": "236, 234, 208",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0304 TCX",
+              "hex": "#DDE3D5",
+              "rgb": "221, 227, 213",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0507 TCX",
+              "hex": "#F5ECD2",
+              "rgb": "245, 236, 210",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0510 TCX",
+              "hex": "#F3E6C9",
+              "rgb": "243, 230, 201",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0515 TCX",
+              "hex": "#F6EBC8",
+              "rgb": "246, 235, 200",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0603 TCX",
+              "hex": "#E5D9D3",
+              "rgb": "229, 217, 211",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0604 TCX",
+              "hex": "#F1E8DF",
+              "rgb": "241, 232, 223",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0605 TCX",
+              "hex": "#EDE6DE",
+              "rgb": "237, 230, 222",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0606 TCX",
+              "hex": "#F2E8DA",
+              "rgb": "242, 232, 218",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0607 TCX",
+              "hex": "#F3EEE7",
+              "rgb": "243, 238, 231",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0608 TCX",
+              "hex": "#F0EDE5",
+              "rgb": "240, 237, 229",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0609 TCX",
+              "hex": "#F1ECCA",
+              "rgb": "241, 236, 202",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0615 TCX",
+              "hex": "#F3EAC3",
+              "rgb": "243, 234, 195",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0616 TCX",
+              "hex": "#F2E6B1",
+              "rgb": "242, 230, 177",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0617 TCX",
+              "hex": "#F4ECC2",
+              "rgb": "244, 236, 194",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0618 TCX",
+              "hex": "#EDE9AD",
+              "rgb": "237, 233, 173",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0619 TCX",
+              "hex": "#F6E3B4",
+              "rgb": "246, 227, 180",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0620 TCX",
+              "hex": "#EEEA97",
+              "rgb": "238, 234, 151",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0622 TCX",
+              "hex": "#EEE78E",
+              "rgb": "238, 231, 142",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0623 TCX",
+              "hex": "#ECE99B",
+              "rgb": "236, 233, 155",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0701 TCX",
+              "hex": "#EDE6DB",
+              "rgb": "237, 230, 219",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0710 TCX",
+              "hex": "#EDEDB7",
+              "rgb": "237, 237, 183",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0809 TCX",
+              "hex": "#F3DFCA",
+              "rgb": "243, 223, 202",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-0907 TCX",
+              "hex": "#F0DFCC",
+              "rgb": "240, 223, 204",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-1001 TCX",
+              "hex": "#EFEBE7",
+              "rgb": "239, 235, 231",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-1005 TCX",
+              "hex": "#EEE2DD",
+              "rgb": "238, 226, 221",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-1302 TCX",
+              "hex": "#F1E6DE",
+              "rgb": "241, 230, 222",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-1305 TCX",
+              "hex": "#F3DFD7",
+              "rgb": "243, 223, 215",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-1306 TCX",
+              "hex": "#F6E4D9",
+              "rgb": "246, 228, 217",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-1404 TCX",
+              "hex": "#F3E0D6",
+              "rgb": "243, 224, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-1408 TCX",
+              "hex": "#F6DBD8",
+              "rgb": "246, 219, 216",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-2309 TCX",
+              "hex": "#F2E2E0",
+              "rgb": "242, 226, 224",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-2409 TCX",
+              "hex": "#F5E3E2",
+              "rgb": "245, 227, 226",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-2511 TCX",
+              "hex": "#F4E1E6",
+              "rgb": "244, 225, 230",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4001 TCX",
+              "hex": "#EDF1FE",
+              "rgb": "237, 241, 254",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4201 TCX",
+              "hex": "#F0EEE9",
+              "rgb": "240, 238, 233",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4202 TCX",
+              "hex": "#EFEFE8",
+              "rgb": "239, 239, 232",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4300 TCX",
+              "hex": "#F0EEE4",
+              "rgb": "240, 238, 228",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4301 TCX",
+              "hex": "#E2E2DA",
+              "rgb": "226, 226, 218",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4302 TCX",
+              "hex": "#F0EFE2",
+              "rgb": "240, 239, 226",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4303 TCX",
+              "hex": "#E1E3DE",
+              "rgb": "225, 227, 222",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4601 TCX",
+              "hex": "#E2EAEB",
+              "rgb": "226, 234, 235",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4604 TCX",
+              "hex": "#D8E7E7",
+              "rgb": "216, 231, 231",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4801 TCX",
+              "hex": "#E8E3D9",
+              "rgb": "232, 227, 217",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4802 TCX",
+              "hex": "#E5EBE3",
+              "rgb": "229, 235, 227",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4803 TCX",
+              "hex": "#E0E4D9",
+              "rgb": "224, 228, 217",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4804 TCX",
+              "hex": "#E4EADF",
+              "rgb": "228, 234, 223",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "11-4805 TCX",
+              "hex": "#D8E8E6",
+              "rgb": "216, 232, 230",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0104 TCX",
+              "hex": "#E1DBC8",
+              "rgb": "225, 219, 200",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0601 TCX",
+              "hex": "#ECE1D3",
+              "rgb": "236, 225, 211",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0642 TCX",
+              "hex": "#EDDD59",
+              "rgb": "237, 221, 89",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0643 TCX",
+              "hex": "#FEE715",
+              "rgb": "254, 231, 21",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0646 TCX",
+              "hex": "#EBDF67",
+              "rgb": "235, 223, 103",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0704 TCX",
+              "hex": "#EDDCC9",
+              "rgb": "237, 220, 201",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0710 TCX",
+              "hex": "#EFDCC3",
+              "rgb": "239, 220, 195",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0711 TCX",
+              "hex": "#F6E199",
+              "rgb": "246, 225, 153",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0712 TCX",
+              "hex": "#F4E1C1",
+              "rgb": "244, 225, 193",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0713 TCX",
+              "hex": "#F4EFC1",
+              "rgb": "244, 239, 193",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0714 TCX",
+              "hex": "#F2D6AE",
+              "rgb": "242, 214, 174",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0715 TCX",
+              "hex": "#F3E0AC",
+              "rgb": "243, 224, 172",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0717 TCX",
+              "hex": "#F4E3B5",
+              "rgb": "244, 227, 181",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0720 TCX",
+              "hex": "#F0DD9D",
+              "rgb": "240, 221, 157",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0721 TCX",
+              "hex": "#F0E79D",
+              "rgb": "240, 231, 157",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0722 TCX",
+              "hex": "#EFE1A7",
+              "rgb": "239, 225, 167",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0727 TCX",
+              "hex": "#FADE85",
+              "rgb": "250, 222, 133",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0729 TCX",
+              "hex": "#EBCF89",
+              "rgb": "235, 207, 137",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0736 TCX",
+              "hex": "#FDD878",
+              "rgb": "253, 216, 120",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0737 TCX",
+              "hex": "#F8DC6C",
+              "rgb": "248, 220, 108",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0738 TCX",
+              "hex": "#EFDC75",
+              "rgb": "239, 220, 117",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0740 TCX",
+              "hex": "#F0E87D",
+              "rgb": "240, 232, 125",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0741 TCX",
+              "hex": "#DFEF87",
+              "rgb": "223, 239, 135",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0742 TCX",
+              "hex": "#F3E779",
+              "rgb": "243, 231, 121",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0752 TCX",
+              "hex": "#FAE03C",
+              "rgb": "250, 224, 60",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0758 TCX",
+              "hex": "#FACE6D",
+              "rgb": "250, 206, 109",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0806 TCX",
+              "hex": "#ECDDBE",
+              "rgb": "236, 221, 190",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0807 TCX",
+              "hex": "#EBD1BB",
+              "rgb": "235, 209, 187",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0811 TCX",
+              "hex": "#EBD2B7",
+              "rgb": "235, 210, 183",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0812 TCX",
+              "hex": "#F0DEBD",
+              "rgb": "240, 222, 189",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0813 TCX",
+              "hex": "#EED0AE",
+              "rgb": "238, 208, 174",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0815 TCX",
+              "hex": "#F3E0BE",
+              "rgb": "243, 224, 190",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0817 TCX",
+              "hex": "#F5D7AF",
+              "rgb": "245, 215, 175",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0822 TCX",
+              "hex": "#F2D1A0",
+              "rgb": "242, 209, 160",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0824 TCX",
+              "hex": "#FAE199",
+              "rgb": "250, 225, 153",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0825 TCX",
+              "hex": "#F8DE8D",
+              "rgb": "248, 222, 141",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0826 TCX",
+              "hex": "#FBD897",
+              "rgb": "251, 216, 151",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0911 TCX",
+              "hex": "#F2D3BC",
+              "rgb": "242, 211, 188",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0912 TCX",
+              "hex": "#F8D5B8",
+              "rgb": "248, 213, 184",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0913 TCX",
+              "hex": "#F1CEB3",
+              "rgb": "241, 206, 179",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0915 TCX",
+              "hex": "#FED1BD",
+              "rgb": "254, 209, 189",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-0917 TCX",
+              "hex": "#FCCAAC",
+              "rgb": "252, 202, 172",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1008 TCX",
+              "hex": "#EDD2C0",
+              "rgb": "237, 210, 192",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1009 TCX",
+              "hex": "#F4D8C6",
+              "rgb": "244, 216, 198",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1010 TCX",
+              "hex": "#FBD8C9",
+              "rgb": "251, 216, 201",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1011 TCX",
+              "hex": "#EFCFBA",
+              "rgb": "239, 207, 186",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1106 TCX",
+              "hex": "#F6E5DB",
+              "rgb": "246, 229, 219",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1107 TCX",
+              "hex": "#F0D8CC",
+              "rgb": "240, 216, 204",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1108 TCX",
+              "hex": "#EEDED1",
+              "rgb": "238, 222, 209",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1110 TCX",
+              "hex": "#F5D6C6",
+              "rgb": "245, 214, 198",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1207 TCX",
+              "hex": "#F4CEC5",
+              "rgb": "244, 206, 197",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1209 TCX",
+              "hex": "#F2D8CD",
+              "rgb": "242, 216, 205",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1212 TCX",
+              "hex": "#F8CDC9",
+              "rgb": "248, 205, 201",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1304 TCX",
+              "hex": "#F9DBD8",
+              "rgb": "249, 219, 216",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1305 TCX",
+              "hex": "#F4DEDE",
+              "rgb": "244, 222, 222",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1310 TCX",
+              "hex": "#FBD3D9",
+              "rgb": "251, 211, 217",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1605 TCX",
+              "hex": "#EDD0CE",
+              "rgb": "237, 208, 206",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1706 TCX",
+              "hex": "#F7D1D1",
+              "rgb": "247, 209, 209",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1708 TCX",
+              "hex": "#FDC3C6",
+              "rgb": "253, 195, 198",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-1813 TCX",
+              "hex": "#F7D1D4",
+              "rgb": "247, 209, 212",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2102 TCX",
+              "hex": "#ECD6D6",
+              "rgb": "236, 214, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2103 TCX",
+              "hex": "#E7DCD9",
+              "rgb": "231, 220, 217",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2902 TCX",
+              "hex": "#E5D0CF",
+              "rgb": "229, 208, 207",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2904 TCX",
+              "hex": "#EED4D9",
+              "rgb": "238, 212, 217",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2905 TCX",
+              "hex": "#EDD0DD",
+              "rgb": "237, 208, 221",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2906 TCX",
+              "hex": "#F8D7DD",
+              "rgb": "248, 215, 221",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-2907 TCX",
+              "hex": "#F8E0E7",
+              "rgb": "248, 224, 231",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-4304 TCX",
+              "hex": "#E2E6E0",
+              "rgb": "226, 230, 224",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5404 TCX",
+              "hex": "#E0E6D7",
+              "rgb": "224, 230, 215",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5407 TCX",
+              "hex": "#D2E8E0",
+              "rgb": "210, 232, 224",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5504 TCX",
+              "hex": "#CEE1D4",
+              "rgb": "206, 225, 212",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-5508 TCX",
+              "hex": "#D8E9E5",
+              "rgb": "216, 233, 229",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-6206 TCX",
+              "hex": "#D8E3D7",
+              "rgb": "216, 227, 215",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-6207 TCX",
+              "hex": "#DDE2D6",
+              "rgb": "221, 226, 214",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "12-6208 TCX",
+              "hex": "#DCE4D7",
+              "rgb": "220, 228, 215",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0535 TCX",
+              "hex": "#C6EC7A",
+              "rgb": "198, 236, 122",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0644 TCX",
+              "hex": "#F3DD3E",
+              "rgb": "243, 221, 62",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0746 TCX",
+              "hex": "#EEC843",
+              "rgb": "238, 200, 67",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0752 TCX",
+              "hex": "#F3BF08",
+              "rgb": "243, 191, 8",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0756 TCX",
+              "hex": "#F9D857",
+              "rgb": "249, 216, 87",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0758 TCX",
+              "hex": "#FFD02E",
+              "rgb": "255, 208, 46",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0759 TCX",
+              "hex": "#F4BF3A",
+              "rgb": "244, 191, 58",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0822 TCX",
+              "hex": "#EDD59E",
+              "rgb": "237, 213, 158",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0840 TCX",
+              "hex": "#FED777",
+              "rgb": "254, 215, 119",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0849 TCX",
+              "hex": "#FED450",
+              "rgb": "254, 212, 80",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0850 TCX",
+              "hex": "#FFD662",
+              "rgb": "255, 214, 98",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0851 TCX",
+              "hex": "#FED55D",
+              "rgb": "254, 213, 93",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0858 TCX",
+              "hex": "#FFDA29",
+              "rgb": "255, 218, 41",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0859 TCX",
+              "hex": "#FFC300",
+              "rgb": "255, 195, 0",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0932 TCX",
+              "hex": "#EDC373",
+              "rgb": "237, 195, 115",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0935 TCX",
+              "hex": "#FFC87D",
+              "rgb": "255, 200, 125",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0939 TCX",
+              "hex": "#F7B768",
+              "rgb": "247, 183, 104",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0940 TCX",
+              "hex": "#F7C46C",
+              "rgb": "247, 196, 108",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0941 TCX",
+              "hex": "#FFCF73",
+              "rgb": "255, 207, 115",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0942 TCX",
+              "hex": "#FAB75A",
+              "rgb": "250, 183, 90",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0945 TCX",
+              "hex": "#FFC66E",
+              "rgb": "255, 198, 110",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-0947 TCX",
+              "hex": "#FCB953",
+              "rgb": "252, 185, 83",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1017 TCX",
+              "hex": "#F4C29F",
+              "rgb": "244, 194, 159",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1019 TCX",
+              "hex": "#F8C19A",
+              "rgb": "248, 193, 154",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1020 TCX",
+              "hex": "#FBBE99",
+              "rgb": "251, 190, 153",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1021 TCX",
+              "hex": "#FFBB9E",
+              "rgb": "255, 187, 158",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1022 TCX",
+              "hex": "#F4BA94",
+              "rgb": "244, 186, 148",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1023 TCX",
+              "hex": "#FFBE98",
+              "rgb": "255, 190, 152",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1024 TCX",
+              "hex": "#EBC396",
+              "rgb": "235, 195, 150",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1025 TCX",
+              "hex": "#F8CE97",
+              "rgb": "248, 206, 151",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1026 TCX",
+              "hex": "#FFCDA8",
+              "rgb": "255, 205, 168",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1027 TCX",
+              "hex": "#F1BD89",
+              "rgb": "241, 189, 137",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1030 TCX",
+              "hex": "#F6C289",
+              "rgb": "246, 194, 137",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1031 TCX",
+              "hex": "#FACD9E",
+              "rgb": "250, 205, 158",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1109 TCX",
+              "hex": "#EDCAB5",
+              "rgb": "237, 202, 181",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1114 TCX",
+              "hex": "#F4C9B1",
+              "rgb": "244, 201, 177",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1125 TCX",
+              "hex": "#F5B895",
+              "rgb": "245, 184, 149",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1310 TCX",
+              "hex": "#F4C6C3",
+              "rgb": "244, 198, 195",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1318 TCX",
+              "hex": "#FFC4B2",
+              "rgb": "255, 196, 178",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1404 TCX",
+              "hex": "#EDCDC2",
+              "rgb": "237, 205, 194",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1405 TCX",
+              "hex": "#E1CFC6",
+              "rgb": "225, 207, 198",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1406 TCX",
+              "hex": "#F5D1C8",
+              "rgb": "245, 209, 200",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1407 TCX",
+              "hex": "#F7D5CC",
+              "rgb": "247, 213, 204",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1408 TCX",
+              "hex": "#EEC4BE",
+              "rgb": "238, 196, 190",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1409 TCX",
+              "hex": "#F7C8C2",
+              "rgb": "247, 200, 194",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1510 TCX",
+              "hex": "#FFC4BC",
+              "rgb": "255, 196, 188",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1511 TCX",
+              "hex": "#F7CDC7",
+              "rgb": "247, 205, 199",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1513 TCX",
+              "hex": "#FAC8C3",
+              "rgb": "250, 200, 195",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1520 TCX",
+              "hex": "#F7CAC9",
+              "rgb": "247, 202, 201",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-1906 TCX",
+              "hex": "#F9C2CD",
+              "rgb": "249, 194, 205",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-2005 TCX",
+              "hex": "#F4C3C4",
+              "rgb": "244, 195, 196",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-2006 TCX",
+              "hex": "#F5BEC7",
+              "rgb": "245, 190, 199",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-2010 TCX",
+              "hex": "#F3BBCA",
+              "rgb": "243, 187, 202",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-2802 TCX",
+              "hex": "#F2C1D1",
+              "rgb": "242, 193, 209",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-2803 TCX",
+              "hex": "#E1C6CC",
+              "rgb": "225, 198, 204",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-2807 TCX",
+              "hex": "#F2CFDC",
+              "rgb": "242, 207, 220",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-2808 TCX",
+              "hex": "#EBCED5",
+              "rgb": "235, 206, 213",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "13-3207 TCX",
+              "hex": "#F7CEE0",
+              "rgb": "247, 206, 224",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0756 TCX",
+              "hex": "#F7D000",
+              "rgb": "247, 208, 0",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0760 TCX",
+              "hex": "#FFD400",
+              "rgb": "255, 212, 0",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0847 TCX",
+              "hex": "#F1BF70",
+              "rgb": "241, 191, 112",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0850 TCX",
+              "hex": "#FDC04E",
+              "rgb": "253, 192, 78",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0851 TCX",
+              "hex": "#FBC85F",
+              "rgb": "251, 200, 95",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0852 TCX",
+              "hex": "#F3C12C",
+              "rgb": "243, 193, 44",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0941 TCX",
+              "hex": "#EBA851",
+              "rgb": "235, 168, 81",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0955 TCX",
+              "hex": "#F9AC2F",
+              "rgb": "249, 172, 47",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-0957 TCX",
+              "hex": "#F7B718",
+              "rgb": "247, 183, 24",
+              "common_name": "Neutral"
+            },
+            {
+              "pantone_code": "14-1045 TCX",
+              "hex": "#EFAD55",
+              "rgb": "239, 173, 85",
+              "common_name": "Neutral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "reds",
+      "label": "Reds & Pinks",
+      "groups": [
+        {
+          "value": "red",
+          "label": "Red",
+          "colors": [
+            {
+              "pantone_code": "19-1664 TCX",
+              "hex": "#C8102E",
+              "rgb": "200, 16, 46",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "18-1763 TCX",
+              "hex": "#BE3A34",
+              "rgb": "190, 58, 52",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "19-1758 TCX",
+              "hex": "#6F1A1B",
+              "rgb": "111, 26, 27",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "19-1627 TCX",
+              "hex": "#5C2C2E",
+              "rgb": "92, 44, 46",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-1206 TCX",
+              "hex": "#E7CFC7",
+              "rgb": "231, 207, 199",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1208 TCX",
+              "hex": "#E2BDB3",
+              "rgb": "226, 189, 179",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1504 TCX",
+              "hex": "#E4CCC6",
+              "rgb": "228, 204, 198",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1904 TCX",
+              "hex": "#E6C5CA",
+              "rgb": "230, 197, 202",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-2004 TCX",
+              "hex": "#E7C9CA",
+              "rgb": "231, 201, 202",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-2804 TCX",
+              "hex": "#E9C3CF",
+              "rgb": "233, 195, 207",
+              "common_name": "Red"
+            }
+          ]
+        },
+        {
+          "value": "pink",
+          "label": "Pink",
+          "colors": [
+            {
+              "pantone_code": "17-1937 TCX",
+              "hex": "#D23C77",
+              "rgb": "210, 60, 119",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-2311 TCX",
+              "hex": "#F0A1BF",
+              "rgb": "240, 161, 191",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-2806 TCX",
+              "hex": "#F8C8DC",
+              "rgb": "248, 200, 220",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-2805 TCX",
+              "hex": "#E6BCCD",
+              "rgb": "230, 188, 205",
+              "common_name": "Red"
+            }
+          ]
+        },
+        {
+          "value": "coral",
+          "label": "Coral & Orange",
+          "colors": [
+            {
+              "pantone_code": "16-1546 TCX",
+              "hex": "#FF6F61",
+              "rgb": "255, 111, 97",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "17-1350 TCX",
+              "hex": "#D2691E",
+              "rgb": "210, 105, 30",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "15-1247 TCX",
+              "hex": "#F5A623",
+              "rgb": "245, 166, 35",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-0000 TCX",
+              "hex": "#E4D7C5",
+              "rgb": "228, 215, 197",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-0110 TCX",
+              "hex": "#D7CFBB",
+              "rgb": "215, 207, 187",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-0605 TCX",
+              "hex": "#DFD1BB",
+              "rgb": "223, 209, 187",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-0703 TCX",
+              "hex": "#E6DAC4",
+              "rgb": "230, 218, 196",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-0709 TCX",
+              "hex": "#E4CFB6",
+              "rgb": "228, 207, 182",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-0804 TCX",
+              "hex": "#E6DDC5",
+              "rgb": "230, 221, 197",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-0910 TCX",
+              "hex": "#E5D0B1",
+              "rgb": "229, 208, 177",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-0921 TCX",
+              "hex": "#E6BD8F",
+              "rgb": "230, 189, 143",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-1005 TCX",
+              "hex": "#E7CFBD",
+              "rgb": "231, 207, 189",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-1006 TCX",
+              "hex": "#E9D4C3",
+              "rgb": "233, 212, 195",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-1007 TCX",
+              "hex": "#E9D1BF",
+              "rgb": "233, 209, 191",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-1403 TCX",
+              "hex": "#DCCDBC",
+              "rgb": "220, 205, 188",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "12-1404 TCX",
+              "hex": "#DBCBBD",
+              "rgb": "219, 203, 189",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0607 TCX",
+              "hex": "#D0C5B1",
+              "rgb": "208, 197, 177",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0613 TCX",
+              "hex": "#D9CAA5",
+              "rgb": "217, 202, 165",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0711 TCX",
+              "hex": "#D4CAB0",
+              "rgb": "212, 202, 176",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0715 TCX",
+              "hex": "#D8C9A3",
+              "rgb": "216, 201, 163",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0725 TCX",
+              "hex": "#DAC483",
+              "rgb": "218, 196, 131",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0814 TCX",
+              "hex": "#EAD3AE",
+              "rgb": "234, 211, 174",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0815 TCX",
+              "hex": "#E7D3AD",
+              "rgb": "231, 211, 173",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0907 TCX",
+              "hex": "#D8CCBB",
+              "rgb": "216, 204, 187",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0908 TCX",
+              "hex": "#DFD1BE",
+              "rgb": "223, 209, 190",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0915 TCX",
+              "hex": "#DCC99E",
+              "rgb": "220, 201, 158",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0916 TCX",
+              "hex": "#E8D0A7",
+              "rgb": "232, 208, 167",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0917 TCX",
+              "hex": "#E7D1A1",
+              "rgb": "231, 209, 161",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0919 TCX",
+              "hex": "#D2C29D",
+              "rgb": "210, 194, 157",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0922 TCX",
+              "hex": "#E0C992",
+              "rgb": "224, 201, 146",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-0946 TCX",
+              "hex": "#E7AA56",
+              "rgb": "231, 170, 86",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1006 TCX",
+              "hex": "#DBCCB5",
+              "rgb": "219, 204, 181",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1008 TCX",
+              "hex": "#DACCB4",
+              "rgb": "218, 204, 180",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1009 TCX",
+              "hex": "#DAC7AB",
+              "rgb": "218, 199, 171",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1010 TCX",
+              "hex": "#E5CCAF",
+              "rgb": "229, 204, 175",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1011 TCX",
+              "hex": "#DAC0A7",
+              "rgb": "218, 192, 167",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1012 TCX",
+              "hex": "#D2C2AC",
+              "rgb": "210, 194, 172",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1013 TCX",
+              "hex": "#DDBCA0",
+              "rgb": "221, 188, 160",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1014 TCX",
+              "hex": "#D8B998",
+              "rgb": "216, 185, 152",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1015 TCX",
+              "hex": "#DCBD9E",
+              "rgb": "220, 189, 158",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1016 TCX",
+              "hex": "#DEC5A5",
+              "rgb": "222, 197, 165",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1018 TCX",
+              "hex": "#E3BC8E",
+              "rgb": "227, 188, 142",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1105 TCX",
+              "hex": "#C7BBA4",
+              "rgb": "199, 187, 164",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1106 TCX",
+              "hex": "#DECDBE",
+              "rgb": "222, 205, 190",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1107 TCX",
+              "hex": "#DACBBE",
+              "rgb": "218, 203, 190",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1108 TCX",
+              "hex": "#E4C7B8",
+              "rgb": "228, 199, 184",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "13-1308 TCX",
+              "hex": "#DACAB7",
+              "rgb": "218, 202, 183",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0708 TCX",
+              "hex": "#C4B6A6",
+              "rgb": "196, 182, 166",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0721 TCX",
+              "hex": "#C0AD7C",
+              "rgb": "192, 173, 124",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0740 TCX",
+              "hex": "#D2B04C",
+              "rgb": "210, 176, 76",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0837 TCX",
+              "hex": "#DAB965",
+              "rgb": "218, 185, 101",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0846 TCX",
+              "hex": "#E2B051",
+              "rgb": "226, 176, 81",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0925 TCX",
+              "hex": "#D6C69A",
+              "rgb": "214, 198, 154",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0935 TCX",
+              "hex": "#DABE81",
+              "rgb": "218, 190, 129",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0936 TCX",
+              "hex": "#DFC08A",
+              "rgb": "223, 192, 138",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0951 TCX",
+              "hex": "#E2A829",
+              "rgb": "226, 168, 41",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-0952 TCX",
+              "hex": "#D8AE47",
+              "rgb": "216, 174, 71",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-1012 TCX",
+              "hex": "#B39F8D",
+              "rgb": "179, 159, 141",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-1014 TCX",
+              "hex": "#CBBFA2",
+              "rgb": "203, 191, 162",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-1025 TCX",
+              "hex": "#C9B27C",
+              "rgb": "201, 178, 124",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-1031 TCX",
+              "hex": "#D1B272",
+              "rgb": "209, 178, 114",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-1036 TCX",
+              "hex": "#D6AF66",
+              "rgb": "214, 175, 102",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-1038 TCX",
+              "hex": "#D7B57F",
+              "rgb": "215, 181, 127",
+              "common_name": "Red"
+            },
+            {
+              "pantone_code": "14-1041 TCX",
+              "hex": "#DDA758",
+              "rgb": "221, 167, 88",
+              "common_name": "Red"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "greens",
+      "label": "Greens",
+      "groups": [
+        {
+          "value": "dark_green",
+          "label": "Dark Green",
+          "colors": [
+            {
+              "pantone_code": "19-5420 TCX",
+              "hex": "#1E4D2B",
+              "rgb": "30, 77, 43",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "18-5845 TCX",
+              "hex": "#006B54",
+              "rgb": "0, 107, 84",
+              "common_name": "Green"
+            }
+          ]
+        },
+        {
+          "value": "medium_green",
+          "label": "Medium Green",
+          "colors": [
+            {
+              "pantone_code": "16-5533 TCX",
+              "hex": "#00A86B",
+              "rgb": "0, 168, 107",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "17-5638 TCX",
+              "hex": "#00896F",
+              "rgb": "0, 137, 111",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-4608 TCX",
+              "hex": "#AAD5DB",
+              "rgb": "170, 213, 219",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-4609 TCX",
+              "hex": "#B5CED4",
+              "rgb": "181, 206, 212",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-5206 TCX",
+              "hex": "#C6E3E1",
+              "rgb": "198, 227, 225",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-5209 TCX",
+              "hex": "#C3E9E4",
+              "rgb": "195, 233, 228",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-5408 TCX",
+              "hex": "#C7E5DF",
+              "rgb": "199, 229, 223",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-5409 TCX",
+              "hex": "#B8E2DC",
+              "rgb": "184, 226, 220",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-5410 TCX",
+              "hex": "#BCE3DF",
+              "rgb": "188, 227, 223",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-5506 TCX",
+              "hex": "#C0DCCD",
+              "rgb": "192, 220, 205",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-5507 TCX",
+              "hex": "#BAE5D6",
+              "rgb": "186, 229, 214",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-5808 TCX",
+              "hex": "#BAE1D3",
+              "rgb": "186, 225, 211",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0117 TCX",
+              "hex": "#A0DAA9",
+              "rgb": "160, 218, 169",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0442 TCX",
+              "hex": "#B0C965",
+              "rgb": "176, 201, 101",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-4409 TCX",
+              "hex": "#B2D4DD",
+              "rgb": "178, 212, 221",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-4411 TCX",
+              "hex": "#A1C8DB",
+              "rgb": "161, 200, 219",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-4720 TCX",
+              "hex": "#91DCE8",
+              "rgb": "145, 220, 232",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-4809 TCX",
+              "hex": "#A5CFD5",
+              "rgb": "165, 207, 213",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-4810 TCX",
+              "hex": "#98DDDE",
+              "rgb": "152, 221, 222",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-4909 TCX",
+              "hex": "#ACDFDD",
+              "rgb": "172, 223, 221",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-4910 TCX",
+              "hex": "#9FD9D7",
+              "rgb": "159, 217, 215",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5306 TCX",
+              "hex": "#B0D3D1",
+              "rgb": "176, 211, 209",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5309 TCX",
+              "hex": "#99C5C4",
+              "rgb": "153, 197, 196",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5313 TCX",
+              "hex": "#81D7D3",
+              "rgb": "129, 215, 211",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5409 TCX",
+              "hex": "#A1D7C9",
+              "rgb": "161, 215, 201",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5410 TCX",
+              "hex": "#ABD3DB",
+              "rgb": "171, 211, 219",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5412 TCX",
+              "hex": "#96DFCE",
+              "rgb": "150, 223, 206",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5414 TCX",
+              "hex": "#87D8C3",
+              "rgb": "135, 216, 195",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5714 TCX",
+              "hex": "#87D7BE",
+              "rgb": "135, 215, 190",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5907 TCX",
+              "hex": "#B2CFBE",
+              "rgb": "178, 207, 190",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-5911 TCX",
+              "hex": "#AACCB9",
+              "rgb": "170, 204, 185",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-6008 TCX",
+              "hex": "#BCD9C8",
+              "rgb": "188, 217, 200",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-6009 TCX",
+              "hex": "#AFDDCC",
+              "rgb": "175, 221, 204",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-6110 TCX",
+              "hex": "#AACEBC",
+              "rgb": "170, 206, 188",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0127 TCX",
+              "hex": "#8BC28C",
+              "rgb": "139, 194, 140",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0156 TCX",
+              "hex": "#7ED37F",
+              "rgb": "126, 211, 127",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0244 TCX",
+              "hex": "#97BC62",
+              "rgb": "151, 188, 98",
+              "common_name": "Green"
+            }
+          ]
+        },
+        {
+          "value": "sage",
+          "label": "Sage & Light Green",
+          "colors": [
+            {
+              "pantone_code": "17-0215 TCX",
+              "hex": "#6B755C",
+              "rgb": "107, 117, 92",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "15-6317 TCX",
+              "hex": "#8DB580",
+              "rgb": "141, 181, 128",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-0109 TCX",
+              "hex": "#D2E7CA",
+              "rgb": "210, 231, 202",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-0225 TCX",
+              "hex": "#B9EAB3",
+              "rgb": "185, 234, 179",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-0312 TCX",
+              "hex": "#D7E8BC",
+              "rgb": "215, 232, 188",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-0313 TCX",
+              "hex": "#CBD5B1",
+              "rgb": "203, 213, 177",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-0317 TCX",
+              "hex": "#BFD1AD",
+              "rgb": "191, 209, 173",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "12-0322 TCX",
+              "hex": "#CADEA5",
+              "rgb": "202, 222, 165",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0111 TCX",
+              "hex": "#BFD1B3",
+              "rgb": "191, 209, 179",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0116 TCX",
+              "hex": "#B4D3B2",
+              "rgb": "180, 211, 178",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0212 TCX",
+              "hex": "#C5CFB6",
+              "rgb": "197, 207, 182",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0215 TCX",
+              "hex": "#C3D3A8",
+              "rgb": "195, 211, 168",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0220 TCX",
+              "hex": "#B2E79F",
+              "rgb": "178, 231, 159",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0221 TCX",
+              "hex": "#A9D39E",
+              "rgb": "169, 211, 158",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0319 TCX",
+              "hex": "#CFE09D",
+              "rgb": "207, 224, 157",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0324 TCX",
+              "hex": "#BED38E",
+              "rgb": "190, 211, 142",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "13-0331 TCX",
+              "hex": "#AFCB80",
+              "rgb": "175, 203, 128",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0114 TCX",
+              "hex": "#B5C1A5",
+              "rgb": "181, 193, 165",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0115 TCX",
+              "hex": "#B4C79C",
+              "rgb": "180, 199, 156",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0116 TCX",
+              "hex": "#B5C38E",
+              "rgb": "181, 195, 142",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0121 TCX",
+              "hex": "#A7C796",
+              "rgb": "167, 199, 150",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0123 TCX",
+              "hex": "#A3C893",
+              "rgb": "163, 200, 147",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0217 TCX",
+              "hex": "#C0CBA1",
+              "rgb": "192, 203, 161",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0226 TCX",
+              "hex": "#A3C57D",
+              "rgb": "163, 197, 125",
+              "common_name": "Green"
+            },
+            {
+              "pantone_code": "14-0232 TCX",
+              "hex": "#A1CA7B",
+              "rgb": "161, 202, 123",
+              "common_name": "Green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "purples",
+      "label": "Purples",
+      "groups": [
+        {
+          "value": "purple",
+          "label": "Purple & Violet",
+          "colors": [
+            {
+              "pantone_code": "18-3838 TCX",
+              "hex": "#6B5B95",
+              "rgb": "107, 91, 149",
+              "common_name": "Purple"
+            },
+            {
+              "pantone_code": "19-3748 TCX",
+              "hex": "#4B3B71",
+              "rgb": "75, 59, 113",
+              "common_name": "Purple"
+            },
+            {
+              "pantone_code": "17-3628 TCX",
+              "hex": "#AA8ED6",
+              "rgb": "170, 142, 214",
+              "common_name": "Purple"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "browns",
+      "label": "Browns & Earth Tones",
+      "groups": [
+        {
+          "value": "dark_brown",
+          "label": "Dark Brown",
+          "colors": [
+            {
+              "pantone_code": "19-1314 TCX",
+              "hex": "#3D291A",
+              "rgb": "61, 41, 26",
+              "common_name": "Brown"
+            },
+            {
+              "pantone_code": "19-1020 TCX",
+              "hex": "#523C2E",
+              "rgb": "82, 60, 46",
+              "common_name": "Brown"
+            },
+            {
+              "pantone_code": "18-1140 TCX",
+              "hex": "#7E5835",
+              "rgb": "126, 88, 53",
+              "common_name": "Brown"
+            }
+          ]
+        },
+        {
+          "value": "camel",
+          "label": "Camel & Tan",
+          "colors": [
+            {
+              "pantone_code": "16-1324 TCX",
+              "hex": "#C19A6B",
+              "rgb": "193, 154, 107",
+              "common_name": "Brown"
+            },
+            {
+              "pantone_code": "15-1040 TCX",
+              "hex": "#D4AA6A",
+              "rgb": "212, 170, 106",
+              "common_name": "Brown"
+            },
+            {
+              "pantone_code": "17-1044 TCX",
+              "hex": "#9E6B4A",
+              "rgb": "158, 107, 74",
+              "common_name": "Brown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "yellows",
+      "label": "Yellows & Mustard",
+      "groups": [
+        {
+          "value": "yellow",
+          "label": "Yellow",
+          "colors": [
+            {
+              "pantone_code": "14-0848 TCX",
+              "hex": "#FFD662",
+              "rgb": "255, 214, 98",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0755 TCX",
+              "hex": "#FFE135",
+              "rgb": "255, 225, 53",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "11-0410 TCX",
+              "hex": "#E7EACB",
+              "rgb": "231, 234, 203",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0311 TCX",
+              "hex": "#D2CDB4",
+              "rgb": "210, 205, 180",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0315 TCX",
+              "hex": "#D4DBB2",
+              "rgb": "212, 219, 178",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0418 TCX",
+              "hex": "#D3CCA3",
+              "rgb": "211, 204, 163",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0426 TCX",
+              "hex": "#D5D593",
+              "rgb": "213, 213, 147",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0435 TCX",
+              "hex": "#C9D77E",
+              "rgb": "201, 215, 126",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0520 TCX",
+              "hex": "#DFE69F",
+              "rgb": "223, 230, 159",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0521 TCX",
+              "hex": "#E1E3A9",
+              "rgb": "225, 227, 169",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0524 TCX",
+              "hex": "#DFDE9B",
+              "rgb": "223, 222, 155",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0525 TCX",
+              "hex": "#E3EAA5",
+              "rgb": "227, 234, 165",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0530 TCX",
+              "hex": "#E5E790",
+              "rgb": "229, 231, 144",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0607 TCX",
+              "hex": "#E9EAC8",
+              "rgb": "233, 234, 200",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0619 TCX",
+              "hex": "#D4CC9A",
+              "rgb": "212, 204, 154",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0626 TCX",
+              "hex": "#DCD494",
+              "rgb": "220, 212, 148",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0633 TCX",
+              "hex": "#DFD87E",
+              "rgb": "223, 216, 126",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "12-0718 TCX",
+              "hex": "#E7D391",
+              "rgb": "231, 211, 145",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0317 TCX",
+              "hex": "#C5CF98",
+              "rgb": "197, 207, 152",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0333 TCX",
+              "hex": "#E1D590",
+              "rgb": "225, 213, 144",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0443 TCX",
+              "hex": "#C0DB3A",
+              "rgb": "192, 219, 58",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0513 TCX",
+              "hex": "#D8CFB2",
+              "rgb": "216, 207, 178",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0522 TCX",
+              "hex": "#CBCE91",
+              "rgb": "203, 206, 145",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0530 TCX",
+              "hex": "#CDD78A",
+              "rgb": "205, 215, 138",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0532 TCX",
+              "hex": "#C5CC7B",
+              "rgb": "197, 204, 123",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0540 TCX",
+              "hex": "#C3D363",
+              "rgb": "195, 211, 99",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0550 TCX",
+              "hex": "#C0D725",
+              "rgb": "192, 215, 37",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0608 TCX",
+              "hex": "#D0D3B7",
+              "rgb": "208, 211, 183",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0611 TCX",
+              "hex": "#D2CBAF",
+              "rgb": "210, 203, 175",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0614 TCX",
+              "hex": "#DCD8A8",
+              "rgb": "220, 216, 168",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0624 TCX",
+              "hex": "#D5CD94",
+              "rgb": "213, 205, 148",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0632 TCX",
+              "hex": "#D2CC81",
+              "rgb": "210, 204, 129",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0633 TCX",
+              "hex": "#E7DF99",
+              "rgb": "231, 223, 153",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0640 TCX",
+              "hex": "#DACD65",
+              "rgb": "218, 205, 101",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0645 TCX",
+              "hex": "#D3D95F",
+              "rgb": "211, 217, 95",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0646 TCX",
+              "hex": "#EAD94E",
+              "rgb": "234, 217, 78",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0648 TCX",
+              "hex": "#D9CE52",
+              "rgb": "217, 206, 82",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0650 TCX",
+              "hex": "#D5D717",
+              "rgb": "213, 215, 23",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0651 TCX",
+              "hex": "#CCDB1E",
+              "rgb": "204, 219, 30",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0720 TCX",
+              "hex": "#E5D68E",
+              "rgb": "229, 214, 142",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-0739 TCX",
+              "hex": "#DEC05F",
+              "rgb": "222, 192, 95",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "13-1007 TCX",
+              "hex": "#D2CAAF",
+              "rgb": "210, 202, 175",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0105 TCX",
+              "hex": "#C3BDAB",
+              "rgb": "195, 189, 171",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0108 TCX",
+              "hex": "#C8C1AB",
+              "rgb": "200, 193, 171",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0210 TCX",
+              "hex": "#BFB9A3",
+              "rgb": "191, 185, 163",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0216 TCX",
+              "hex": "#B6BA99",
+              "rgb": "182, 186, 153",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0223 TCX",
+              "hex": "#B4BB85",
+              "rgb": "180, 187, 133",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0340 TCX",
+              "hex": "#BADF30",
+              "rgb": "186, 223, 48",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0418 TCX",
+              "hex": "#BAB696",
+              "rgb": "186, 182, 150",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0425 TCX",
+              "hex": "#C2C18D",
+              "rgb": "194, 193, 141",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0434 TCX",
+              "hex": "#BABC72",
+              "rgb": "186, 188, 114",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0445 TCX",
+              "hex": "#B5BF50",
+              "rgb": "181, 191, 80",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0446 TCX",
+              "hex": "#B5CC39",
+              "rgb": "181, 204, 57",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0452 TCX",
+              "hex": "#9FC131",
+              "rgb": "159, 193, 49",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0615 TCX",
+              "hex": "#CAC4A4",
+              "rgb": "202, 196, 164",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0626 TCX",
+              "hex": "#CCB97E",
+              "rgb": "204, 185, 126",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0627 TCX",
+              "hex": "#CFC486",
+              "rgb": "207, 196, 134",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0636 TCX",
+              "hex": "#D1C87C",
+              "rgb": "209, 200, 124",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0647 TCX",
+              "hex": "#CEC153",
+              "rgb": "206, 193, 83",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0754 TCX",
+              "hex": "#E4BF45",
+              "rgb": "228, 191, 69",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0755 TCX",
+              "hex": "#DDB614",
+              "rgb": "221, 182, 20",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0826 TCX",
+              "hex": "#CFBB7B",
+              "rgb": "207, 187, 123",
+              "common_name": "Yellow"
+            },
+            {
+              "pantone_code": "14-0827 TCX",
+              "hex": "#E3CC81",
+              "rgb": "227, 204, 129",
+              "common_name": "Yellow"
+            }
+          ]
+        },
+        {
+          "value": "mustard",
+          "label": "Mustard",
+          "colors": [
+            {
+              "pantone_code": "16-0742 TCX",
+              "hex": "#C4A14A",
+              "rgb": "196, 161, 74",
+              "common_name": "Yellow"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

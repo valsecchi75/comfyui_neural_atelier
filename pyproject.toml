@@ -1,0 +1,23 @@
+[project]
+name = "comfyui-neural-atelier"
+version = "1.2.0"
+description = "Professional ComfyUI node pack for AI-powered fashion visualization. Transform flat sketches into product photos, ghost mannequin views, editorial shots, e-commerce images and color variants using Gemini AI."
+license = { text = "MIT" }
+authors = [{ name = "Sergio Valsecchi" }]
+requires-python = ">=3.8"
+dependencies = [
+    "google-genai>=1.0.0",
+    "Pillow>=9.0.0",
+    "torch>=2.0.0",
+    "numpy>=1.20.0",
+]
+
+[project.urls]
+Repository = "https://github.com/valsecchi75/comfyui_neural_atelier"
+Homepage = "https://github.com/valsecchi75/comfyui_neural_atelier"
+
+[tool.comfy]
+PublisherId = "sergiovalsecchi"
+DisplayName = "Neural Atelier"
+Icon = ""
+Tags = ["fashion", "gemini", "image generation", "sketch to photo", "recolor", "AI"]

@@ -1,0 +1,3597 @@
+{
+  "version": "2.0.0-en-values",
+  "garment_types": [
+    {
+      "value": "tshirt",
+      "label": "T-shirt",
+      "categories": [
+        {
+          "value": "neckline",
+          "label": "Neckline",
+          "default_template": "Change the neckline to {OPTION}: describe shape, depth, construction, and edge stability",
+          "options": [
+            { "value": "crew_neck", "label": "Crew neck" },
+            { "value": "v_neck", "label": "V-neck" },
+            { "value": "boat_neck", "label": "Boat neck" },
+            { "value": "wide_round_neck", "label": "Wide round neck" },
+            { "value": "deep_neck", "label": "Deep neck" }
+          ]
+        },
+        {
+          "value": "neckline_height",
+          "label": "Neckline: Height on neck",
+          "default_template": "Adjust the neckline height to {OPTION}: describe how close it fits to the neck and stability in use",
+          "options": [
+            { "value": "low", "label": "Low (more open)" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High (close to neck)" }
+          ]
+        },
+        {
+          "value": "neckline_binding",
+          "label": "Neckline: Binding and construction",
+          "default_template": "Set the neckline binding to {OPTION}: describe height, elasticity, and hold",
+          "options": [
+            { "value": "thin_binding", "label": "Thin binding" },
+            { "value": "standard_binding", "label": "Standard binding" },
+            { "value": "thick_binding", "label": "Thick / Reinforced binding" },
+            { "value": "tubular_binding", "label": "Tubular binding" },
+            { "value": "controlled_raw_cut", "label": "Controlled raw cut" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change the sleeves to {OPTION}: describe length, inclination, and relationship with the shoulder",
+          "options": [
+            { "value": "short_standard", "label": "Standard short sleeve" },
+            { "value": "short_long", "label": "Long short sleeve" },
+            { "value": "cap_sleeve", "label": "Cap sleeve" },
+            { "value": "raglan", "label": "Raglan sleeve" },
+            { "value": "sleeveless", "label": "Sleeveless" }
+          ]
+        },
+        {
+          "value": "sleeve_width",
+          "label": "Sleeve: Width",
+          "default_template": "Adjust sleeve width to {OPTION}: describe opening and drape",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide / Over" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Change body length to {OPTION}: describe hitting point and proportion",
+          "options": [
+            { "value": "cropped", "label": "Cropped" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "longline", "label": "Longline" }
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem",
+          "default_template": "Set the hem to {OPTION}: describe shape and finish",
+          "options": [
+            { "value": "straight", "label": "Straight hem" },
+            { "value": "curved", "label": "Curved hem" },
+            { "value": "asymmetric", "label": "Asymmetric hem" },
+            { "value": "raw_cut", "label": "Raw cut" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set the fit to {OPTION}: describe body-shoulder-chest relationship",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "boxy", "label": "Boxy" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder",
+          "default_template": "Change the shoulder to {OPTION}: describe shoulder point and construction",
+          "options": [
+            { "value": "natural_shoulder", "label": "Natural shoulder" },
+            { "value": "drop_shoulder", "label": "Drop shoulder" },
+            { "value": "forward_shoulder", "label": "Forward shoulder" }
+          ]
+        },
+        {
+          "value": "details",
+          "label": "Details",
+          "default_template": "Add the detail {OPTION}: describe position and function",
+          "options": [
+            { "value": "no_details", "label": "No details" },
+            { "value": "chest_pocket", "label": "Chest pocket" },
+            { "value": "contrast_stitching", "label": "Contrast stitching" },
+            { "value": "visible_inner_label", "label": "Visible inner label" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "polo",
+      "label": "Polo Shirt",
+      "categories": [
+        {
+          "value": "collar",
+          "label": "Collar (Polo)",
+          "default_template": "Change the collar to {OPTION}: describe shape, structure, height, and folding behavior",
+          "options": [
+            { "value": "classic_polo_collar", "label": "Classic polo collar" },
+            { "value": "soft_polo_collar", "label": "Soft polo collar (unstructured)" },
+            { "value": "stiff_polo_collar", "label": "Structured polo collar (stiffer)" },
+            { "value": "short_polo_collar", "label": "Short polo collar" },
+            { "value": "long_polo_collar", "label": "Long polo collar" }
+          ]
+        },
+        {
+          "value": "collar_height",
+          "label": "Collar: Height and Stand",
+          "default_template": "Adjust collar height to {OPTION}: describe stand, opening, and edge hold",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "collar_points",
+          "label": "Collar: Point shape",
+          "default_template": "Set collar point shape to {OPTION}: describe angle, roundness, and symmetry",
+          "options": [
+            { "value": "sharp_points", "label": "Sharp points" },
+            { "value": "soft_points", "label": "Soft points" },
+            { "value": "rounded_points", "label": "Rounded points" },
+            { "value": "short_points", "label": "Short points" }
+          ]
+        },
+        {
+          "value": "placket",
+          "label": "Opening: Placket",
+          "default_template": "Change the placket to {OPTION}: describe length, construction, and edge cleanliness",
+          "options": [
+            { "value": "short_placket_2_buttons", "label": "Short placket (2 buttons)" },
+            { "value": "standard_placket_3_buttons", "label": "Standard placket (3 buttons)" },
+            { "value": "long_placket_4_buttons", "label": "Long placket (4 buttons)" },
+            { "value": "hidden_placket", "label": "Hidden placket" },
+            { "value": "contrast_placket", "label": "Contrast placket" }
+          ]
+        },
+        {
+          "value": "facing_flap",
+          "label": "Opening: Facing and Flap",
+          "default_template": "Set facing/flap construction to {OPTION}: describe stiffness, thickness, and stitching",
+          "options": [
+            { "value": "soft_facing", "label": "Soft facing" },
+            { "value": "reinforced_facing", "label": "Reinforced facing" },
+            { "value": "clean_flap", "label": "Clean flap (minimal)" },
+            { "value": "topstitched_flap", "label": "Topstitched flap" }
+          ]
+        },
+        {
+          "value": "buttons",
+          "label": "Buttons",
+          "default_template": "Change buttons to {OPTION}: describe diameter, material, and finish",
+          "options": [
+            { "value": "standard_buttons", "label": "Standard buttons" },
+            { "value": "small_buttons", "label": "Small buttons" },
+            { "value": "large_buttons", "label": "Large buttons" },
+            { "value": "mother_of_pearl_buttons", "label": "Mother of pearl effect buttons" },
+            { "value": "rubberized_buttons", "label": "Rubberized/soft-touch buttons" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe length and relationship with the cuff",
+          "options": [
+            { "value": "standard_short_sleeve", "label": "Standard short sleeve" },
+            { "value": "long_short_sleeve", "label": "Long short sleeve" },
+            { "value": "long_sleeve", "label": "Long sleeve" }
+          ]
+        },
+        {
+          "value": "cuff",
+          "label": "Sleeve: Cuff finish",
+          "default_template": "Set cuff finish to {OPTION}: describe band, elasticity, and adherence",
+          "options": [
+            { "value": "no_cuff", "label": "No cuff (simple hem)" },
+            { "value": "ribbed_cuff", "label": "Ribbed cuff band" },
+            { "value": "wide_band_cuff", "label": "Wide band cuff" },
+            { "value": "contrast_cuff", "label": "Contrast cuff" }
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem",
+          "default_template": "Change hem to {OPTION}: describe line, finish, and movement behavior",
+          "options": [
+            { "value": "straight_hem", "label": "Straight hem" },
+            { "value": "curved_hem", "label": "Curved hem" },
+            { "value": "asymmetric_hem", "label": "Asymmetric hem" },
+            { "value": "banded_hem", "label": "Banded hem" }
+          ]
+        },
+        {
+          "value": "side_vents",
+          "label": "Hem: Side vents",
+          "default_template": "Set side vents to {OPTION}: describe length, reinforcements, and edge cleanliness",
+          "options": [
+            { "value": "no_vents", "label": "No vents" },
+            { "value": "short_vents", "label": "Short vents" },
+            { "value": "standard_vents", "label": "Standard vents" },
+            { "value": "long_vents", "label": "Long vents" },
+            { "value": "reinforced_vents", "label": "Reinforced vents" }
+          ]
+        },
+        {
+          "value": "fitting",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe chest, shoulder, hem opening, and adherence",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "boxy", "label": "Boxy" }
+          ]
+        },
+        {
+          "value": "fabric_structure",
+          "label": "Fabric: Structure",
+          "default_template": "Set fabric structure to {OPTION}: describe handfeel, breathability, and dimensional stability",
+          "options": [
+            { "value": "pique", "label": "Piqué (classic polo)" },
+            { "value": "jersey", "label": "Jersey" },
+            { "value": "interlock", "label": "Interlock" },
+            { "value": "rib_knit", "label": "Rib knit (more elastic)" }
+          ]
+        },
+        {
+          "value": "stripes_contrasts",
+          "label": "Details: Stripes and Contrasts",
+          "default_template": "Add or remove stripes/contrasts on {OPTION}: describe position (collar/cuffs) and width",
+          "options": [
+            { "value": "no_contrast", "label": "No contrast" },
+            { "value": "single_stripe_collar", "label": "Single stripe on collar" },
+            { "value": "double_stripe_collar", "label": "Double stripe on collar" },
+            { "value": "stripes_collar_cuffs", "label": "Stripes on collar and cuffs" },
+            { "value": "inner_collar_contrast", "label": "Inner collar contrast" }
+          ]
+        },
+        {
+          "value": "pocket",
+          "label": "Details: Pocket",
+          "default_template": "Add or modify pocket on {OPTION}: describe position, dimensions, and edge",
+          "options": [
+            { "value": "no_pocket", "label": "No pocket" },
+            { "value": "patch_chest_pocket", "label": "Patch chest pocket" },
+            { "value": "pocket_with_piping", "label": "Pocket with piping" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "shirt",
+      "label": "Shirt",
+      "categories": [
+        {
+          "value": "collar",
+          "label": "Collar",
+          "default_template": "Change the collar to {OPTION}: describe shape, stand height, opening, and stiffness (reinforcement)",
+          "options": [
+            { "value": "classic_point", "label": "Classic point" },
+            { "value": "spread", "label": "Spread" },
+            { "value": "button_down", "label": "Button-down" },
+            { "value": "band_collar", "label": "Band collar (Corean)" },
+            { "value": "camp_collar", "label": "Camp collar (Bowling)" },
+            { "value": "wing_collar", "label": "Wing collar (Diplomatic)" },
+            { "value": "collarless", "label": "Collarless" }
+          ]
+        },
+        {
+          "value": "collar_stand",
+          "label": "Collar: Stand and Height",
+          "default_template": "Adjust collar stand to {OPTION}: describe height, posture on neck, and hold",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "collar_spread",
+          "label": "Collar: Spread",
+          "default_template": "Change collar spread to {OPTION}: describe distance between points and behavior with tie",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "collar_points",
+          "label": "Collar: Points (Length and Shape)",
+          "default_template": "Set collar points to {OPTION}: describe length, angle, and roundness",
+          "options": [
+            { "value": "short", "label": "Short points" },
+            { "value": "standard", "label": "Standard points" },
+            { "value": "long", "label": "Long points" },
+            { "value": "rounded", "label": "Rounded points" },
+            { "value": "sharp", "label": "Sharp points" }
+          ]
+        },
+        {
+          "value": "collar_reinforcement",
+          "label": "Collar: Internal Reinforcement",
+          "default_template": "Set collar reinforcement to {OPTION}: describe hand, stiffness, fold, and shape memory",
+          "options": [
+            { "value": "soft", "label": "Soft (unstructured)" },
+            { "value": "semi_structured", "label": "Semi structured" },
+            { "value": "structured", "label": "Structured (fused)" }
+          ]
+        },
+        {
+          "value": "placket",
+          "label": "Center Front: Placket",
+          "default_template": "Change placket to {OPTION}: describe width, button visibility, stitching, and edge cleanliness",
+          "options": [
+            { "value": "standard", "label": "Standard placket" },
+            { "value": "hidden", "label": "Hidden (covered buttons)" },
+            { "value": "half_placket", "label": "Half placket (popover)" },
+            { "value": "no_placket", "label": "No visible placket (French front)" },
+            { "value": "bib_front", "label": "Bib front" }
+          ]
+        },
+        {
+          "value": "placket_width",
+          "label": "Center Front: Placket Width",
+          "default_template": "Adjust placket width to {OPTION}: describe proportion and perceived stiffness",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "placket_stitching",
+          "label": "Center Front: Stitching",
+          "default_template": "Set placket stitching to {OPTION}: describe stitch, distance from edge, and regularity",
+          "options": [
+            { "value": "minimal_stitching", "label": "Minimal stitching (clean)" },
+            { "value": "standard_topstitch", "label": "Standard topstitch" },
+            { "value": "pronounced_topstitch", "label": "Pronounced topstitch" }
+          ]
+        },
+        {
+          "value": "buttons",
+          "label": "Buttons",
+          "default_template": "Change buttons to {OPTION}: describe diameter, material, finish, and color",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "small", "label": "Small" },
+            { "value": "large", "label": "Large" },
+            { "value": "mother_of_pearl", "label": "Mother of pearl effect" },
+            { "value": "tone_on_tone", "label": "Tone on tone" },
+            { "value": "contrast", "label": "Contrast" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add or modify pockets in {OPTION}: describe quantity, positioning, shape, and edge finish",
+          "options": [
+            { "value": "none", "label": "No pockets" },
+            { "value": "one_chest", "label": "One chest pocket" },
+            { "value": "two_chest", "label": "Two chest pockets" },
+            { "value": "pocket_with_flap", "label": "Pocket with flap" },
+            { "value": "patch_pocket", "label": "Patch pocket" }
+          ]
+        },
+        {
+          "value": "flaps",
+          "label": "Pockets: Flaps",
+          "default_template": "Set pocket flaps to {OPTION}: describe shape, closure, and stitching",
+          "options": [
+            { "value": "no_flap", "label": "No flap" },
+            { "value": "straight_flap", "label": "Straight flap" },
+            { "value": "pointed_flap", "label": "Pointed flap" },
+            { "value": "rounded_flap", "label": "Rounded flap" },
+            { "value": "buttoned_flap", "label": "Buttoned flap" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe length, width, and relationship with the cuff",
+          "options": [
+            { "value": "long", "label": "Long sleeve" },
+            { "value": "short", "label": "Short sleeve" },
+            { "value": "three_quarter", "label": "Three-quarter sleeve" }
+          ]
+        },
+        {
+          "value": "sleeve_width",
+          "label": "Sleeve: Width",
+          "default_template": "Adjust sleeve width to {OPTION}: describe volume, fold, and drape",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "cuffs",
+          "label": "Cuffs",
+          "default_template": "Change cuffs to {OPTION}: describe height, shape, number of buttons, and construction",
+          "options": [
+            { "value": "simple_cuff_1_button", "label": "Simple cuff (1 button)" },
+            { "value": "adjustable_cuff_2_buttons", "label": "Adjustable cuff (2 buttons)" },
+            { "value": "double_cuff", "label": "Double cuff (cufflinks)" },
+            { "value": "convertible_cuff", "label": "Convertible cuff" }
+          ]
+        },
+        {
+          "value": "cuff_height",
+          "label": "Cuff: Height",
+          "default_template": "Adjust cuff height to {OPTION}: describe proportion and visual impact",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "sleeve_placket_vent",
+          "label": "Sleeve: Placket and Vent",
+          "default_template": "Set sleeve placket/vent construction to {OPTION}: describe vent length, cleanliness, and stitching",
+          "options": [
+            { "value": "short_vent", "label": "Short vent" },
+            { "value": "standard_vent", "label": "Standard vent" },
+            { "value": "long_vent", "label": "Long vent" },
+            { "value": "reinforced_vent", "label": "Reinforced vent" }
+          ]
+        },
+        {
+          "value": "shoulder_armhole",
+          "label": "Shoulder and Armhole",
+          "default_template": "Change shoulder/armhole to {OPTION}: describe shoulder point, inclination, and mobility",
+          "options": [
+            { "value": "natural_shoulder", "label": "Natural shoulder" },
+            { "value": "slightly_dropped_shoulder", "label": "Slightly dropped shoulder" },
+            { "value": "forward_shoulder", "label": "Forward shoulder" }
+          ]
+        },
+        {
+          "value": "yoke",
+          "label": "Yoke",
+          "default_template": "Set yoke to {OPTION}: describe presence, shape, and seams",
+          "options": [
+            { "value": "single_yoke", "label": "Single yoke" },
+            { "value": "split_yoke", "label": "Split yoke" },
+            { "value": "curved_yoke", "label": "Curved yoke" },
+            { "value": "no_visible_yoke", "label": "No visible yoke" }
+          ]
+        },
+        {
+          "value": "center_back_pleat",
+          "label": "Back: Center Back Pleat",
+          "default_template": "Set back pleat to {OPTION}: describe width and function (ease)",
+          "options": [
+            { "value": "no_pleat", "label": "No pleat" },
+            { "value": "box_pleat", "label": "Box pleat" },
+            { "value": "inverted_pleat", "label": "Inverted pleat" }
+          ]
+        },
+        {
+          "value": "side_shaping",
+          "label": "Sides: Darts and Shaping",
+          "default_template": "Set side shaping to {OPTION}: describe darts and waistline",
+          "options": [
+            { "value": "no_darts", "label": "No darts" },
+            { "value": "light_darts", "label": "Light darts" },
+            { "value": "pronounced_darts", "label": "Pronounced darts" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Change body length to {OPTION}: describe hitting point and front/back proportion",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem: Shape",
+          "default_template": "Set hem shape to {OPTION}: describe line and movement behavior",
+          "options": [
+            { "value": "straight", "label": "Straight" },
+            { "value": "curved", "label": "Curved" },
+            { "value": "asymmetric", "label": "Asymmetric" }
+          ]
+        },
+        {
+          "value": "side_gussets",
+          "label": "Sides: Gussets and Reinforcements",
+          "default_template": "Set side gussets to {OPTION}: describe length and reinforcements",
+          "options": [
+            { "value": "no_gussets", "label": "No gussets" },
+            { "value": "short_gussets", "label": "Short gussets" },
+            { "value": "standard_gussets", "label": "Standard gussets" },
+            { "value": "reinforced_gussets", "label": "Reinforced gussets" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe chest, shoulder, and hem opening",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "fabric_structure",
+          "label": "Fabric: Structure and Weight",
+          "default_template": "Set fabric structure to {OPTION}: describe handfeel, opacity, breathability, and stability",
+          "options": [
+            { "value": "poplin", "label": "Poplin" },
+            { "value": "oxford", "label": "Oxford" },
+            { "value": "twill", "label": "Twill" },
+            { "value": "flannel", "label": "Flannel" },
+            { "value": "linen", "label": "Linen" },
+            { "value": "light_denim", "label": "Light denim" }
+          ]
+        },
+        {
+          "value": "interior_finishing",
+          "label": "Interior Finishing",
+          "default_template": "Set interior finishing to {OPTION}: describe cleanliness, topstitching, facings, and taping",
+          "options": [
+            { "value": "clean_standard", "label": "Clean standard" },
+            { "value": "minimal_topstitching", "label": "Minimal topstitching" },
+            { "value": "pronounced_topstitching", "label": "Pronounced topstitching" },
+            { "value": "neck_tape", "label": "Inner neck tape" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "knitwear",
+      "label": "Knitwear",
+      "categories": [
+        {
+          "value": "neckline",
+          "label": "Neckline",
+          "default_template": "Change the neckline to {OPTION}: describe shape, height, construction, and edge finish",
+          "options": [
+            { "value": "crew_neck", "label": "Crew neck" },
+            { "value": "v_neck", "label": "V-neck" },
+            { "value": "turtleneck", "label": "Turtleneck (folded)" },
+            { "value": "mock_neck", "label": "Mock neck" },
+            { "value": "boat_neck", "label": "Boat neck" },
+            { "value": "deep_round_neck", "label": "Deep round neck" },
+            { "value": "henley", "label": "Henley (placket with buttons)" },
+            { "value": "shawl_collar", "label": "Shawl collar" },
+            { "value": "half_zip_neck", "label": "Half-zip neck" }
+          ]
+        },
+        {
+          "value": "neckline_height",
+          "label": "Neckline: Height on neck",
+          "default_template": "Adjust the neckline height to {OPTION}: describe how close it fits to the neck and shape stability",
+          "options": [
+            { "value": "low", "label": "Low (open)" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High (close to neck)" },
+            { "value": "very_high", "label": "Very high (extended neck)" }
+          ]
+        },
+        {
+          "value": "neckline_opening_width",
+          "label": "Neckline: Opening width",
+          "default_template": "Change neckline width to {OPTION}: describe width, drape, and shape control",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "neckline_edge",
+          "label": "Neckline: Edge and finish",
+          "default_template": "Set neckline edge finish to {OPTION}: describe cleanliness, stability, and perceived thickness",
+          "options": [
+            { "value": "rib_1x1", "label": "1x1 Rib" },
+            { "value": "rib_2x2", "label": "2x2 Rib" },
+            { "value": "rib_3x3", "label": "3x3 Rib" },
+            { "value": "tubular_finish", "label": "Tubular finish" },
+            { "value": "reinforced_edge", "label": "Reinforced edge (more stable)" }
+          ]
+        },
+        {
+          "value": "shoulder_construction",
+          "label": "Shoulder: Construction",
+          "default_template": "Change shoulder construction to {OPTION}: describe shoulder line, resting point, and drape behavior",
+          "options": [
+            { "value": "set_in", "label": "Set-in sleeve" },
+            { "value": "drop_shoulder", "label": "Drop shoulder" },
+            { "value": "raglan", "label": "Raglan" },
+            { "value": "kimono", "label": "Kimono" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves: Shape and Volume",
+          "default_template": "Change sleeves to {OPTION}: describe volume, line, and drape down to the cuff",
+          "options": [
+            { "value": "long_fitted", "label": "Long fitted" },
+            { "value": "long_loose", "label": "Long loose" },
+            { "value": "three_quarter", "label": "Three-quarter" },
+            { "value": "short", "label": "Short" },
+            { "value": "sleeveless", "label": "Sleeveless" },
+            { "value": "balloon", "label": "Balloon" },
+            { "value": "bell", "label": "Bell" }
+          ]
+        },
+        {
+          "value": "cuff",
+          "label": "Cuff: Rib and Height",
+          "default_template": "Set cuff to {OPTION}: describe cuff height, elasticity, and adherence",
+          "options": [
+            { "value": "low_rib_cuff", "label": "Low rib cuff" },
+            { "value": "standard_rib_cuff", "label": "Standard rib cuff" },
+            { "value": "high_rib_cuff", "label": "High rib cuff" },
+            { "value": "fitted_cuff", "label": "Fitted cuff" },
+            { "value": "loose_cuff", "label": "Loose cuff" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Change body length to {OPTION}: describe hitting point and proportions",
+          "options": [
+            { "value": "cropped", "label": "Cropped" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long (longline)" }
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem: Finish and Hold",
+          "default_template": "Set hem to {OPTION}: describe rib, elasticity, and line stability",
+          "options": [
+            { "value": "low_rib_hem", "label": "Low rib hem" },
+            { "value": "standard_rib_hem", "label": "Standard rib hem" },
+            { "value": "high_rib_hem", "label": "High rib hem" },
+            { "value": "controlled_raw_cut", "label": "Controlled raw cut" },
+            { "value": "side_slits", "label": "Side slits" }
+          ]
+        },
+        {
+          "value": "body_line",
+          "label": "Body: Line and Fit",
+          "default_template": "Set body line to {OPTION}: describe chest width, waist point, and drape",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "boxy", "label": "Boxy" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "yarn_fiber",
+          "label": "Yarn: Fiber",
+          "default_template": "Set yarn fiber to {OPTION}: describe handfeel, warmth, resilience, and surface aspect",
+          "options": [
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "wool", "label": "Wool" },
+            { "value": "merino", "label": "Merino" },
+            { "value": "cashmere", "label": "Cashmere" },
+            { "value": "mohair", "label": "Mohair" },
+            { "value": "alpaca", "label": "Alpaca" },
+            { "value": "wool_blend", "label": "Wool blend" }
+          ]
+        },
+        {
+          "value": "knit_gauge",
+          "label": "Knit Gauge",
+          "default_template": "Change knit gauge to {OPTION}: describe density, compactness, and weave detail",
+          "options": [
+            { "value": "fine", "label": "Fine (more compact)" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "chunky", "label": "Chunky (thick)" }
+          ]
+        },
+        {
+          "value": "stitch_structure",
+          "label": "Stitch Structure",
+          "default_template": "Set stitch structure to {OPTION}: describe relief, regularity, and texture readability",
+          "options": [
+            { "value": "stockinette", "label": "Stockinette (Jersey stitch)" },
+            { "value": "ribbed", "label": "Ribbed" },
+            { "value": "moss_stitch", "label": "Moss stitch" },
+            { "value": "cables", "label": "Cables" },
+            { "value": "jacquard", "label": "Jacquard" },
+            { "value": "milano_stitch", "label": "Milano stitch (more compact)" }
+          ]
+        },
+        {
+          "value": "closure_details",
+          "label": "Details: Closure and Openings",
+          "default_template": "Add or modify closure details on {OPTION}: describe position and construction without altering volumes",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "henley_placket", "label": "Henley placket" },
+            { "value": "half_zip", "label": "Half zip" },
+            { "value": "full_zip", "label": "Full zip" },
+            { "value": "full_button", "label": "Full button opening" }
+          ]
+        },
+        {
+          "value": "surface_details",
+          "label": "Details: Surface and Applications",
+          "default_template": "Add or remove surface detail {OPTION}: describe position, scale, and technique",
+          "options": [
+            { "value": "no_details", "label": "No details" },
+            { "value": "stripes", "label": "Stripes" },
+            { "value": "intarsia", "label": "Intarsia" },
+            { "value": "embroidery", "label": "Embroidery" },
+            { "value": "elbow_patches", "label": "Elbow patches" },
+            { "value": "contrast_collar_cuffs_hem", "label": "Contrasts on collar/cuffs/hem" }
+          ]
+        },
+        {
+          "value": "seam_finishes",
+          "label": "Finishes: Edges and Stabilization",
+          "default_template": "Set finishes to {OPTION}: describe cleanliness, stability, risk of waviness, and shape hold",
+          "options": [
+            { "value": "clean_regular", "label": "Clean and regular" },
+            { "value": "reinforced", "label": "Reinforced" },
+            { "value": "anti_waving", "label": "Anti-waving stabilized" },
+            { "value": "controlled_rolled_edge", "label": "Controlled rolled edge" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "cardigan",
+      "label": "Cardigan",
+      "categories": [
+        {
+          "value": "front_opening",
+          "label": "Front Opening",
+          "default_template": "Change front opening to {OPTION}: describe front continuity, stability, and usage behavior",
+          "options": [
+            { "value": "full_opening", "label": "Full opening" },
+            { "value": "half_opening", "label": "Half opening" },
+            { "value": "no_opening", "label": "No opening (pull-on style)" }
+          ]
+        },
+        {
+          "value": "closure",
+          "label": "Closure",
+          "default_template": "Set closure to {OPTION}: describe number of elements, distance, and function",
+          "options": [
+            { "value": "buttons", "label": "Buttons" },
+            { "value": "zip", "label": "Zip" },
+            { "value": "snaps", "label": "Snaps" },
+            { "value": "ties", "label": "Ties" },
+            { "value": "none", "label": "No closure" }
+          ]
+        },
+        {
+          "value": "placket_facing",
+          "label": "Placket and Front Edge",
+          "default_template": "Set placket to {OPTION}: describe width, structure, and edge stability",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" },
+            { "value": "ribbed", "label": "Ribbed" },
+            { "value": "reinforced", "label": "Reinforced" }
+          ]
+        },
+        {
+          "value": "neckline",
+          "label": "Neckline",
+          "default_template": "Change neckline to {OPTION}: describe shape, depth, and continuity with the front",
+          "options": [
+            { "value": "v_neck", "label": "V-neck" },
+            { "value": "crew_neck", "label": "Crew neck" },
+            { "value": "shawl_collar", "label": "Shawl collar" },
+            { "value": "high_neck", "label": "High neck" },
+            { "value": "no_defined_neckline", "label": "No defined neckline" }
+          ]
+        },
+        {
+          "value": "neckline_height",
+          "label": "Neckline: Height",
+          "default_template": "Adjust neckline height to {OPTION}: describe opening and stability",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder: Construction",
+          "default_template": "Set shoulder construction to {OPTION}: describe line and drape",
+          "options": [
+            { "value": "set_in", "label": "Set-in sleeve" },
+            { "value": "drop_shoulder", "label": "Drop shoulder" },
+            { "value": "raglan", "label": "Raglan" },
+            { "value": "kimono", "label": "Kimono" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe volume, length, and drape",
+          "options": [
+            { "value": "long_fitted", "label": "Long fitted" },
+            { "value": "long_loose", "label": "Long loose" },
+            { "value": "three_quarter", "label": "Three-quarter" },
+            { "value": "short", "label": "Short" }
+          ]
+        },
+        {
+          "value": "cuffs",
+          "label": "Cuffs",
+          "default_template": "Set cuffs to {OPTION}: describe height, elasticity, and hold",
+          "options": [
+            { "value": "low_rib", "label": "Low rib" },
+            { "value": "standard_rib", "label": "Standard rib" },
+            { "value": "high_rib", "label": "High rib" },
+            { "value": "loose_cuff", "label": "Loose cuff" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Change body length to {OPTION}: describe front and back proportions",
+          "options": [
+            { "value": "cropped", "label": "Cropped" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem",
+          "default_template": "Set hem to {OPTION}: describe finish and stability",
+          "options": [
+            { "value": "low_rib", "label": "Low rib" },
+            { "value": "standard_rib", "label": "Standard rib" },
+            { "value": "high_rib", "label": "High rib" },
+            { "value": "controlled_raw_cut", "label": "Controlled raw cut" }
+          ]
+        },
+        {
+          "value": "body_line",
+          "label": "Body: Line and Fit",
+          "default_template": "Set body line to {OPTION}: describe chest width and waist point",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "boxy", "label": "Boxy" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "yarn_fiber",
+          "label": "Yarn: Fiber",
+          "default_template": "Set yarn fiber to {OPTION}: describe handfeel, warmth, and resilience",
+          "options": [
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "wool", "label": "Wool" },
+            { "value": "merino", "label": "Merino" },
+            { "value": "cashmere", "label": "Cashmere" },
+            { "value": "alpaca", "label": "Alpaca" },
+            { "value": "mixed_fiber", "label": "Mixed fiber" }
+          ]
+        },
+        {
+          "value": "knit_gauge",
+          "label": "Knit Gauge",
+          "default_template": "Change knit gauge to {OPTION}: describe density and compactness",
+          "options": [
+            { "value": "fine", "label": "Fine" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "chunky", "label": "Chunky" }
+          ]
+        },
+        {
+          "value": "stitch",
+          "label": "Stitch",
+          "default_template": "Set stitch to {OPTION}: describe relief and regularity",
+          "options": [
+            { "value": "stockinette", "label": "Stockinette" },
+            { "value": "ribbed", "label": "Ribbed" },
+            { "value": "cables", "label": "Cables" },
+            { "value": "jacquard", "label": "Jacquard" },
+            { "value": "milano_stitch", "label": "Milano stitch" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add or modify pockets to {OPTION}: describe position and construction",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "patch_pockets", "label": "Patch pockets" },
+            { "value": "welt_pockets", "label": "Welt pockets" }
+          ]
+        },
+        {
+          "value": "surface_details",
+          "label": "Details: Surface",
+          "default_template": "Add surface detail {OPTION}: describe position and scale",
+          "options": [
+            { "value": "no_details", "label": "No details" },
+            { "value": "stripes", "label": "Stripes" },
+            { "value": "intarsia", "label": "Intarsia" },
+            { "value": "embroidery", "label": "Embroidery" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Stabilization",
+          "default_template": "Set finishes to {OPTION}: describe cleanliness, stability, and shape hold",
+          "options": [
+            { "value": "clean_regular", "label": "Clean regular" },
+            { "value": "reinforced", "label": "Reinforced" },
+            { "value": "anti_waving", "label": "Anti-waving stabilized" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "sweatshirt",
+      "label": "Sweatshirt",
+      "categories": [
+        {
+          "value": "sweatshirt_type",
+          "label": "Sweatshirt Type",
+          "default_template": "Set sweatshirt type to {OPTION}: describe general structure and intended use",
+          "options": [
+            { "value": "crewneck", "label": "Crewneck" },
+            { "value": "hoodie", "label": "Hoodie" },
+            { "value": "half_zip", "label": "Half zip" },
+            { "value": "full_zip", "label": "Full zip" }
+          ]
+        },
+        {
+          "value": "hood",
+          "label": "Hood",
+          "default_template": "Set hood to {OPTION}: describe volume, depth, and construction",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" },
+            { "value": "structured", "label": "Structured" },
+            { "value": "double_layered", "label": "Double layered" }
+          ]
+        },
+        {
+          "value": "hood_drawstring",
+          "label": "Hood: Drawstring",
+          "default_template": "Set hood drawstring to {OPTION}: describe type, function, and finish",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "textile_cord", "label": "Textile cord" },
+            { "value": "round_cord", "label": "Round cord" },
+            { "value": "flat_cord", "label": "Flat cord" },
+            { "value": "cord_with_aglets", "label": "Cord with aglets" }
+          ]
+        },
+        {
+          "value": "neckline",
+          "label": "Neckline",
+          "default_template": "Change neckline to {OPTION}: describe height, width, and stability",
+          "options": [
+            { "value": "standard_crewneck", "label": "Standard crewneck" },
+            { "value": "high_crewneck", "label": "High crewneck" },
+            { "value": "zip_neck", "label": "Zip neck" },
+            { "value": "v_neck", "label": "V-neck" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder: Construction",
+          "default_template": "Set shoulder construction to {OPTION}: describe line and drape",
+          "options": [
+            { "value": "set_in", "label": "Set-in sleeve" },
+            { "value": "raglan", "label": "Raglan" },
+            { "value": "drop_shoulder", "label": "Drop shoulder" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe volume and length",
+          "options": [
+            { "value": "long_standard", "label": "Standard long" },
+            { "value": "long_wide", "label": "Wide long" },
+            { "value": "three_quarter", "label": "Three-quarter" }
+          ]
+        },
+        {
+          "value": "cuffs",
+          "label": "Cuffs",
+          "default_template": "Set cuffs to {OPTION}: describe height, elasticity, and hold",
+          "options": [
+            { "value": "low_rib", "label": "Low rib" },
+            { "value": "standard_rib", "label": "Standard rib" },
+            { "value": "high_rib", "label": "High rib" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Change body length to {OPTION}: describe proportions and hitting point",
+          "options": [
+            { "value": "cropped", "label": "Cropped" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "body_line",
+          "label": "Body: Line and Fit",
+          "default_template": "Set fit to {OPTION}: describe chest width and hem",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem",
+          "default_template": "Set hem to {OPTION}: describe finish and stability",
+          "options": [
+            { "value": "low_rib", "label": "Low rib" },
+            { "value": "standard_rib", "label": "Standard rib" },
+            { "value": "high_rib", "label": "High rib" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add or modify pockets to {OPTION}: describe position and function",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "kangaroo_pocket", "label": "Kangaroo pocket" },
+            { "value": "side_pockets", "label": "Side pockets" },
+            { "value": "zip_pockets", "label": "Zip pockets" }
+          ]
+        },
+        {
+          "value": "fabric_structure",
+          "label": "Fabric: Structure",
+          "default_template": "Set fabric structure to {OPTION}: describe handfeel, weight, and compactness",
+          "options": [
+            { "value": "french_terry", "label": "French terry" },
+            { "value": "brushed_fleece", "label": "Brushed fleece" },
+            { "value": "loopback", "label": "Loopback (unbrushed)" },
+            { "value": "interlock", "label": "Interlock" }
+          ]
+        },
+        {
+          "value": "fabric_weight",
+          "label": "Fabric: Weight",
+          "default_template": "Set fabric weight to {OPTION}: describe seasonality and structure",
+          "options": [
+            { "value": "lightweight", "label": "Lightweight" },
+            { "value": "medium_weight", "label": "Medium weight" },
+            { "value": "heavyweight", "label": "Heavyweight" }
+          ]
+        },
+        {
+          "value": "surface_details",
+          "label": "Details: Surface",
+          "default_template": "Add surface detail {OPTION}: describe position and technique",
+          "options": [
+            { "value": "no_details", "label": "No details" },
+            { "value": "print", "label": "Print" },
+            { "value": "embroidery", "label": "Embroidery" },
+            { "value": "patches", "label": "Patches / Applications" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe inner cleanliness and stability",
+          "options": [
+            { "value": "clean_standard", "label": "Clean standard" },
+            { "value": "topstitched", "label": "Topstitched" },
+            { "value": "reinforced", "label": "Reinforced" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "vest",
+      "label": "Vest / Gilet",
+      "categories": [
+        {
+          "value": "type",
+          "label": "Type",
+          "default_template": "Set vest type to {OPTION}: describe main function and usage context",
+          "options": [
+            { "value": "knit_vest", "label": "Knit vest" },
+            { "value": "woven_vest", "label": "Woven vest" },
+            { "value": "puffer_vest", "label": "Puffer vest" },
+            { "value": "technical_vest", "label": "Technical vest" }
+          ]
+        },
+        {
+          "value": "front_opening",
+          "label": "Front Opening",
+          "default_template": "Change front opening to {OPTION}: describe front continuity and usage behavior",
+          "options": [
+            { "value": "full_opening", "label": "Full opening" },
+            { "value": "half_opening", "label": "Half opening" },
+            { "value": "no_opening", "label": "No opening" }
+          ]
+        },
+        {
+          "value": "closure",
+          "label": "Closure",
+          "default_template": "Set closure to {OPTION}: describe type, visibility, and function",
+          "options": [
+            { "value": "buttons", "label": "Buttons" },
+            { "value": "zip", "label": "Zip" },
+            { "value": "snaps", "label": "Snaps" },
+            { "value": "velcro", "label": "Velcro" },
+            { "value": "none", "label": "No closure" }
+          ]
+        },
+        {
+          "value": "neckline",
+          "label": "Neckline",
+          "default_template": "Change neckline to {OPTION}: describe shape, depth, and stability",
+          "options": [
+            { "value": "crew_neck", "label": "Crew neck" },
+            { "value": "v_neck", "label": "V-neck" },
+            { "value": "high_neck", "label": "High neck" },
+            { "value": "shawl_collar", "label": "Shawl collar" },
+            { "value": "no_defined_neckline", "label": "No defined neckline" }
+          ]
+        },
+        {
+          "value": "neckline_height",
+          "label": "Neckline: Height",
+          "default_template": "Adjust neckline height to {OPTION}: describe opening and coverage",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder and Armhole",
+          "default_template": "Set shoulder/armhole construction to {OPTION}: describe width and mobility",
+          "options": [
+            { "value": "standard_armhole", "label": "Standard armhole" },
+            { "value": "wide_armhole", "label": "Wide armhole" },
+            { "value": "bound_armhole", "label": "Bound armhole" },
+            { "value": "reinforced_armhole", "label": "Reinforced armhole" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Change body length to {OPTION}: describe hitting point and proportion",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "body_line",
+          "label": "Body: Line and Fit",
+          "default_template": "Set fit to {OPTION}: describe chest width and hip line",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem",
+          "default_template": "Set hem to {OPTION}: describe finish and stability",
+          "options": [
+            { "value": "straight", "label": "Straight" },
+            { "value": "curved", "label": "Curved" },
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "adjustable_drawstring", "label": "Adjustable with drawstring" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add or modify pockets to {OPTION}: describe number, position, and function",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "side_pockets", "label": "Side pockets" },
+            { "value": "chest_pockets", "label": "Chest pockets" },
+            { "value": "zip_pockets", "label": "Zip pockets" },
+            { "value": "patch_pockets", "label": "Patch pockets" }
+          ]
+        },
+        {
+          "value": "padding",
+          "label": "Padding",
+          "default_template": "Set padding to {OPTION}: describe volume, warmth, and distribution",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "light", "label": "Light" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "heavy", "label": "Heavy" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, resistance, and appearance",
+          "options": [
+            { "value": "knit", "label": "Knit" },
+            { "value": "woven", "label": "Woven" },
+            { "value": "technical_nylon", "label": "Technical nylon" },
+            { "value": "softshell", "label": "Softshell" }
+          ]
+        },
+        {
+          "value": "surface_details",
+          "label": "Details: Surface",
+          "default_template": "Add surface detail {OPTION}: describe position and technique",
+          "options": [
+            { "value": "no_details", "label": "No details" },
+            { "value": "contrast_stitching", "label": "Contrast stitching" },
+            { "value": "embroidered_logo", "label": "Embroidered logo" },
+            { "value": "patch_application", "label": "Patch application" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe inner cleanliness, bindings, and stability",
+          "options": [
+            { "value": "clean_standard", "label": "Clean standard" },
+            { "value": "bound", "label": "Bound" },
+            { "value": "reinforced", "label": "Reinforced" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "trousers",
+      "label": "Trousers",
+      "categories": [
+        {
+          "value": "base_type",
+          "label": "Base Type",
+          "default_template": "Set base type to {OPTION}: describe general construction and usage context",
+          "options": [
+            { "value": "five_pocket", "label": "Five pocket" },
+            { "value": "chino", "label": "Chino" },
+            { "value": "tailored", "label": "Tailored classic" },
+            { "value": "cargo", "label": "Cargo" },
+            { "value": "technical", "label": "Technical" }
+          ]
+        },
+        {
+          "value": "waist_rise",
+          "label": "Waist: Rise",
+          "default_template": "Adjust waist rise to {OPTION}: describe waist point and comfort",
+          "options": [
+            { "value": "low_rise", "label": "Low rise" },
+            { "value": "mid_rise", "label": "Mid rise" },
+            { "value": "high_rise", "label": "High rise" }
+          ]
+        },
+        {
+          "value": "waist_construction",
+          "label": "Waist: Construction",
+          "default_template": "Set waist construction to {OPTION}: describe structure, stiffness, and adaptability",
+          "options": [
+            { "value": "straight_waist", "label": "Straight waist" },
+            { "value": "curved_waist", "label": "Curved waist" },
+            { "value": "elastic_waist", "label": "Elastic waist" },
+            { "value": "drawstring_waist", "label": "Drawstring waist" }
+          ]
+        },
+        {
+          "value": "waist_closure",
+          "label": "Waist: Closure",
+          "default_template": "Set waist closure to {OPTION}: describe type and visibility",
+          "options": [
+            { "value": "zip_button", "label": "Zip and button" },
+            { "value": "zip_hook", "label": "Zip and hook" },
+            { "value": "buttons", "label": "Buttons" },
+            { "value": "no_closure", "label": "No closure (pull-on)" }
+          ]
+        },
+        {
+          "value": "belt_loops",
+          "label": "Waist: Belt loops",
+          "default_template": "Set belt loops to {OPTION}: describe number, width, and positioning",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" },
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "pleats",
+          "label": "Waist: Pleats",
+          "default_template": "Set pleats to {OPTION}: describe number, depth, and function",
+          "options": [
+            { "value": "no_pleats", "label": "No pleats" },
+            { "value": "one_pleat", "label": "One pleat" },
+            { "value": "two_pleats", "label": "Two pleats" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe hip, thigh, and leg width",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "thigh",
+          "label": "Leg: Thigh",
+          "default_template": "Adjust thigh width to {OPTION}: describe comfort and drape",
+          "options": [
+            { "value": "tight", "label": "Tight" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "leg_line",
+          "label": "Leg: Line",
+          "default_template": "Set leg line to {OPTION}: describe progression towards the hem",
+          "options": [
+            { "value": "straight", "label": "Straight" },
+            { "value": "tapered", "label": "Tapered" },
+            { "value": "flared", "label": "Flared" },
+            { "value": "cropped", "label": "Cropped" }
+          ]
+        },
+        {
+          "value": "leg_length",
+          "label": "Leg: Length",
+          "default_template": "Set leg length to {OPTION}: describe hitting point and proportion",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "leg_opening",
+          "label": "Leg Opening",
+          "default_template": "Set leg opening to {OPTION}: describe opening and finish",
+          "options": [
+            { "value": "straight_hem", "label": "Straight hem" },
+            { "value": "turn_up", "label": "Turn-up / Cuff" },
+            { "value": "ribbed_cuff", "label": "Ribbed cuff" },
+            { "value": "elastic", "label": "Elastic" }
+          ]
+        },
+        {
+          "value": "front_pockets",
+          "label": "Front Pockets",
+          "default_template": "Set front pockets to {OPTION}: describe shape and accessibility",
+          "options": [
+            { "value": "slant_pockets", "label": "Slant pockets (French)" },
+            { "value": "scoop_pockets", "label": "Scoop pockets (American)" },
+            { "value": "welt_pockets", "label": "Welt pockets" },
+            { "value": "patch_pockets", "label": "Patch pockets" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "back_pockets",
+          "label": "Back Pockets",
+          "default_template": "Set back pockets to {OPTION}: describe number, closure, and cleanliness",
+          "options": [
+            { "value": "one_pocket", "label": "One pocket" },
+            { "value": "two_pockets", "label": "Two pockets" },
+            { "value": "with_flap", "label": "With flap" },
+            { "value": "welt_pocket", "label": "Welt pocket" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "side_pockets",
+          "label": "Side Pockets",
+          "default_template": "Add or modify side pockets to {OPTION}: describe volume and function",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "cargo", "label": "Cargo" },
+            { "value": "zip_pocket", "label": "Zip pocket" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, weight, and resistance",
+          "options": [
+            { "value": "denim", "label": "Denim" },
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "wool", "label": "Wool" },
+            { "value": "velvet", "label": "Velvet" },
+            { "value": "technical_fabric", "label": "Technical fabric" }
+          ]
+        },
+        {
+          "value": "elasticity",
+          "label": "Elasticity",
+          "default_template": "Set elasticity to {OPTION}: describe comfort and recovery",
+          "options": [
+            { "value": "rigid", "label": "Rigid" },
+            { "value": "slight_stretch", "label": "Slight stretch" },
+            { "value": "stretch", "label": "Stretch" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe inner cleanliness, topstitching, and durability",
+          "options": [
+            { "value": "clean_standard", "label": "Clean standard" },
+            { "value": "topstitched", "label": "Topstitched" },
+            { "value": "reinforced", "label": "Reinforced" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "jogger",
+      "label": "Jogger",
+      "categories": [
+        {
+          "value": "jogger_type",
+          "label": "Jogger Type",
+          "default_template": "Set jogger type to {OPTION}: describe main function and usage context",
+          "options": [
+            { "value": "sport_jogger", "label": "Sport jogger" },
+            { "value": "lifestyle_jogger", "label": "Lifestyle jogger" },
+            { "value": "technical_jogger", "label": "Technical jogger" },
+            { "value": "knit_jogger", "label": "Knit jogger" }
+          ]
+        },
+        {
+          "value": "waist_height",
+          "label": "Waist: Height",
+          "default_template": "Adjust waist height to {OPTION}: describe waist point and comfort",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "mid", "label": "Mid" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "waist_construction",
+          "label": "Waist: Construction",
+          "default_template": "Set waist construction to {OPTION}: describe elasticity, structure, and adaptability",
+          "options": [
+            { "value": "full_elastic", "label": "Full elastic" },
+            { "value": "elastic_drawstring", "label": "Elastic with drawstring" },
+            { "value": "mixed_waist", "label": "Mixed waist (elastic + panel)" }
+          ]
+        },
+        {
+          "value": "drawstring",
+          "label": "Waist: Drawstring",
+          "default_template": "Set drawstring to {OPTION}: describe type, function, and visibility",
+          "options": [
+            { "value": "internal", "label": "Internal" },
+            { "value": "external", "label": "External" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe hip, thigh, and leg width",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "thigh",
+          "label": "Leg: Thigh",
+          "default_template": "Adjust thigh width to {OPTION}: describe comfort and mobility",
+          "options": [
+            { "value": "tight", "label": "Tight" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "leg_line",
+          "label": "Leg: Line",
+          "default_template": "Set leg line to {OPTION}: describe progression towards the hem",
+          "options": [
+            { "value": "straight", "label": "Straight" },
+            { "value": "tapered", "label": "Tapered" },
+            { "value": "tapered_narrow", "label": "Tapered (narrows at bottom)" }
+          ]
+        },
+        {
+          "value": "leg_length",
+          "label": "Leg: Length",
+          "default_template": "Set leg length to {OPTION}: describe hitting point and proportion",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "leg_opening",
+          "label": "Leg Opening",
+          "default_template": "Set leg opening to {OPTION}: describe closure, elasticity, and hold",
+          "options": [
+            { "value": "elastic_cuff", "label": "Elastic cuff" },
+            { "value": "reinforced_cuff", "label": "Reinforced cuff" },
+            { "value": "straight_hem", "label": "Straight hem" },
+            { "value": "zip_hem", "label": "Zip hem" }
+          ]
+        },
+        {
+          "value": "front_pockets",
+          "label": "Front Pockets",
+          "default_template": "Set front pockets to {OPTION}: describe shape and accessibility",
+          "options": [
+            { "value": "slant_pockets", "label": "Slant pockets (French)" },
+            { "value": "side_seam", "label": "Side seam" },
+            { "value": "zip_pockets", "label": "Zip pockets" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "back_pockets",
+          "label": "Back Pockets",
+          "default_template": "Set back pockets to {OPTION}: describe number and closure",
+          "options": [
+            { "value": "one_pocket", "label": "One pocket" },
+            { "value": "two_pockets", "label": "Two pockets" },
+            { "value": "zip_pocket", "label": "Zip pocket" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, elasticity, and breathability",
+          "options": [
+            { "value": "fleece", "label": "Fleece" },
+            { "value": "interlock", "label": "Interlock" },
+            { "value": "jersey", "label": "Jersey" },
+            { "value": "technical_fabric", "label": "Technical fabric" }
+          ]
+        },
+        {
+          "value": "fabric_weight",
+          "label": "Fabric: Weight",
+          "default_template": "Set fabric weight to {OPTION}: describe seasonality and structure",
+          "options": [
+            { "value": "lightweight", "label": "Lightweight" },
+            { "value": "medium_weight", "label": "Medium weight" },
+            { "value": "heavyweight", "label": "Heavyweight" }
+          ]
+        },
+        {
+          "value": "functional_details",
+          "label": "Functional Details",
+          "default_template": "Add functional detail {OPTION}: describe position and utility",
+          "options": [
+            { "value": "none", "label": "No details" },
+            { "value": "reinforced_inserts", "label": "Reinforced inserts" },
+            { "value": "ergonomic_panels", "label": "Ergonomic panels" },
+            { "value": "sealed_seams", "label": "Sealed seams" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe inner cleanliness, topstitching, and durability",
+          "options": [
+            { "value": "clean_standard", "label": "Clean standard" },
+            { "value": "topstitched", "label": "Topstitched" },
+            { "value": "reinforced", "label": "Reinforced" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "shorts_bermuda",
+      "label": "Shorts / Bermuda",
+      "categories": [
+        {
+          "value": "base_type",
+          "label": "Base Type",
+          "default_template": "Set shorts/bermuda type to {OPTION}: describe general construction and usage context",
+          "options": [
+            { "value": "casual_shorts", "label": "Casual" },
+            { "value": "bermuda", "label": "Bermuda" },
+            { "value": "sport_shorts", "label": "Sport" },
+            { "value": "technical_shorts", "label": "Technical" },
+            { "value": "tailored_shorts", "label": "Tailored" }
+          ]
+        },
+        {
+          "value": "waist_height",
+          "label": "Waist: Height",
+          "default_template": "Adjust waist height to {OPTION}: describe waist point and comfort",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "mid", "label": "Mid" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "waist_construction",
+          "label": "Waist: Construction",
+          "default_template": "Set waist construction to {OPTION}: describe structure, adaptability, and elasticity",
+          "options": [
+            { "value": "straight_waist", "label": "Straight waist" },
+            { "value": "elastic_waist", "label": "Elastic waist" },
+            { "value": "drawstring_waist", "label": "Drawstring waist" },
+            { "value": "mixed_waist", "label": "Mixed waist" }
+          ]
+        },
+        {
+          "value": "waist_closure",
+          "label": "Waist: Closure",
+          "default_template": "Set waist closure to {OPTION}: describe type and visibility",
+          "options": [
+            { "value": "zip_button", "label": "Zip and button" },
+            { "value": "zip_hook", "label": "Zip and hook" },
+            { "value": "buttons", "label": "Buttons" },
+            { "value": "no_closure", "label": "No closure (pull-on)" }
+          ]
+        },
+        {
+          "value": "belt_loops",
+          "label": "Waist: Belt Loops",
+          "default_template": "Set belt loops to {OPTION}: describe number, width, and positioning",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" },
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe hip and thigh width",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "length",
+          "label": "Leg Length",
+          "default_template": "Set leg length to {OPTION}: describe hitting point on thigh or knee",
+          "options": [
+            { "value": "short_thigh", "label": "Short (upper thigh)" },
+            { "value": "mid_thigh", "label": "Mid thigh" },
+            { "value": "above_knee", "label": "Above knee" },
+            { "value": "at_knee", "label": "At knee" }
+          ]
+        },
+        {
+          "value": "leg_opening",
+          "label": "Leg Opening",
+          "default_template": "Adjust leg opening to {OPTION}: describe width and drape",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "front_pockets",
+          "label": "Front Pockets",
+          "default_template": "Set front pockets to {OPTION}: describe shape and accessibility",
+          "options": [
+            { "value": "slant_pockets", "label": "Slant pockets (French)" },
+            { "value": "scoop_pockets", "label": "Scoop pockets (American)" },
+            { "value": "welt_pockets", "label": "Welt pockets" },
+            { "value": "patch_pockets", "label": "Patch pockets" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "back_pockets",
+          "label": "Back Pockets",
+          "default_template": "Set back pockets to {OPTION}: describe number, closure, and cleanliness",
+          "options": [
+            { "value": "one_pocket", "label": "One pocket" },
+            { "value": "two_pockets", "label": "Two pockets" },
+            { "value": "with_flap", "label": "With flap" },
+            { "value": "welt_pocket", "label": "Welt pocket" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "value": "side_pockets",
+          "label": "Side Pockets",
+          "default_template": "Add or modify side pockets to {OPTION}: describe volume and function",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "cargo", "label": "Cargo" },
+            { "value": "zip_pocket", "label": "Zip pocket" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, weight, and breathability",
+          "options": [
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "denim", "label": "Denim" },
+            { "value": "linen", "label": "Linen" },
+            { "value": "technical_fabric", "label": "Technical fabric" }
+          ]
+        },
+        {
+          "value": "elasticity",
+          "label": "Elasticity",
+          "default_template": "Set elasticity to {OPTION}: describe comfort and recovery",
+          "options": [
+            { "value": "rigid", "label": "Rigid" },
+            { "value": "slight_stretch", "label": "Slight stretch" },
+            { "value": "stretch", "label": "Stretch" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe inner cleanliness, topstitching, and durability",
+          "options": [
+            { "value": "clean_standard", "label": "Clean standard" },
+            { "value": "topstitched", "label": "Topstitched" },
+            { "value": "reinforced", "label": "Reinforced" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "jacket",
+      "label": "Jacket",
+      "categories": [
+        {
+          "value": "base_type",
+          "label": "Base Type",
+          "default_template": "Set jacket type to {OPTION}: describe general construction and function",
+          "options": [
+            { "value": "bomber", "label": "Bomber" },
+            { "value": "denim", "label": "Denim" },
+            { "value": "field", "label": "Field / Utility" },
+            { "value": "harrington", "label": "Harrington" },
+            { "value": "trucker", "label": "Trucker" },
+            { "value": "workwear", "label": "Workwear" },
+            { "value": "technical", "label": "Technical" }
+          ]
+        },
+        {
+          "value": "front_opening",
+          "label": "Front Opening",
+          "default_template": "Change front opening to {OPTION}: describe front continuity and usage behavior",
+          "options": [
+            { "value": "full_opening", "label": "Full opening" },
+            { "value": "half_opening", "label": "Half opening" }
+          ]
+        },
+        {
+          "value": "closure",
+          "label": "Closure",
+          "default_template": "Set closure to {OPTION}: describe type, visibility, and function",
+          "options": [
+            { "value": "zip", "label": "Zip" },
+            { "value": "buttons", "label": "Buttons" },
+            { "value": "snaps", "label": "Snaps" },
+            { "value": "zip_buttons", "label": "Zip + buttons" }
+          ]
+        },
+        {
+          "value": "collar",
+          "label": "Collar",
+          "default_template": "Change collar to {OPTION}: describe shape, height, and structure",
+          "options": [
+            { "value": "classic_collar", "label": "Classic collar" },
+            { "value": "shirt_collar", "label": "Shirt collar" },
+            { "value": "high_neck", "label": "High neck" },
+            { "value": "stand_collar", "label": "Stand collar (Korean)" },
+            { "value": "collarless", "label": "Collarless" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder",
+          "default_template": "Set shoulder construction to {OPTION}: describe line and drape",
+          "options": [
+            { "value": "set_in", "label": "Set-in sleeve" },
+            { "value": "raglan", "label": "Raglan" },
+            { "value": "drop_shoulder", "label": "Drop shoulder" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe volume and length",
+          "options": [
+            { "value": "long", "label": "Long" },
+            { "value": "adjustable", "label": "Adjustable" },
+            { "value": "cuffed", "label": "Cuffed" }
+          ]
+        },
+        {
+          "value": "cuffs",
+          "label": "Cuffs",
+          "default_template": "Set cuffs to {OPTION}: describe closure and stability",
+          "options": [
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "button_cuff", "label": "Button cuff" },
+            { "value": "adjustable_cuff", "label": "Adjustable cuff" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Change body length to {OPTION}: describe proportion and hitting point",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "body_line",
+          "label": "Body: Line and Fit",
+          "default_template": "Set fit to {OPTION}: describe chest width and hem",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem",
+          "default_template": "Set hem to {OPTION}: describe finish and stability",
+          "options": [
+            { "value": "straight", "label": "Straight" },
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "adjustable_drawstring", "label": "Adjustable with drawstring" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add or modify pockets to {OPTION}: describe number, position, and function",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "side_pockets", "label": "Side pockets" },
+            { "value": "chest_pockets", "label": "Chest pockets" },
+            { "value": "flap_pockets", "label": "Flap pockets" },
+            { "value": "zip_pockets", "label": "Zip pockets" }
+          ]
+        },
+        {
+          "value": "lining",
+          "label": "Lining",
+          "default_template": "Set lining to {OPTION}: describe coverage and thermal function",
+          "options": [
+            { "value": "unlined", "label": "Unlined" },
+            { "value": "partially_lined", "label": "Partially lined" },
+            { "value": "fully_lined", "label": "Fully lined" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, resistance, and appearance",
+          "options": [
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "denim", "label": "Denim" },
+            { "value": "nylon", "label": "Nylon" },
+            { "value": "technical_fabric", "label": "Technical fabric" },
+            { "value": "wool", "label": "Wool" }
+          ]
+        },
+        {
+          "value": "padding",
+          "label": "Padding",
+          "default_template": "Set padding to {OPTION}: describe volume and insulation",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "light", "label": "Light" },
+            { "value": "medium", "label": "Medium" }
+          ]
+        },
+        {
+          "value": "functional_details",
+          "label": "Functional Details",
+          "default_template": "Add functional detail {OPTION}: describe position and utility",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "inner_drawstring", "label": "Inner drawstring" },
+            { "value": "cuff_adjusters", "label": "Cuff adjusters" },
+            { "value": "removable_hood", "label": "Removable hood" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe inner cleanliness, topstitching, and durability",
+          "options": [
+            { "value": "clean_standard", "label": "Clean standard" },
+            { "value": "topstitched", "label": "Topstitched" },
+            { "value": "reinforced", "label": "Reinforced" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "blazer",
+      "label": "Blazer",
+      "categories": [
+        {
+          "value": "structure",
+          "label": "Structure",
+          "default_template": "Set blazer structure to {OPTION}: describe internal construction, stiffness, and formality",
+          "options": [
+            { "value": "unstructured", "label": "Unstructured" },
+            { "value": "semi_structured", "label": "Semi structured" },
+            { "value": "structured", "label": "Structured" }
+          ]
+        },
+        {
+          "value": "front_opening",
+          "label": "Front Opening",
+          "default_template": "Set front opening to {OPTION}: describe proportion and use",
+          "options": [
+            { "value": "single_breasted", "label": "Single-breasted" },
+            { "value": "double_breasted", "label": "Double-breasted" }
+          ]
+        },
+        {
+          "value": "fastening",
+          "label": "Fastening",
+          "default_template": "Set fastening to {OPTION}: describe number of buttons and position",
+          "options": [
+            { "value": "one_button", "label": "One button" },
+            { "value": "two_buttons", "label": "Two buttons" },
+            { "value": "three_buttons", "label": "Three buttons" },
+            { "value": "double_breasted_6x2", "label": "Double-breasted 6x2" },
+            { "value": "double_breasted_4x2", "label": "Double-breasted 4x2" }
+          ]
+        },
+        {
+          "value": "lapel",
+          "label": "Lapel",
+          "default_template": "Change lapel to {OPTION}: describe shape, width, and inclination",
+          "options": [
+            { "value": "notch_lapel", "label": "Notch lapel" },
+            { "value": "peak_lapel", "label": "Peak lapel" },
+            { "value": "shawl_lapel", "label": "Shawl lapel" }
+          ]
+        },
+        {
+          "value": "lapel_width",
+          "label": "Lapel: Width",
+          "default_template": "Adjust lapel width to {OPTION}: describe proportion with chest",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "lapel_length",
+          "label": "Lapel: Length",
+          "default_template": "Adjust lapel length to {OPTION}: describe visual closure point",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder",
+          "default_template": "Set shoulder construction to {OPTION}: describe line and support",
+          "options": [
+            { "value": "natural", "label": "Natural" },
+            { "value": "structured", "label": "Structured" },
+            { "value": "padded", "label": "Padded" },
+            { "value": "unpadded", "label": "Unpadded" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe length and proportion",
+          "options": [
+            { "value": "long", "label": "Long" },
+            { "value": "slightly_short", "label": "Slightly short" }
+          ]
+        },
+        {
+          "value": "sleeve_vent",
+          "label": "Sleeve: Vent/Placket",
+          "default_template": "Set sleeve vent to {OPTION}: describe finish and sartorial detail",
+          "options": [
+            { "value": "faux_vent", "label": "Faux vent" },
+            { "value": "functional_vent", "label": "Functional vent" }
+          ]
+        },
+        {
+          "value": "sleeve_buttons",
+          "label": "Sleeve: Buttons",
+          "default_template": "Set sleeve buttons to {OPTION}: describe number and spacing",
+          "options": [
+            { "value": "two", "label": "Two" },
+            { "value": "three", "label": "Three" },
+            { "value": "four", "label": "Four" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Change body length to {OPTION}: describe torso/leg proportion",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe chest, waist point, and hem opening",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" }
+          ]
+        },
+        {
+          "value": "darts",
+          "label": "Body: Darts and Shaping",
+          "default_template": "Set darts to {OPTION}: describe waist shaping",
+          "options": [
+            { "value": "no_darts", "label": "No darts" },
+            { "value": "light_darts", "label": "Light darts" },
+            { "value": "pronounced_darts", "label": "Pronounced darts" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Set pockets to {OPTION}: describe shape and formality level",
+          "options": [
+            { "value": "welt_pocket", "label": "Welt pocket" },
+            { "value": "flap_pocket", "label": "Flap pocket" },
+            { "value": "patch_pocket", "label": "Patch pocket" },
+            { "value": "chest_pocket", "label": "Chest pocket" }
+          ]
+        },
+        {
+          "value": "vent",
+          "label": "Back Vent",
+          "default_template": "Set vent to {OPTION}: describe mobility and line",
+          "options": [
+            { "value": "no_vent", "label": "No vent" },
+            { "value": "center_vent", "label": "Center vent" },
+            { "value": "double_vent", "label": "Double vent" }
+          ]
+        },
+        {
+          "value": "lining",
+          "label": "Lining",
+          "default_template": "Set lining to {OPTION}: describe coverage and breathability",
+          "options": [
+            { "value": "unlined", "label": "Unlined" },
+            { "value": "half_lined", "label": "Half lined" },
+            { "value": "fully_lined", "label": "Fully lined" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, weight, and drape",
+          "options": [
+            { "value": "wool", "label": "Wool" },
+            { "value": "wool_blend", "label": "Wool blend" },
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "linen", "label": "Linen" },
+            { "value": "velvet", "label": "Velvet" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Sartorial Finishes",
+          "default_template": "Set finishes to {OPTION}: describe level of cleanliness and sartorial detail",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "high_sartorial", "label": "High sartorial" },
+            { "value": "visible_topstitching", "label": "Visible pick stitching" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "overcoat",
+      "label": "Overcoat",
+      "categories": [
+        {
+          "value": "structure",
+          "label": "Structure",
+          "default_template": "Set coat structure to {OPTION}: describe internal construction, stiffness, and formality level",
+          "options": [
+            { "value": "unstructured", "label": "Unstructured" },
+            { "value": "semi_structured", "label": "Semi structured" },
+            { "value": "structured", "label": "Structured" }
+          ]
+        },
+        {
+          "value": "front_opening",
+          "label": "Front Opening",
+          "default_template": "Set front opening to {OPTION}: describe proportion and front balance",
+          "options": [
+            { "value": "single_breasted", "label": "Single-breasted" },
+            { "value": "double_breasted", "label": "Double-breasted" }
+          ]
+        },
+        {
+          "value": "fastening",
+          "label": "Fastening",
+          "default_template": "Set fastening to {OPTION}: describe number of buttons and position",
+          "options": [
+            { "value": "two_buttons", "label": "Two buttons" },
+            { "value": "three_buttons", "label": "Three buttons" },
+            { "value": "four_buttons", "label": "Four buttons" },
+            { "value": "double_breasted_6x2", "label": "Double-breasted 6x2" },
+            { "value": "double_breasted_8x4", "label": "Double-breasted 8x4" }
+          ]
+        },
+        {
+          "value": "collar_lapel",
+          "label": "Collar and Lapel",
+          "default_template": "Change collar and lapel to {OPTION}: describe shape, width, and inclination",
+          "options": [
+            { "value": "notch_lapel", "label": "Notch lapel" },
+            { "value": "peak_lapel", "label": "Peak lapel" },
+            { "value": "shawl_lapel", "label": "Shawl lapel" },
+            { "value": "shirt_collar", "label": "Shirt collar" },
+            { "value": "high_neck", "label": "High neck / Military" }
+          ]
+        },
+        {
+          "value": "lapel_width",
+          "label": "Lapel: Width",
+          "default_template": "Adjust lapel width to {OPTION}: describe proportion with chest",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder",
+          "default_template": "Set shoulder construction to {OPTION}: describe line and support",
+          "options": [
+            { "value": "natural", "label": "Natural" },
+            { "value": "structured", "label": "Structured" },
+            { "value": "padded", "label": "Padded" },
+            { "value": "unpadded", "label": "Unpadded" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe length and width",
+          "options": [
+            { "value": "long", "label": "Long" },
+            { "value": "wide", "label": "Wide" },
+            { "value": "regular", "label": "Regular" }
+          ]
+        },
+        {
+          "value": "sleeve_vent",
+          "label": "Sleeve: Vent/Placket",
+          "default_template": "Set sleeve vent to {OPTION}: describe finish and sartorial detail",
+          "options": [
+            { "value": "faux_vent", "label": "Faux vent" },
+            { "value": "functional_vent", "label": "Functional vent" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Set coat length to {OPTION}: describe hitting point on the leg",
+          "options": [
+            { "value": "above_knee", "label": "Above knee" },
+            { "value": "at_knee", "label": "At knee" },
+            { "value": "below_knee", "label": "Below knee" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe chest, waist, and hem width",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Set pockets to {OPTION}: describe shape and formality level",
+          "options": [
+            { "value": "welt_pocket", "label": "Welt pocket" },
+            { "value": "flap_pocket", "label": "Flap pocket" },
+            { "value": "patch_pocket", "label": "Patch pocket" },
+            { "value": "vertical_pocket", "label": "Vertical pocket" }
+          ]
+        },
+        {
+          "value": "vent",
+          "label": "Back Vent",
+          "default_template": "Set vent to {OPTION}: describe mobility and line",
+          "options": [
+            { "value": "no_vent", "label": "No vent" },
+            { "value": "center_vent", "label": "Center vent" },
+            { "value": "double_vent", "label": "Double vent" }
+          ]
+        },
+        {
+          "value": "lining",
+          "label": "Lining",
+          "default_template": "Set lining to {OPTION}: describe coverage and thermal insulation",
+          "options": [
+            { "value": "unlined", "label": "Unlined" },
+            { "value": "half_lined", "label": "Half lined" },
+            { "value": "fully_lined", "label": "Fully lined" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, weight, and warmth",
+          "options": [
+            { "value": "wool", "label": "Wool" },
+            { "value": "cashmere", "label": "Cashmere" },
+            { "value": "wool_blend", "label": "Wool blend" },
+            { "value": "heavy_wool", "label": "Heavy wool (Panno)" },
+            { "value": "technical_fabric", "label": "Technical fabric" }
+          ]
+        },
+        {
+          "value": "weight",
+          "label": "Weight",
+          "default_template": "Set coat weight to {OPTION}: describe seasonality and protection",
+          "options": [
+            { "value": "light", "label": "Light" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "heavy", "label": "Heavy" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Sartorial Finishes",
+          "default_template": "Set finishes to {OPTION}: describe level of cleanliness and sartorial detail",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "high_sartorial", "label": "High sartorial" },
+            { "value": "visible_topstitching", "label": "Visible pick stitching" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "parka_puffer",
+      "label": "Parka / Puffer Jacket",
+      "categories": [
+        {
+          "value": "type",
+          "label": "Type",
+          "default_template": "Set item type to {OPTION}: describe main function and usage context",
+          "options": [
+            { "value": "parka", "label": "Parka" },
+            { "value": "puffer_jacket", "label": "Puffer jacket" },
+            { "value": "thermal_jacket", "label": "Thermal jacket" },
+            { "value": "technical_jacket", "label": "Technical padded jacket" }
+          ]
+        },
+        {
+          "value": "structure",
+          "label": "Structure",
+          "default_template": "Set structure to {OPTION}: describe construction and stiffness",
+          "options": [
+            { "value": "soft", "label": "Soft" },
+            { "value": "semi_structured", "label": "Semi structured" },
+            { "value": "structured", "label": "Structured" }
+          ]
+        },
+        {
+          "value": "front_opening",
+          "label": "Front Opening",
+          "default_template": "Set front opening to {OPTION}: describe practicality and protection",
+          "options": [
+            { "value": "full_opening", "label": "Full opening" }
+          ]
+        },
+        {
+          "value": "closure",
+          "label": "Closure",
+          "default_template": "Set closure to {OPTION}: describe protection system",
+          "options": [
+            { "value": "zip", "label": "Zip" },
+            { "value": "zip_buttons", "label": "Zip + buttons" },
+            { "value": "zip_snaps", "label": "Zip + snaps" }
+          ]
+        },
+        {
+          "value": "collar",
+          "label": "Collar",
+          "default_template": "Change collar to {OPTION}: describe height and insulation",
+          "options": [
+            { "value": "high_neck", "label": "High neck" },
+            { "value": "padded_collar", "label": "Padded collar" },
+            { "value": "fleece_lined_collar", "label": "Fleece-lined collar" }
+          ]
+        },
+        {
+          "value": "hood",
+          "label": "Hood",
+          "default_template": "Set hood to {OPTION}: describe volume and adjustments",
+          "options": [
+            { "value": "fixed", "label": "Fixed" },
+            { "value": "detachable", "label": "Detachable" },
+            { "value": "adjustable", "label": "Adjustable" },
+            { "value": "fur_trim", "label": "With faux fur trim" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder",
+          "default_template": "Set shoulder to {OPTION}: describe line and comfort in motion",
+          "options": [
+            { "value": "set_in", "label": "Set-in sleeve" },
+            { "value": "raglan", "label": "Raglan" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe volume and protection",
+          "options": [
+            { "value": "long", "label": "Long" },
+            { "value": "preformed", "label": "Preformed" }
+          ]
+        },
+        {
+          "value": "cuffs",
+          "label": "Cuffs",
+          "default_template": "Set cuffs to {OPTION}: describe closure and insulation",
+          "options": [
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "adjustable", "label": "Adjustable" },
+            { "value": "inner_cuff", "label": "Inner windproof cuff" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body: Length",
+          "default_template": "Set body length to {OPTION}: describe coverage",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe possible layering",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Set pockets to {OPTION}: describe number, position, and function",
+          "options": [
+            { "value": "side_pockets", "label": "Side pockets" },
+            { "value": "flap_pockets", "label": "Flap pockets" },
+            { "value": "zip_pockets", "label": "Zip pockets" },
+            { "value": "inner_pockets", "label": "Inner pockets" }
+          ]
+        },
+        {
+          "value": "padding",
+          "label": "Padding",
+          "default_template": "Set padding to {OPTION}: describe thermal power and volume",
+          "options": [
+            { "value": "natural_down", "label": "Natural down" },
+            { "value": "synthetic_padding", "label": "Synthetic padding" },
+            { "value": "mixed", "label": "Mixed" }
+          ]
+        },
+        {
+          "value": "warmth_level",
+          "label": "Warmth Level",
+          "default_template": "Set warmth level to {OPTION}: describe seasonality",
+          "options": [
+            { "value": "medium", "label": "Medium" },
+            { "value": "high", "label": "High" },
+            { "value": "extreme", "label": "Extreme" }
+          ]
+        },
+        {
+          "value": "outer_material",
+          "label": "Outer Material",
+          "default_template": "Set outer material to {OPTION}: describe resistance and protection",
+          "options": [
+            { "value": "nylon", "label": "Nylon" },
+            { "value": "polyester", "label": "Polyester" },
+            { "value": "technical_fabric", "label": "Technical fabric" },
+            { "value": "treated_cotton", "label": "Treated cotton" }
+          ]
+        },
+        {
+          "value": "waterproof",
+          "label": "Waterproof",
+          "default_template": "Set waterproof level to {OPTION}: describe rain and snow protection",
+          "options": [
+            { "value": "water_repellent", "label": "Water repellent" },
+            { "value": "waterproof", "label": "Waterproof" },
+            { "value": "treated_waterproof", "label": "Treated waterproof" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe seams, taping, and durability",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "taped_seams", "label": "Taped seams" },
+            { "value": "reinforced", "label": "Reinforced" }
+          ]
+        }
+      ]
+    },
+	
+	
+	{
+  "value": "dress",
+  "label": "Dress",
+  "categories": [
+    {
+      "value": "neckline",
+      "label": "Neckline",
+      "default_template": "Modify the neckline to {OPTION}: describe shape, depth, opening and visual balance",
+      "options": [
+        { "value": "crew_neck", "label": "Crew neck" },
+        { "value": "v_neck", "label": "V-neck" },
+        { "value": "deep_v_neck", "label": "Deep V-neck" },
+        { "value": "square_neck", "label": "Square neckline" },
+        { "value": "sweetheart_neck", "label": "Sweetheart neckline" },
+        { "value": "boat_neck", "label": "Boat neckline" },
+        { "value": "halter_neck", "label": "Halter neckline" },
+        { "value": "off_shoulder", "label": "Off-shoulder" },
+        { "value": "one_shoulder", "label": "One-shoulder" }
+      ]
+    },
+    {
+      "value": "neckline_depth",
+      "label": "Neckline: depth",
+      "default_template": "Adjust the neckline depth to {OPTION}: describe cleavage level and front opening",
+      "options": [
+        { "value": "shallow", "label": "Shallow" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "deep", "label": "Deep" },
+        { "value": "very_deep", "label": "Very deep" }
+      ]
+    },
+    {
+      "value": "bodice_structure",
+      "label": "Bodice structure",
+      "default_template": "Modify the bodice structure to {OPTION}: describe support, shaping and construction",
+      "options": [
+        { "value": "soft_bodice", "label": "Soft bodice" },
+        { "value": "structured_bodice", "label": "Structured bodice" },
+        { "value": "corset_bodice", "label": "Corset-style bodice" },
+        { "value": "empire_bodice", "label": "Empire bodice" }
+      ]
+    },
+    {
+      "value": "waist_position",
+      "label": "Waist position",
+      "default_template": "Set the waist position to {OPTION}: describe proportion and silhouette balance",
+      "options": [
+        { "value": "natural_waist", "label": "Natural waist" },
+        { "value": "high_waist", "label": "High waist" },
+        { "value": "empire_waist", "label": "Empire waist" },
+        { "value": "dropped_waist", "label": "Dropped waist" },
+        { "value": "no_defined_waist", "label": "No defined waist" }
+      ]
+    },
+    {
+      "value": "skirt_shape",
+      "label": "Skirt shape",
+      "default_template": "Modify the skirt shape to {OPTION}: describe volume distribution and movement",
+      "options": [
+        { "value": "straight", "label": "Straight" },
+        { "value": "a_line", "label": "A-line" },
+        { "value": "fit_and_flare", "label": "Fit and flare" },
+        { "value": "pleated", "label": "Pleated" },
+        { "value": "circle", "label": "Circle skirt" },
+        { "value": "mermaid", "label": "Mermaid" }
+      ]
+    },
+    {
+      "value": "skirt_length",
+      "label": "Skirt length",
+      "default_template": "Set the skirt length to {OPTION}: describe hem position relative to the leg",
+      "options": [
+        { "value": "mini", "label": "Mini" },
+        { "value": "above_knee", "label": "Above knee" },
+        { "value": "knee_length", "label": "Knee length" },
+        { "value": "midi", "label": "Midi" },
+        { "value": "maxi", "label": "Maxi" },
+        { "value": "floor_length", "label": "Floor length" }
+      ]
+    },
+    {
+      "value": "sleeves",
+      "label": "Sleeves",
+      "default_template": "Modify the sleeves to {OPTION}: describe length, volume and attachment",
+      "options": [
+        { "value": "sleeveless", "label": "Sleeveless" },
+        { "value": "cap_sleeve", "label": "Cap sleeve" },
+        { "value": "short_sleeve", "label": "Short sleeve" },
+        { "value": "elbow_length", "label": "Elbow length sleeve" },
+        { "value": "long_sleeve", "label": "Long sleeve" },
+        { "value": "balloon_sleeve", "label": "Balloon sleeve" }
+      ]
+    },
+    {
+      "value": "closure",
+      "label": "Closure",
+      "default_template": "Modify the closure to {OPTION}: describe position, visibility and construction",
+      "options": [
+        { "value": "back_zip", "label": "Back zipper" },
+        { "value": "side_zip", "label": "Side zipper" },
+        { "value": "buttons", "label": "Buttons" },
+        { "value": "wrap_closure", "label": "Wrap closure" },
+        { "value": "no_closure", "label": "No closure (pull-on)" }
+      ]
+    },
+    {
+      "value": "slit",
+      "label": "Slit",
+      "default_template": "Add or remove a slit: set to {OPTION} and describe length and position",
+      "options": [
+        { "value": "no_slit", "label": "No slit" },
+        { "value": "front_slit", "label": "Front slit" },
+        { "value": "side_slit", "label": "Side slit" },
+        { "value": "back_slit", "label": "Back slit" },
+        { "value": "high_slit", "label": "High slit" }
+      ]
+    },
+    {
+      "value": "fit",
+      "label": "Fit",
+      "default_template": "Set the overall fit to {OPTION}: describe body adherence and ease",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regular", "label": "Regular" },
+        { "value": "relaxed", "label": "Relaxed" },
+        { "value": "bodycon", "label": "Bodycon" }
+      ]
+    },
+    {
+      "value": "fabric_structure",
+      "label": "Fabric: structure",
+      "default_template": "Set the fabric structure to {OPTION}: describe drape, weight and texture",
+      "options": [
+        { "value": "woven", "label": "Woven" },
+        { "value": "knit", "label": "Knit" },
+        { "value": "lace", "label": "Lace" },
+        { "value": "chiffon", "label": "Chiffon" },
+        { "value": "satin", "label": "Satin" }
+      ]
+    },
+    {
+      "value": "details",
+      "label": "Details",
+      "default_template": "Add or modify details set to {OPTION}: describe placement and visual impact",
+      "options": [
+        { "value": "no_details", "label": "No additional details" },
+        { "value": "ruffles", "label": "Ruffles" },
+        { "value": "gathering", "label": "Gathering" },
+        { "value": "draped_panels", "label": "Draped panels" },
+        { "value": "cut_outs", "label": "Cut-outs" }
+      ]
+    }
+  ]
+},
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "value": "suit",
+      "label": "Suit",
+      "categories": [
+        {
+          "value": "configuration",
+          "label": "Configuration",
+          "default_template": "Set suit configuration to {OPTION}: describe composition and usage context",
+          "options": [
+            { "value": "two_piece", "label": "Two-piece (jacket + trousers)" },
+            { "value": "three_piece", "label": "Three-piece (jacket + trousers + vest)" }
+          ]
+        },
+        {
+          "value": "jacket_structure",
+          "label": "Jacket: Structure",
+          "default_template": "Set jacket structure to {OPTION}: describe internal construction and formality",
+          "options": [
+            { "value": "unstructured", "label": "Unstructured" },
+            { "value": "semi_structured", "label": "Semi structured" },
+            { "value": "structured", "label": "Structured" }
+          ]
+        },
+        {
+          "value": "jacket_opening",
+          "label": "Jacket: Opening",
+          "default_template": "Set jacket opening to {OPTION}: describe proportion and style",
+          "options": [
+            { "value": "single_breasted", "label": "Single-breasted" },
+            { "value": "double_breasted", "label": "Double-breasted" }
+          ]
+        },
+        {
+          "value": "jacket_fastening",
+          "label": "Jacket: Fastening",
+          "default_template": "Set jacket fastening to {OPTION}: describe number of buttons and position",
+          "options": [
+            { "value": "one_button", "label": "One button" },
+            { "value": "two_buttons", "label": "Two buttons" },
+            { "value": "three_buttons", "label": "Three buttons" },
+            { "value": "double_breasted_6x2", "label": "Double-breasted 6x2" }
+          ]
+        },
+        {
+          "value": "lapel",
+          "label": "Jacket: Lapel",
+          "default_template": "Set lapel to {OPTION}: describe shape and sartorial character",
+          "options": [
+            { "value": "notch_lapel", "label": "Notch lapel" },
+            { "value": "peak_lapel", "label": "Peak lapel" },
+            { "value": "shawl_lapel", "label": "Shawl lapel" }
+          ]
+        },
+        {
+          "value": "jacket_shoulder",
+          "label": "Jacket: Shoulder",
+          "default_template": "Set shoulder to {OPTION}: describe line and support",
+          "options": [
+            { "value": "natural", "label": "Natural" },
+            { "value": "structured", "label": "Structured" },
+            { "value": "padded", "label": "Padded" }
+          ]
+        },
+        {
+          "value": "jacket_fit",
+          "label": "Jacket: Fit",
+          "default_template": "Set jacket fit to {OPTION}: describe chest and waist point",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" }
+          ]
+        },
+        {
+          "value": "jacket_vent",
+          "label": "Jacket: Vent",
+          "default_template": "Set vent to {OPTION}: describe mobility and line",
+          "options": [
+            { "value": "no_vent", "label": "No vent" },
+            { "value": "center_vent", "label": "Center vent" },
+            { "value": "double_vent", "label": "Double vent" }
+          ]
+        },
+        {
+          "value": "jacket_lining",
+          "label": "Jacket: Lining",
+          "default_template": "Set jacket lining to {OPTION}: describe coverage and breathability",
+          "options": [
+            { "value": "unlined", "label": "Unlined" },
+            { "value": "half_lined", "label": "Half lined" },
+            { "value": "fully_lined", "label": "Fully lined" }
+          ]
+        },
+        {
+          "value": "trouser_waist",
+          "label": "Trousers: Waist",
+          "default_template": "Set trouser waist to {OPTION}: describe height and structure",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "mid", "label": "Mid" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "trouser_waist_construction",
+          "label": "Trousers: Waist Construction",
+          "default_template": "Set waist construction to {OPTION}: describe adaptability and comfort",
+          "options": [
+            { "value": "classic", "label": "Classic" },
+            { "value": "with_pleats", "label": "With pleats" },
+            { "value": "double_pleats", "label": "Double pleats" },
+            { "value": "side_adjusters", "label": "With side adjusters" }
+          ]
+        },
+        {
+          "value": "trouser_closure",
+          "label": "Trousers: Closure",
+          "default_template": "Set trouser closure to {OPTION}: describe system and front cleanliness",
+          "options": [
+            { "value": "zip_button", "label": "Zip and button" },
+            { "value": "zip_hook", "label": "Zip and hook" },
+            { "value": "buttons", "label": "Buttons" }
+          ]
+        },
+        {
+          "value": "trouser_fit",
+          "label": "Trousers: Fit",
+          "default_template": "Set trouser fit to {OPTION}: describe thigh and leg width",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" }
+          ]
+        },
+        {
+          "value": "trouser_length",
+          "label": "Trousers: Length",
+          "default_template": "Set trouser length to {OPTION}: describe relationship with the shoe",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "trouser_hem",
+          "label": "Trousers: Hem",
+          "default_template": "Set trouser hem to {OPTION}: describe opening and style",
+          "options": [
+            { "value": "straight", "label": "Straight" },
+            { "value": "turn_up", "label": "Turn-up / Cuff" }
+          ]
+        },
+        {
+          "value": "trouser_pockets",
+          "label": "Trousers: Pockets",
+          "default_template": "Set trouser pockets to {OPTION}: describe formality level",
+          "options": [
+            { "value": "slant_pocket", "label": "Slant pocket" },
+            { "value": "welt_pocket", "label": "Welt pocket" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, weight, and seasonality",
+          "options": [
+            { "value": "wool", "label": "Wool" },
+            { "value": "cool_wool", "label": "Cool wool (Fresco)" },
+            { "value": "flannel", "label": "Flannel" },
+            { "value": "wool_blend", "label": "Wool blend" }
+          ]
+        },
+        {
+          "value": "fabric_weight",
+          "label": "Fabric Weight",
+          "default_template": "Set fabric weight to {OPTION}: describe seasonality",
+          "options": [
+            { "value": "light", "label": "Light" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "heavy", "label": "Heavy" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Sartorial Finishes",
+          "default_template": "Set finishes to {OPTION}: describe level of workmanship and cleanliness",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "high_sartorial", "label": "High sartorial" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "tracksuit",
+      "label": "Tracksuit / Jumpsuit",
+      "categories": [
+        {
+          "value": "type",
+          "label": "Type",
+          "default_template": "Set tracksuit type to {OPTION}: describe main function and usage context",
+          "options": [
+            { "value": "two_piece_tracksuit", "label": "Two-piece tracksuit (sweatshirt + trousers)" },
+            { "value": "full_jumpsuit", "label": "Full jumpsuit" },
+            { "value": "technical_tracksuit", "label": "Technical tracksuit" },
+            { "value": "lifestyle_tracksuit", "label": "Lifestyle tracksuit" }
+          ]
+        },
+        {
+          "value": "general_structure",
+          "label": "General Structure",
+          "default_template": "Set general structure to {OPTION}: describe construction and stiffness",
+          "options": [
+            { "value": "soft", "label": "Soft" },
+            { "value": "semi_structured", "label": "Semi structured" },
+            { "value": "structured", "label": "Structured" }
+          ]
+        },
+        {
+          "value": "front_opening",
+          "label": "Front Opening",
+          "default_template": "Set front opening to {OPTION}: describe practicality and visual continuity",
+          "options": [
+            { "value": "full_zip", "label": "Full zip" },
+            { "value": "half_zip", "label": "Half zip" },
+            { "value": "buttons", "label": "Buttons" },
+            { "value": "no_opening", "label": "No opening (pull-on)" }
+          ]
+        },
+        {
+          "value": "collar",
+          "label": "Collar",
+          "default_template": "Change collar to {OPTION}: describe height and protection",
+          "options": [
+            { "value": "crew_neck", "label": "Crew neck" },
+            { "value": "high_neck", "label": "High neck" },
+            { "value": "zip_neck", "label": "Zip neck" },
+            { "value": "hooded", "label": "Hooded" }
+          ]
+        },
+        {
+          "value": "shoulder",
+          "label": "Shoulder",
+          "default_template": "Set shoulder to {OPTION}: describe line and comfort in motion",
+          "options": [
+            { "value": "set_in", "label": "Set-in sleeve" },
+            { "value": "raglan", "label": "Raglan" },
+            { "value": "drop_shoulder", "label": "Drop shoulder" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Change sleeves to {OPTION}: describe length and volume",
+          "options": [
+            { "value": "long", "label": "Long" },
+            { "value": "short", "label": "Short" },
+            { "value": "adjustable", "label": "Adjustable" }
+          ]
+        },
+        {
+          "value": "waist",
+          "label": "Waist",
+          "default_template": "Set waist to {OPTION}: describe height and adaptability",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "mid", "label": "Mid" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "waist_construction",
+          "label": "Waist: Construction",
+          "default_template": "Set waist construction to {OPTION}: describe comfort and adjustment",
+          "options": [
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "drawstring", "label": "Drawstring" },
+            { "value": "mixed", "label": "Mixed" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe freedom of movement and proportions",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "oversize", "label": "Oversize" }
+          ]
+        },
+        {
+          "value": "leg_length",
+          "label": "Leg: Length",
+          "default_template": "Set leg length to {OPTION}: describe hitting point",
+          "options": [
+            { "value": "ankle_length", "label": "Ankle length" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "leg_hem",
+          "label": "Leg: Hem",
+          "default_template": "Set leg hem to {OPTION}: describe closure and stability",
+          "options": [
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "straight", "label": "Straight" },
+            { "value": "zip_hem", "label": "Zip hem" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Set pockets to {OPTION}: describe number, position, and function",
+          "options": [
+            { "value": "side_pockets", "label": "Side pockets" },
+            { "value": "zip_pockets", "label": "Zip pockets" },
+            { "value": "back_pockets", "label": "Back pockets" },
+            { "value": "cargo_pockets", "label": "Cargo pockets" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, elasticity, and breathability",
+          "options": [
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "fleece", "label": "Fleece" },
+            { "value": "jersey", "label": "Jersey" },
+            { "value": "technical_fabric", "label": "Technical fabric" }
+          ]
+        },
+        {
+          "value": "elasticity",
+          "label": "Elasticity",
+          "default_template": "Set elasticity to {OPTION}: describe comfort and recovery",
+          "options": [
+            { "value": "rigid", "label": "Rigid" },
+            { "value": "slight_stretch", "label": "Slight stretch" },
+            { "value": "elastic", "label": "Elastic" }
+          ]
+        },
+        {
+          "value": "seasonality",
+          "label": "Seasonality",
+          "default_template": "Set seasonality to {OPTION}: describe weight and usage",
+          "options": [
+            { "value": "four_seasons", "label": "Four seasons" },
+            { "value": "spring_summer", "label": "Spring / Summer" },
+            { "value": "autumn_winter", "label": "Autumn / Winter" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe seams and durability",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "reinforced", "label": "Reinforced" },
+            { "value": "topstitched", "label": "Topstitched" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "loungewear",
+      "label": "Loungewear / Pajamas",
+      "categories": [
+        {
+          "value": "type",
+          "label": "Type",
+          "default_template": "Set item type to {OPTION}: describe main use and domestic context",
+          "options": [
+            { "value": "two_piece_pajama", "label": "Two-piece pajama (top + bottom)" },
+            { "value": "onesie", "label": "Onesie / Jumpsuit" },
+            { "value": "two_piece_loungewear", "label": "Two-piece loungewear" },
+            { "value": "mix_match_loungewear", "label": "Mix & match loungewear" }
+          ]
+        },
+        {
+          "value": "general_structure",
+          "label": "General Structure",
+          "default_template": "Set general structure to {OPTION}: describe construction and softness",
+          "options": [
+            { "value": "soft", "label": "Soft" },
+            { "value": "very_soft", "label": "Very soft" },
+            { "value": "semi_structured", "label": "Semi structured" }
+          ]
+        },
+        {
+          "value": "top_opening",
+          "label": "Top: Opening",
+          "default_template": "Set top opening to {OPTION}: describe practicality and comfort",
+          "options": [
+            { "value": "buttons", "label": "Buttons" },
+            { "value": "zip", "label": "Zip" },
+            { "value": "pull_on", "label": "Pull-on (no opening)" }
+          ]
+        },
+        {
+          "value": "collar",
+          "label": "Collar",
+          "default_template": "Change collar to {OPTION}: describe comfort and freedom",
+          "options": [
+            { "value": "crew_neck", "label": "Crew neck" },
+            { "value": "v_neck", "label": "V-neck" },
+            { "value": "shirt_collar", "label": "Shirt collar" },
+            { "value": "soft_collar", "label": "Soft collar" }
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Set sleeves to {OPTION}: describe length and thermal comfort",
+          "options": [
+            { "value": "long", "label": "Long" },
+            { "value": "short", "label": "Short" },
+            { "value": "three_quarter", "label": "Three-quarter" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe freedom of movement",
+          "options": [
+            { "value": "relaxed", "label": "Relaxed" },
+            { "value": "wide", "label": "Wide" },
+            { "value": "regular", "label": "Regular" }
+          ]
+        },
+        {
+          "value": "bottom_waist",
+          "label": "Bottom: Waist",
+          "default_template": "Set bottom waist to {OPTION}: describe comfort and adaptability",
+          "options": [
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "drawstring", "label": "Drawstring" },
+            { "value": "mixed", "label": "Mixed" }
+          ]
+        },
+        {
+          "value": "bottom_length",
+          "label": "Bottom: Length",
+          "default_template": "Set bottom length to {OPTION}: describe coverage",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "bottom_hem",
+          "label": "Bottom: Hem",
+          "default_template": "Set bottom hem to {OPTION}: describe stability",
+          "options": [
+            { "value": "straight", "label": "Straight" },
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "open", "label": "Open" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Set pockets to {OPTION}: describe function and presence",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "side_pockets", "label": "Side pockets" },
+            { "value": "one_back_pocket", "label": "One back pocket" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, breathability, and comfort",
+          "options": [
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "jersey", "label": "Jersey" },
+            { "value": "flannel", "label": "Flannel" },
+            { "value": "modal", "label": "Modal" },
+            { "value": "cotton_blend", "label": "Cotton blend" }
+          ]
+        },
+        {
+          "value": "fabric_weight",
+          "label": "Fabric Weight",
+          "default_template": "Set fabric weight to {OPTION}: describe seasonality",
+          "options": [
+            { "value": "light", "label": "Light" },
+            { "value": "medium", "label": "Medium" }
+          ]
+        },
+        {
+          "value": "seasonality",
+          "label": "Seasonality",
+          "default_template": "Set seasonality to {OPTION}: describe domestic usage",
+          "options": [
+            { "value": "spring_summer", "label": "Spring / Summer" },
+            { "value": "autumn_winter", "label": "Autumn / Winter" },
+            { "value": "four_seasons", "label": "Four seasons" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe seams and skin contact comfort",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "soft_seams", "label": "Soft seams" },
+            { "value": "tagless", "label": "Tagless (no inner label)" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "underwear_top",
+      "label": "Underwear Top (Tank / Undershirt)",
+      "categories": [
+        {
+          "value": "type",
+          "label": "Type",
+          "default_template": "Set underwear top type to {OPTION}: describe shape and function",
+          "options": [
+            { "value": "tank_top", "label": "Tank top" },
+            { "value": "undershirt", "label": "Undershirt (T-shirt)" },
+            { "value": "thermal_underwear", "label": "Thermal underwear" }
+          ]
+        },
+        {
+          "value": "structure",
+          "label": "Structure",
+          "default_template": "Set structure to {OPTION}: describe adherence and support",
+          "options": [
+            { "value": "very_fitted", "label": "Very fitted" },
+            { "value": "fitted", "label": "Fitted" },
+            { "value": "regular", "label": "Regular" }
+          ]
+        },
+        {
+          "value": "neckline",
+          "label": "Neckline",
+          "default_template": "Change neckline to {OPTION}: describe depth and invisibility under other garments",
+          "options": [
+            { "value": "crew_neck", "label": "Crew neck" },
+            { "value": "v_neck", "label": "V-neck" },
+            { "value": "deep_neck", "label": "Deep neck" }
+          ]
+        },
+        {
+          "value": "straps_sleeves",
+          "label": "Straps / Sleeves",
+          "default_template": "Set straps or sleeves to {OPTION}: describe shoulder coverage",
+          "options": [
+            { "value": "sleeveless", "label": "Sleeveless" },
+            { "value": "narrow_strap", "label": "Narrow strap" },
+            { "value": "wide_strap", "label": "Wide strap" },
+            { "value": "short_sleeve", "label": "Short sleeve" }
+          ]
+        },
+        {
+          "value": "body_length",
+          "label": "Body Length",
+          "default_template": "Set body length to {OPTION}: describe torso coverage",
+          "options": [
+            { "value": "short", "label": "Short" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe second-skin effect",
+          "options": [
+            { "value": "skin_fit", "label": "Skin fit" },
+            { "value": "fitted", "label": "Fitted" },
+            { "value": "regular", "label": "Regular" }
+          ]
+        },
+        {
+          "value": "elasticity",
+          "label": "Elasticity",
+          "default_template": "Set elasticity to {OPTION}: describe comfort and recovery",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, breathability, and absorption",
+          "options": [
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "stretch_cotton", "label": "Stretch cotton" },
+            { "value": "modal", "label": "Modal" },
+            { "value": "microfiber", "label": "Microfiber" },
+            { "value": "merino_wool", "label": "Merino wool" }
+          ]
+        },
+        {
+          "value": "breathability",
+          "label": "Breathability",
+          "default_template": "Set breathability to {OPTION}: describe moisture management",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "construction",
+          "label": "Construction",
+          "default_template": "Set construction to {OPTION}: describe seams and skin contact comfort",
+          "options": [
+            { "value": "standard_seams", "label": "Standard seams" },
+            { "value": "flatlock", "label": "Flatlock seams" },
+            { "value": "seamless", "label": "Seamless" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes",
+          "default_template": "Set finishes to {OPTION}: describe edges and cleanliness",
+          "options": [
+            { "value": "cut_edges", "label": "Cut edges" },
+            { "value": "hemmed_edges", "label": "Hemmed edges" },
+            { "value": "tagless", "label": "Tagless (no inner label)" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "underwear_bottom",
+      "label": "Underwear Bottom (Boxer / Briefs)",
+      "categories": [
+        {
+          "value": "type",
+          "label": "Type",
+          "default_template": "Set underwear bottom type to {OPTION}: describe shape and coverage",
+          "options": [
+            { "value": "briefs", "label": "Briefs" },
+            { "value": "boxer_briefs", "label": "Boxer briefs (fitted)" },
+            { "value": "boxers", "label": "Boxers (loose)" },
+            { "value": "thermal_bottoms", "label": "Thermal bottoms" }
+          ]
+        },
+        {
+          "value": "structure",
+          "label": "Structure",
+          "default_template": "Set structure to {OPTION}: describe adherence and anatomical support",
+          "options": [
+            { "value": "very_fitted", "label": "Very fitted" },
+            { "value": "fitted", "label": "Fitted" },
+            { "value": "regular", "label": "Regular" }
+          ]
+        },
+        {
+          "value": "waist_height",
+          "label": "Waist: Height",
+          "default_template": "Set waist height to {OPTION}: describe position on hips",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "mid", "label": "Mid" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "waist_construction",
+          "label": "Waist: Construction",
+          "default_template": "Set waist construction to {OPTION}: describe stability and comfort",
+          "options": [
+            { "value": "exposed_elastic", "label": "Exposed elastic" },
+            { "value": "covered_elastic", "label": "Covered elastic" },
+            { "value": "no_visible_elastic", "label": "No visible elastic" }
+          ]
+        },
+        {
+          "value": "leg_length",
+          "label": "Leg: Length",
+          "default_template": "Set leg length to {OPTION}: describe thigh coverage",
+          "options": [
+            { "value": "no_leg", "label": "No leg (briefs)" },
+            { "value": "short", "label": "Short" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "leg_opening",
+          "label": "Leg: Opening",
+          "default_template": "Set leg opening to {OPTION}: describe adherence and stability",
+          "options": [
+            { "value": "fitted", "label": "Fitted" },
+            { "value": "elasticized", "label": "Elasticized" },
+            { "value": "loose", "label": "Loose" }
+          ]
+        },
+        {
+          "value": "front_support",
+          "label": "Front Support",
+          "default_template": "Set front support to {OPTION}: describe construction and containment",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "anatomical", "label": "Anatomical" },
+            { "value": "molded_pouch", "label": "Molded pouch" }
+          ]
+        },
+        {
+          "value": "seams",
+          "label": "Seams",
+          "default_template": "Set seams to {OPTION}: describe skin contact comfort",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "flatlock", "label": "Flatlock" },
+            { "value": "seamless", "label": "Seamless" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe second-skin effect",
+          "options": [
+            { "value": "skin_fit", "label": "Skin fit" },
+            { "value": "fitted", "label": "Fitted" },
+            { "value": "regular", "label": "Regular" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe handfeel, breathability, and elasticity",
+          "options": [
+            { "value": "cotton", "label": "Cotton" },
+            { "value": "stretch_cotton", "label": "Stretch cotton" },
+            { "value": "modal", "label": "Modal" },
+            { "value": "microfiber", "label": "Microfiber" },
+            { "value": "merino_wool", "label": "Merino wool" }
+          ]
+        },
+        {
+          "value": "breathability",
+          "label": "Breathability",
+          "default_template": "Set breathability to {OPTION}: describe moisture management",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes",
+          "default_template": "Set finishes to {OPTION}: describe edges and long-term comfort",
+          "options": [
+            { "value": "hemmed_edges", "label": "Hemmed edges" },
+            { "value": "cut_edges", "label": "Cut edges" },
+            { "value": "tagless", "label": "Tagless (no inner label)" }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "swimwear",
+      "label": "Swimwear",
+      "categories": [
+        {
+          "value": "type",
+          "label": "Type",
+          "default_template": "Set swimwear type to {OPTION}: describe shape and usage context",
+          "options": [
+            { "value": "swim_shorts", "label": "Swim shorts" },
+            { "value": "swim_bermuda", "label": "Swim bermuda" },
+            { "value": "swim_briefs", "label": "Swim briefs" },
+            { "value": "boardshorts", "label": "Boardshorts" }
+          ]
+        },
+        {
+          "value": "waist_height",
+          "label": "Waist: Height",
+          "default_template": "Set waist height to {OPTION}: describe position and comfort",
+          "options": [
+            { "value": "low", "label": "Low" },
+            { "value": "mid", "label": "Mid" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "waist_construction",
+          "label": "Waist: Construction",
+          "default_template": "Set waist construction to {OPTION}: describe adjustment and stability",
+          "options": [
+            { "value": "elastic", "label": "Elastic" },
+            { "value": "drawstring", "label": "Drawstring" },
+            { "value": "fixed_waist", "label": "Fixed waist" }
+          ]
+        },
+        {
+          "value": "waist_closure",
+          "label": "Waist: Closure",
+          "default_template": "Set waist closure to {OPTION}: describe security and practicality",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "lace", "label": "Lace" },
+            { "value": "velcro", "label": "Velcro" },
+            { "value": "button_zip", "label": "Button and zip" }
+          ]
+        },
+        {
+          "value": "fit",
+          "label": "Fit",
+          "default_template": "Set fit to {OPTION}: describe freedom of movement",
+          "options": [
+            { "value": "slim", "label": "Slim" },
+            { "value": "regular", "label": "Regular" },
+            { "value": "relaxed", "label": "Relaxed" }
+          ]
+        },
+        {
+          "value": "leg_length",
+          "label": "Leg: Length",
+          "default_template": "Set leg length to {OPTION}: describe hitting point",
+          "options": [
+            { "value": "very_short", "label": "Very short" },
+            { "value": "short", "label": "Short" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "long", "label": "Long" }
+          ]
+        },
+        {
+          "value": "leg_opening",
+          "label": "Leg: Opening",
+          "default_template": "Set leg opening to {OPTION}: describe width and stability",
+          "options": [
+            { "value": "narrow", "label": "Narrow" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "wide", "label": "Wide" }
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Set pockets to {OPTION}: describe number, position, and drainage",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "side_pockets", "label": "Side pockets" },
+            { "value": "back_pocket", "label": "Back pocket" },
+            { "value": "side_and_back", "label": "Side + back" }
+          ]
+        },
+        {
+          "value": "inner_mesh",
+          "label": "Inner Mesh",
+          "default_template": "Set inner mesh to {OPTION}: describe support and comfort",
+          "options": [
+            { "value": "present", "label": "Present" },
+            { "value": "absent", "label": "Absent" },
+            { "value": "inner_boxer", "label": "Inner boxer" }
+          ]
+        },
+        {
+          "value": "main_material",
+          "label": "Main Material",
+          "default_template": "Set main material to {OPTION}: describe drying and resistance",
+          "options": [
+            { "value": "polyester", "label": "Polyester" },
+            { "value": "nylon", "label": "Nylon" },
+            { "value": "technical_fabric", "label": "Technical fabric" },
+            { "value": "recycled_polyester", "label": "Recycled polyester" }
+          ]
+        },
+        {
+          "value": "drying",
+          "label": "Drying",
+          "default_template": "Set drying speed to {OPTION}: describe performance",
+          "options": [
+            { "value": "quick", "label": "Quick" },
+            { "value": "standard", "label": "Standard" }
+          ]
+        },
+        {
+          "value": "resistance",
+          "label": "Chlorine/Salt Resistance",
+          "default_template": "Set resistance to {OPTION}: describe durability",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "high", "label": "High" }
+          ]
+        },
+        {
+          "value": "finishes",
+          "label": "Finishes and Construction",
+          "default_template": "Set finishes to {OPTION}: describe seams and robustness",
+          "options": [
+            { "value": "standard", "label": "Standard" },
+            { "value": "reinforced_seams", "label": "Reinforced seams" },
+            { "value": "heat_sealed", "label": "Heat sealed" }
+          ]
+        }
+      ]
+    }
+  ]
+}

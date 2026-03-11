@@ -1,0 +1,460 @@
+{
+  "version": "1.0.0",
+  "garment_types": [
+    {
+      "value": "sweater",
+      "label": "Sweater / Knitwear",
+      "categories": [
+        {
+          "value": "neckline",
+          "label": "Neckline",
+          "default_template": "Transform the neckline to {OPTION}: describe shape, height, rib texture, edge finishing",
+          "options": [
+            {"value": "crew_neck", "label": "Crew Neck"},
+            {"value": "v_neck", "label": "V-Neck"},
+            {"value": "turtleneck", "label": "Turtleneck"},
+            {"value": "mock_neck", "label": "Mock Neck"},
+            {"value": "boat_neck", "label": "Boat Neck"},
+            {"value": "scoop_neck", "label": "Scoop Neck"},
+            {"value": "henley", "label": "Henley"},
+            {"value": "shawl_collar", "label": "Shawl Collar"},
+            {"value": "zip_neck", "label": "Zip Neck / Half-Zip"}
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Modify sleeves to {OPTION}: describe length, cuff style, fit",
+          "options": [
+            {"value": "long_fitted", "label": "Long Fitted"},
+            {"value": "long_loose", "label": "Long Loose"},
+            {"value": "three_quarter", "label": "Three-Quarter"},
+            {"value": "short", "label": "Short Sleeve"},
+            {"value": "sleeveless", "label": "Sleeveless"},
+            {"value": "raglan", "label": "Raglan"},
+            {"value": "dolman", "label": "Dolman / Batwing"},
+            {"value": "puff", "label": "Puff Sleeve"},
+            {"value": "bell", "label": "Bell Sleeve"}
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem / Bottom Edge",
+          "default_template": "Change hem to {OPTION}: describe finish, length, shape",
+          "options": [
+            {"value": "ribbed_straight", "label": "Ribbed Straight"},
+            {"value": "raw_edge", "label": "Raw Edge"},
+            {"value": "curved", "label": "Curved Hem"},
+            {"value": "asymmetric", "label": "Asymmetric"},
+            {"value": "split_side", "label": "Split Side"},
+            {"value": "banded", "label": "Banded"},
+            {"value": "cropped", "label": "Cropped"},
+            {"value": "longline", "label": "Longline / Tunic"}
+          ]
+        },
+        {
+          "value": "closure",
+          "label": "Closure / Buttons",
+          "default_template": "Add or modify closure with {OPTION}: describe button count, size, material, placement",
+          "options": [
+            {"value": "none", "label": "No Closure (Pullover)"},
+            {"value": "full_button", "label": "Full Button Front"},
+            {"value": "half_button", "label": "Half Button / Henley"},
+            {"value": "full_zip", "label": "Full Zip"},
+            {"value": "half_zip", "label": "Half Zip"},
+            {"value": "toggle", "label": "Toggle Buttons"},
+            {"value": "snap", "label": "Snap Buttons"}
+          ]
+        },
+        {
+          "value": "decorations",
+          "label": "Decorations / Details",
+          "default_template": "Add {OPTION} decoration: describe placement, size, style",
+          "options": [
+            {"value": "none", "label": "No Decoration"},
+            {"value": "cable_knit", "label": "Cable Knit Pattern"},
+            {"value": "fair_isle", "label": "Fair Isle Pattern"},
+            {"value": "stripes", "label": "Stripes"},
+            {"value": "elbow_patches", "label": "Elbow Patches"},
+            {"value": "embroidery", "label": "Embroidery"},
+            {"value": "applique", "label": "Appliqué"},
+            {"value": "fringe", "label": "Fringe Detail"}
+          ]
+        }
+      ]
+    },
+    {
+      "value": "shirt",
+      "label": "Shirt / Blouse",
+      "categories": [
+        {
+          "value": "collar",
+          "label": "Collar",
+          "default_template": "Change collar to {OPTION}: describe collar points, height, stiffness, spread",
+          "options": [
+            {"value": "classic_point", "label": "Classic Point"},
+            {"value": "spread", "label": "Spread Collar"},
+            {"value": "button_down", "label": "Button-Down"},
+            {"value": "mandarin", "label": "Mandarin / Band"},
+            {"value": "camp", "label": "Camp Collar"},
+            {"value": "peter_pan", "label": "Peter Pan"},
+            {"value": "collarless", "label": "Collarless"},
+            {"value": "ruffle", "label": "Ruffle Collar"},
+            {"value": "wing", "label": "Wing Collar"}
+          ]
+        },
+        {
+          "value": "cuffs",
+          "label": "Cuffs",
+          "default_template": "Modify cuffs to {OPTION}: describe button count, shape, width",
+          "options": [
+            {"value": "barrel_single", "label": "Barrel Single Button"},
+            {"value": "barrel_double", "label": "Barrel Double Button"},
+            {"value": "french", "label": "French Cuff"},
+            {"value": "convertible", "label": "Convertible"},
+            {"value": "rolled", "label": "Rolled / No Cuff"},
+            {"value": "ruffle", "label": "Ruffle Cuff"},
+            {"value": "bell", "label": "Bell Cuff"}
+          ]
+        },
+        {
+          "value": "placket",
+          "label": "Placket / Front",
+          "default_template": "Change placket to {OPTION}: describe button visibility, stitching, width",
+          "options": [
+            {"value": "standard", "label": "Standard Placket"},
+            {"value": "hidden", "label": "Hidden / Covered"},
+            {"value": "half_placket", "label": "Half Placket / Popover"},
+            {"value": "pleated", "label": "Pleated Front"},
+            {"value": "bib_front", "label": "Bib Front"}
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add {OPTION} pockets: describe count, flap style, placement",
+          "options": [
+            {"value": "none", "label": "No Pocket"},
+            {"value": "single_chest", "label": "Single Chest Pocket"},
+            {"value": "double_chest", "label": "Double Chest Pockets"},
+            {"value": "flap_pocket", "label": "Flap Pocket"},
+            {"value": "patch_pocket", "label": "Patch Pocket"},
+            {"value": "hidden_pocket", "label": "Hidden Pocket"}
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Modify sleeves to {OPTION}: describe length, fit, finish",
+          "options": [
+            {"value": "long", "label": "Long Sleeve"},
+            {"value": "short", "label": "Short Sleeve"},
+            {"value": "three_quarter", "label": "Three-Quarter"},
+            {"value": "cap", "label": "Cap Sleeve"},
+            {"value": "sleeveless", "label": "Sleeveless"},
+            {"value": "puff", "label": "Puff Sleeve"},
+            {"value": "bishop", "label": "Bishop Sleeve"}
+          ]
+        }
+      ]
+    },
+    {
+      "value": "jacket",
+      "label": "Jacket / Blazer",
+      "categories": [
+        {
+          "value": "lapel",
+          "label": "Lapel",
+          "default_template": "Change lapel to {OPTION}: describe width, angle, roll",
+          "options": [
+            {"value": "notch", "label": "Notch Lapel"},
+            {"value": "peak", "label": "Peak Lapel"},
+            {"value": "shawl", "label": "Shawl Lapel"},
+            {"value": "collarless", "label": "Collarless / No Lapel"},
+            {"value": "mandarin", "label": "Mandarin / Stand Collar"}
+          ]
+        },
+        {
+          "value": "closure",
+          "label": "Closure",
+          "default_template": "Modify closure to {OPTION}: describe button count, style, placement",
+          "options": [
+            {"value": "single_button", "label": "Single Button"},
+            {"value": "double_button", "label": "Two Button"},
+            {"value": "three_button", "label": "Three Button"},
+            {"value": "double_breasted", "label": "Double Breasted"},
+            {"value": "zip", "label": "Zip Front"},
+            {"value": "snap", "label": "Snap Closure"},
+            {"value": "open", "label": "Open Front"}
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add or modify {OPTION} pockets: describe flap, welt, placement",
+          "options": [
+            {"value": "flap", "label": "Flap Pockets"},
+            {"value": "jetted", "label": "Jetted / Welt Pockets"},
+            {"value": "patch", "label": "Patch Pockets"},
+            {"value": "ticket", "label": "Ticket Pocket"},
+            {"value": "cargo", "label": "Cargo Pockets"},
+            {"value": "none", "label": "No Visible Pockets"}
+          ]
+        },
+        {
+          "value": "vents",
+          "label": "Vents / Back",
+          "default_template": "Change back vent to {OPTION}: describe length, position",
+          "options": [
+            {"value": "center_vent", "label": "Center Vent"},
+            {"value": "side_vents", "label": "Side Vents"},
+            {"value": "no_vent", "label": "No Vent"},
+            {"value": "action_back", "label": "Action Back / Pleats"}
+          ]
+        },
+        {
+          "value": "details",
+          "label": "Details / Trim",
+          "default_template": "Add {OPTION} detail: describe material, color, placement",
+          "options": [
+            {"value": "none", "label": "No Additional Details"},
+            {"value": "elbow_patches", "label": "Elbow Patches"},
+            {"value": "contrast_collar", "label": "Contrast Collar"},
+            {"value": "piping", "label": "Piping / Trim"},
+            {"value": "embroidery", "label": "Embroidery"},
+            {"value": "metal_buttons", "label": "Metal Buttons"}
+          ]
+        }
+      ]
+    },
+    {
+      "value": "dress",
+      "label": "Dress",
+      "categories": [
+        {
+          "value": "neckline",
+          "label": "Neckline",
+          "default_template": "Transform neckline to {OPTION}: describe depth, shape, finish",
+          "options": [
+            {"value": "crew", "label": "Crew Neck"},
+            {"value": "v_neck", "label": "V-Neck"},
+            {"value": "scoop", "label": "Scoop Neck"},
+            {"value": "square", "label": "Square Neck"},
+            {"value": "sweetheart", "label": "Sweetheart"},
+            {"value": "halter", "label": "Halter"},
+            {"value": "off_shoulder", "label": "Off-Shoulder"},
+            {"value": "one_shoulder", "label": "One Shoulder"},
+            {"value": "high_neck", "label": "High Neck / Mock"}
+          ]
+        },
+        {
+          "value": "sleeves",
+          "label": "Sleeves",
+          "default_template": "Modify sleeves to {OPTION}: describe length, volume, finish",
+          "options": [
+            {"value": "sleeveless", "label": "Sleeveless"},
+            {"value": "cap", "label": "Cap Sleeve"},
+            {"value": "short", "label": "Short Sleeve"},
+            {"value": "elbow", "label": "Elbow Length"},
+            {"value": "three_quarter", "label": "Three-Quarter"},
+            {"value": "long", "label": "Long Sleeve"},
+            {"value": "puff", "label": "Puff Sleeve"},
+            {"value": "bell", "label": "Bell Sleeve"},
+            {"value": "flutter", "label": "Flutter Sleeve"}
+          ]
+        },
+        {
+          "value": "waist",
+          "label": "Waist / Belt",
+          "default_template": "Add or modify waist detail with {OPTION}: describe width, material, closure",
+          "options": [
+            {"value": "no_waist", "label": "No Defined Waist"},
+            {"value": "natural_seam", "label": "Natural Waist Seam"},
+            {"value": "empire", "label": "Empire Waist"},
+            {"value": "drop_waist", "label": "Drop Waist"},
+            {"value": "belt_loops", "label": "Belt Loops"},
+            {"value": "self_tie", "label": "Self-Tie Belt"},
+            {"value": "wide_belt", "label": "Wide Belt / Obi"}
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem / Length",
+          "default_template": "Change hem to {OPTION}: describe finish, shape",
+          "options": [
+            {"value": "mini", "label": "Mini"},
+            {"value": "knee", "label": "Knee Length"},
+            {"value": "midi", "label": "Midi"},
+            {"value": "maxi", "label": "Maxi / Floor Length"},
+            {"value": "asymmetric", "label": "Asymmetric Hem"},
+            {"value": "high_low", "label": "High-Low"},
+            {"value": "slit", "label": "Side Slit"}
+          ]
+        },
+        {
+          "value": "details",
+          "label": "Details / Decorations",
+          "default_template": "Add {OPTION} detail: describe placement, size, style",
+          "options": [
+            {"value": "none", "label": "No Additional Details"},
+            {"value": "ruffle", "label": "Ruffle Trim"},
+            {"value": "lace_trim", "label": "Lace Trim"},
+            {"value": "bow", "label": "Bow Detail"},
+            {"value": "buttons", "label": "Decorative Buttons"},
+            {"value": "embroidery", "label": "Embroidery"},
+            {"value": "sequins", "label": "Sequins / Beading"}
+          ]
+        }
+      ]
+    },
+    {
+      "value": "pants",
+      "label": "Pants / Trousers",
+      "categories": [
+        {
+          "value": "waistband",
+          "label": "Waistband",
+          "default_template": "Modify waistband to {OPTION}: describe height, closure style",
+          "options": [
+            {"value": "standard", "label": "Standard Waistband"},
+            {"value": "high_rise", "label": "High Rise"},
+            {"value": "mid_rise", "label": "Mid Rise"},
+            {"value": "low_rise", "label": "Low Rise"},
+            {"value": "elastic", "label": "Elastic Waistband"},
+            {"value": "drawstring", "label": "Drawstring"},
+            {"value": "paper_bag", "label": "Paper Bag Waist"}
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add or modify {OPTION} pockets: describe placement, depth, style",
+          "options": [
+            {"value": "slant", "label": "Slant Pockets"},
+            {"value": "on_seam", "label": "On-Seam Pockets"},
+            {"value": "welt", "label": "Welt Pockets"},
+            {"value": "patch", "label": "Patch Pockets"},
+            {"value": "cargo", "label": "Cargo Pockets"},
+            {"value": "coin", "label": "Coin Pocket"},
+            {"value": "none", "label": "No Pockets"}
+          ]
+        },
+        {
+          "value": "leg",
+          "label": "Leg Style",
+          "default_template": "Change leg to {OPTION}: describe width, taper, length",
+          "options": [
+            {"value": "straight", "label": "Straight Leg"},
+            {"value": "slim", "label": "Slim Fit"},
+            {"value": "skinny", "label": "Skinny"},
+            {"value": "wide", "label": "Wide Leg"},
+            {"value": "bootcut", "label": "Bootcut"},
+            {"value": "flare", "label": "Flare"},
+            {"value": "tapered", "label": "Tapered"},
+            {"value": "jogger", "label": "Jogger / Cuffed"}
+          ]
+        },
+        {
+          "value": "hem",
+          "label": "Hem / Cuff",
+          "default_template": "Modify hem to {OPTION}: describe finish, length",
+          "options": [
+            {"value": "plain", "label": "Plain Hem"},
+            {"value": "cuffed", "label": "Cuffed / Turnup"},
+            {"value": "raw", "label": "Raw Edge"},
+            {"value": "frayed", "label": "Frayed"},
+            {"value": "cropped", "label": "Cropped / Ankle"},
+            {"value": "elastic_cuff", "label": "Elastic Cuff"}
+          ]
+        },
+        {
+          "value": "closure",
+          "label": "Closure / Fly",
+          "default_template": "Change closure to {OPTION}: describe button, zip, hook style",
+          "options": [
+            {"value": "zip_fly", "label": "Zip Fly with Button"},
+            {"value": "button_fly", "label": "Button Fly"},
+            {"value": "hook_bar", "label": "Hook and Bar"},
+            {"value": "drawstring", "label": "Drawstring Only"},
+            {"value": "side_zip", "label": "Side Zip"},
+            {"value": "no_fly", "label": "No Fly / Pull-On"}
+          ]
+        }
+      ]
+    },
+    {
+      "value": "coat",
+      "label": "Coat / Outerwear",
+      "categories": [
+        {
+          "value": "collar",
+          "label": "Collar / Neckline",
+          "default_template": "Change collar to {OPTION}: describe height, spread, storm flap",
+          "options": [
+            {"value": "notch_lapel", "label": "Notch Lapel"},
+            {"value": "peak_lapel", "label": "Peak Lapel"},
+            {"value": "shawl", "label": "Shawl Collar"},
+            {"value": "stand", "label": "Stand Collar"},
+            {"value": "funnel", "label": "Funnel Neck"},
+            {"value": "hood", "label": "Hood"},
+            {"value": "detachable_hood", "label": "Detachable Hood"},
+            {"value": "fur_trim", "label": "Fur Trim Collar"}
+          ]
+        },
+        {
+          "value": "closure",
+          "label": "Closure",
+          "default_template": "Modify closure to {OPTION}: describe button style, count, placement",
+          "options": [
+            {"value": "single_breasted", "label": "Single Breasted"},
+            {"value": "double_breasted", "label": "Double Breasted"},
+            {"value": "zip", "label": "Full Zip"},
+            {"value": "toggle", "label": "Toggle / Duffle"},
+            {"value": "wrap", "label": "Wrap / Belt"},
+            {"value": "asymmetric", "label": "Asymmetric Zip"},
+            {"value": "snap", "label": "Snap Closure"}
+          ]
+        },
+        {
+          "value": "pockets",
+          "label": "Pockets",
+          "default_template": "Add or modify {OPTION} pockets: describe flap, lining, size",
+          "options": [
+            {"value": "flap", "label": "Flap Pockets"},
+            {"value": "patch", "label": "Patch Pockets"},
+            {"value": "welt", "label": "Welt Pockets"},
+            {"value": "hand_warmer", "label": "Hand Warmer Pockets"},
+            {"value": "cargo", "label": "Cargo Pockets"},
+            {"value": "interior", "label": "Interior Pockets Only"}
+          ]
+        },
+        {
+          "value": "length",
+          "label": "Length",
+          "default_template": "Adjust length to {OPTION}: describe hem position",
+          "options": [
+            {"value": "cropped", "label": "Cropped / Bomber"},
+            {"value": "hip", "label": "Hip Length"},
+            {"value": "mid_thigh", "label": "Mid-Thigh"},
+            {"value": "knee", "label": "Knee Length"},
+            {"value": "midi", "label": "Midi / Below Knee"},
+            {"value": "maxi", "label": "Maxi / Ankle Length"}
+          ]
+        },
+        {
+          "value": "details",
+          "label": "Details / Trim",
+          "default_template": "Add {OPTION} detail: describe material, color, placement",
+          "options": [
+            {"value": "none", "label": "No Additional Details"},
+            {"value": "epaulettes", "label": "Epaulettes"},
+            {"value": "belt", "label": "Waist Belt"},
+            {"value": "storm_flap", "label": "Storm Flap"},
+            {"value": "contrast_piping", "label": "Contrast Piping"},
+            {"value": "quilted_lining", "label": "Quilted Lining Visible"}
+          ]
+        }
+      ]
+    }
+  ]
+}

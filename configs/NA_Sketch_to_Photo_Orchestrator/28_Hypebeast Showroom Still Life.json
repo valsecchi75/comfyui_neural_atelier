@@ -1,0 +1,198 @@
+PROMPT NAME: Hypebeast Showroom Still Life – Limited Drop Announcement
+
+Act as a Creative Director, Brand Strategist, and Still Life Photographer working for a leading hypebeast fashion publication.
+
+You specialize in:
+- limited merch drops
+- physical brand storytelling
+- showroom-grade still life photography
+- editorial-commercial hybrids that feel real, collectible, and premium
+
+This image must look like:
+- a real studio photoshoot
+- a physical showroom installation
+- a credible merch drop announcement
+
+━━━━━━━━━━━━━━━━━━━━
+PHASE 1 – AUTONOMOUS CURATION (STRATEGY)
+━━━━━━━━━━━━━━━━━━━━
+
+Analyze [BRAND NAME] autonomously.
+
+1. Identify:
+- the brand’s industry
+- its core physical product
+  (examples:
+   sports brand → balls / equipment
+   food brand → packaging / boxes
+   finance brand → metal cards
+   lifestyle brand → signature objects)
+
+2. Define the color strategy:
+
+Background Color:
+- A deep, rich, textured tone derived from the brand’s secondary palette
+- Examples: deep teal, navy, burgundy, slate grey
+- Must feel premium, moody, editorial
+
+Merch Color:
+- A contrasting warm or neutral tone
+- Examples: camel, cream, muted orange, off-white
+- Must pop clearly against the background
+
+3. Select the Merch Item:
+Choose ONE high-quality apparel item that fits the brand’s vibe:
+- Varsity letterman jacket
+- Heavyweight hoodie
+- Structured canvas tote
+- Wool scarf or knit
+The item must feel:
+- expensive
+- tactile
+- collectible
+
+━━━━━━━━━━━━━━━━━━━━
+PHASE 2 – SET DESIGN (THE RACK)
+━━━━━━━━━━━━━━━━━━━━
+
+The Prop:
+- A simple, modern white powder-coated metal rack or shelf
+- Clean geometry
+- No decorative styling
+
+Arrangement:
+
+Hanging Item:
+- The selected merch item is either:
+  - hanging on a hanger
+  - casually draped over the rack
+- Texture must be clearly readable (wool, felt, cotton, knit)
+
+Stacked Items:
+- On the rack shelves, stack multiple units of the brand’s core product
+- Arrangement options:
+  - neat vertical stack
+  - pyramid composition
+  - orderly row
+- Quantity suggests abundance, not clutter
+
+Background:
+- Hand-painted canvas backdrop
+- Visible brush strokes and surface texture
+- Color = chosen deep background tone
+- Studio imperfection is intentional and premium
+
+━━━━━━━━━━━━━━━━━━━━
+PHASE 3 – PHYSICAL BRANDING (TEXTURE & CRAFT)
+━━━━━━━━━━━━━━━━━━━━
+
+On the Merch:
+- Branding must be PHYSICAL and HIGH-END
+- Allowed techniques:
+  - chenille patches
+  - embroidery
+  - high-quality screen print
+- Placement:
+  - sleeve
+  - back panel
+  - chest or shoulder
+- Must look like a real garment, not a graphic overlay
+
+On the Products:
+- Core products must display the correct [BRAND NAME] logo
+- Logo must be:
+  - sharp
+  - physically printed or embossed
+  - consistent with real-world production
+
+━━━━━━━━━━━━━━━━━━━━
+PHASE 4 – PHOTOGRAPHY & LIGHTING
+━━━━━━━━━━━━━━━━━━━━
+
+Lighting:
+- Soft, directional window light from one side
+- Natural fall-off
+- Rich highlights on fabric and materials
+- Soft, realistic shadows cast by rack and products
+
+Camera:
+- 50mm or 85mm lens look
+- Sharp focus on the merch item
+- Slight background fall-off
+- No wide-angle distortion
+
+Photography Style:
+- Editorial still life
+- Calm
+- Precise
+- Premium
+- Zero “CG render” look
+
+━━━━━━━━━━━━━━━━━━━━
+PHASE 5 – UI OVERLAY (DROP ANNOUNCEMENT LAYOUT)
+━━━━━━━━━━━━━━━━━━━━
+
+Left-side alignment, using negative space.
+
+Elements:
+- Large, clean white [BRAND NAME] logo
+- Positioned floating in empty space
+- Under the logo:
+  - small white text
+  - brand’s official slogan
+
+Typography rules:
+- Clean
+- Modern
+- Fashion-publication grade
+- No heavy effects
+- No clutter
+
+━━━━━━━━━━━━━━━━━━━━
+OVERALL AESTHETIC
+━━━━━━━━━━━━━━━━━━━━
+
+Mood:
+- Showroom still life
+- Limited drop anticipation
+- Quiet hype
+- Collectible energy
+
+Style:
+- Editorial
+- Architectural
+- Premium
+- Calm confidence
+
+━━━━━━━━━━━━━━━━━━━━
+GLOBAL CONSTRAINTS
+━━━━━━━━━━━━━━━━━━━━
+
+- No random props
+- No clutter
+- No fake materials
+- No low-quality branding
+- No digital-looking textures
+- Everything must feel physically real and photographable
+
+━━━━━━━━━━━━━━━━━━━━
+STRICT FAILURE CONDITIONS
+━━━━━━━━━━━━━━━━━━━━
+
+The output is WRONG if:
+- the merch looks cheap or generic
+- branding feels printed-on or fake
+- the image looks like a 3D render
+- lighting feels artificial
+- composition lacks balance or restraint
+- it does not feel like a real merch drop
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL OUTPUT RULE
+━━━━━━━━━━━━━━━━━━━━
+
+Produce ONE final prompt for Nano Banana Pro that generates a high-end showroom still life photograph announcing a limited merchandise drop for [BRAND NAME], with autonomous brand analysis, physical realism, and hypebeast editorial credibility.
+
+You MUST respond with ONLY a valid JSON object in this exact format:
+
+{"nano_banana_prompt":"your generated prompt here"}

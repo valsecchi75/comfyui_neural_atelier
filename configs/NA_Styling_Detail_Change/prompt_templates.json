@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "system_instruction": "You are a **Senior Fashion Detail Editor** specialized in precise garment modifications for Nano Banana Pro image editing.\n\nYour task is to generate a single, focused prompt that instructs Nano Banana Pro to modify ONLY a specific detail on the garment while keeping everything else EXACTLY the same.\n\n## CRITICAL RULES - INVARIANTS (MUST NOT CHANGE)\n1. The garment's overall silhouette and proportions MUST remain identical\n2. The fabric texture, material, and weave pattern MUST remain identical\n3. The garment color(s) MUST remain exactly the same\n4. All other details NOT mentioned in the modification request MUST remain unchanged\n5. The lighting, shadows, and overall image quality MUST be preserved\n6. The background (if visible) MUST remain unchanged\n7. Any existing branding, labels, or tags MUST remain unchanged\n\n## OUTPUT FORMAT\nYou MUST respond with ONLY a valid JSON object in this exact format:\n{\"nano_banana_prompt\": \"your generated prompt here\"}\n\nDo not include any other text, explanation, or markdown formatting.",
+  "user_prompt_template": "## MODIFICATION REQUEST\n\n**Garment Type:** {GARMENT_TYPE}\n**Detail Category:** {DETAIL_CATEGORY}\n**Target Option:** {DETAIL_OPTION}\n**User Description:** {USER_DESCRIPTION}\n\n## CONTEXT\n{BRIEF}\n\n## REFERENCE IMAGE\n{REFERENCE_DETAIL_USED}\n\n## YOUR TASK\nGenerate a Nano Banana Pro prompt that:\n1. Modifies ONLY the {DETAIL_CATEGORY} to become {DETAIL_OPTION}\n2. Applies the user's specific description: {USER_DESCRIPTION}\n3. Keeps ALL other aspects of the garment UNCHANGED\n4. Uses precise, technical fashion terminology\n5. Emphasizes invariance constraints for everything except the target detail\n\n## INVARIANTS TO ENFORCE\n{INVARIANTS_LIST}",
+  "invariants": {
+    "sweater": [
+      "Keep the exact same yarn texture and knit density",
+      "Preserve the garment's overall length and fit",
+      "Maintain identical color and any color patterns",
+      "Keep all unmodified construction details (seams, joins) the same"
+    ],
+    "shirt": [
+      "Keep the exact same fabric weave and texture",
+      "Preserve the garment's overall fit and drape",
+      "Maintain identical color and any prints/patterns",
+      "Keep all unmodified construction details the same"
+    ],
+    "jacket": [
+      "Keep the exact same fabric texture and finish",
+      "Preserve the garment's overall structure and silhouette",
+      "Maintain identical color and any patterns",
+      "Keep all unmodified tailoring details the same"
+    ],
+    "dress": [
+      "Keep the exact same fabric drape and texture",
+      "Preserve the garment's overall length and silhouette",
+      "Maintain identical color and any prints/patterns",
+      "Keep all unmodified construction details the same"
+    ],
+    "pants": [
+      "Keep the exact same fabric weight and texture",
+      "Preserve the garment's overall fit and length",
+      "Maintain identical color and any patterns",
+      "Keep all unmodified construction details the same"
+    ],
+    "coat": [
+      "Keep the exact same outer fabric texture and weight",
+      "Preserve the garment's overall length and silhouette",
+      "Maintain identical color and any patterns",
+      "Keep all unmodified construction and lining details the same"
+    ]
+  },
+  "nano_banana_prompt_structure": "Edit this {GARMENT_TYPE} image to change the {DETAIL_CATEGORY} to {DETAIL_OPTION}. {USER_MODIFICATION_DETAILS}. CRITICAL: Keep EVERYTHING else exactly the same - same fabric texture, same color, same silhouette, same proportions, same all other details. Only modify the {DETAIL_CATEGORY}.",
+  "reference_image_note": {
+    "with_reference": "Use the provided reference image as visual guidance for the exact style of the {DETAIL_CATEGORY}.",
+    "without_reference": "No reference image provided - interpret the detail based on standard fashion terminology."
+  }
+}

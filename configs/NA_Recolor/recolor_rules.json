@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "description": "Invariant rules and constraints for NA - Recolor node (color + pattern-aware)",
+  "invariants": [
+    "Do not change the silhouette or proportions of the garment",
+    "Do not alter materials, textures, or surface qualities (yarn weight, knit gauge, weave pattern, fiber sheen)",
+    "Do not modify seams, stitching, buttons, zippers, or any construction details",
+    "Do not change the lighting setup, direction, intensity, or quality",
+    "Do not alter the white balance or introduce any color cast",
+    "Do not apply any color grading, filters, or artistic effects",
+    "Do not add cinematic looks, vintage tones, or stylized processing",
+    "Maintain uniform color saturation across the entire garment",
+    "Preserve shadow positions, depths, and gradients exactly as in the original",
+    "Preserve highlight positions, intensities, and falloff exactly as in the original",
+    "The result must appear as an authentic studio product photograph",
+    "Color must be readable and accurate under neutral studio lighting"
+  ],
+  "invariants_formatted": "STRICT CONSTRAINTS:\n- Preserve silhouette and proportions exactly\n- Maintain all materials, textures, and surface qualities unchanged\n- Keep all seams, stitching, and construction details intact\n- Do not change lighting setup or white balance\n- No color grading, no filters, no artistic effects\n- No cinematic or stylized processing\n- Ensure uniform color saturation across garment\n- Preserve original shadow and highlight positions\n- Result must appear as authentic studio photograph",
+  "pattern_handling": {
+    "description": "Rules for applying reference images that contain repeating patterns or fabric motifs",
+    "detection_keywords": [
+      "pattern",
+      "texture",
+      "repeat",
+      "repeating",
+      "jacquard",
+      "knit motif",
+      "woven",
+      "check",
+      "plaid",
+      "stripe",
+      "zig-zag",
+      "herringbone",
+      "geometric",
+      "monogram"
+    ],
+    "rules": [
+      "If the reference image contains a repeating pattern, treat it as a fabric pattern source, not a flat color source",
+      "Preserve pattern scale and density relative to the garment size",
+      "Align pattern direction and repetition consistently across the garment panels and sleeves",
+      "Do not stretch, warp, or drift the pattern across seams and edges",
+      "The pattern must appear integrated into the fabric (knitted or woven-in) rather than a flat printed overlay",
+      "Do not flatten or erase knit relief when applying a pattern; cables, ribs, and yarn definition must remain visible",
+      "Maintain neutral studio lighting and preserve shadows and highlights exactly as in the original"
+    ],
+    "pattern_invariants_formatted": "PATTERN CONSTRAINTS:\n- Treat reference as fabric pattern source when repeating motifs exist\n- Preserve pattern scale, density, and repetition rhythm\n- Keep alignment consistent across front and sleeves\n- No stretching, warping, drifting, or misregistration\n- Pattern must look knitted or woven-in, not printed on top\n- Preserve knit relief and microtexture\n- Maintain original lighting, shadows, and highlights"
+  },
+  "color_source_priority": {
+    "description": "Priority order when multiple color sources are provided",
+    "priority_order": ["reference_image", "pantone_dropdown"],
+    "conflict_resolution": "If color_reference_image is present and valid, it overrides pantone dropdown selection"
+  },
+  "strictness_levels": {
+    "default": "strict",
+    "levels": {
+      "strict": {
+        "description": "Maximum fidelity to original; only color or pattern changes",
+        "allow_subtle_adjustments": false,
+        "retry_on_deviation": true
+      },
+      "balanced": {
+        "description": "Slight adjustments allowed for color harmony (not recommended for product color matching)",
+        "allow_subtle_adjustments": true,
+        "retry_on_deviation": false
+      }
+    }
+  },
+  "error_messages": {
+    "no_color_source": "No color source provided. Please select a Pantone color or provide a color reference image.",
+    "invalid_pantone": "Pantone code '{code}' not found in palette. Please select a valid Pantone from the dropdown.",
+    "invalid_reference_image": "Color reference image could not be processed. Falling back to Pantone selection if available.",
+    "no_garment_image": "Garment image is required. Please connect a garment image to the node."
+  }
+}

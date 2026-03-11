@@ -1,0 +1,3484 @@
+{
+  "version": "2.0.0-it-values",
+  "garment_types": [
+    {
+  "value": "tshirt",
+  "label": "T-shirt",
+  "categories": [
+    {
+      "value": "scollo",
+      "label": "Scollo",
+      "default_template": "Modifica lo scollo in {OPTION}: descrivi forma, profondità, costruzione e stabilità del bordo",
+      "options": [
+        { "value": "girocollo", "label": "Girocollo" },
+        { "value": "scollo_v", "label": "Scollo a V" },
+        { "value": "scollo_barca", "label": "Scollo a barca" },
+        { "value": "scollo_tondo_ampio", "label": "Scollo tondo ampio" },
+        { "value": "scollo_profondo", "label": "Scollo profondo" }
+      ]
+    },
+    {
+      "value": "altezza_scollo",
+      "label": "Scollo: altezza sul collo",
+      "default_template": "Regola l'altezza dello scollo su {OPTION}: descrivi quanto aderisce al collo e la stabilità in uso",
+      "options": [
+        { "value": "basso", "label": "Basso (più aperto)" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "alto", "label": "Alto (vicino al collo)" }
+      ]
+    },
+    {
+      "value": "bordino_scollo",
+      "label": "Scollo: bordino e costruzione",
+      "default_template": "Imposta il bordino dello scollo su {OPTION}: descrivi altezza, elasticità e tenuta",
+      "options": [
+        { "value": "bordino_sottile", "label": "Bordino sottile" },
+        { "value": "bordino_standard", "label": "Bordino standard" },
+        { "value": "bordino_alto", "label": "Bordino alto / rinforzato" },
+        { "value": "bordino_tubolare", "label": "Bordino tubolare" },
+        { "value": "taglio_vivo_controllato", "label": "Taglio vivo controllato" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche in {OPTION}: descrivi lunghezza, inclinazione e rapporto con la spalla",
+      "options": [
+        { "value": "corta_standard", "label": "Manica corta standard" },
+        { "value": "corta_lunga", "label": "Manica corta lunga" },
+        { "value": "manichina", "label": "Manichina" },
+        { "value": "raglan", "label": "Manica raglan" },
+        { "value": "senza_maniche", "label": "Senza maniche" }
+      ]
+    },
+    {
+      "value": "ampiezza_manica",
+      "label": "Manica: ampiezza",
+      "default_template": "Regola l'ampiezza manica su {OPTION}: descrivi apertura e caduta",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampia", "label": "Ampia / over" }
+      ]
+    },
+    {
+      "value": "lunghezza_corpo",
+      "label": "Corpo: lunghezza",
+      "default_template": "Modifica la lunghezza del corpo su {OPTION}: descrivi punto di arrivo e proporzione",
+      "options": [
+        { "value": "cropped", "label": "Cropped" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "allungata", "label": "Allungata (longline)" }
+      ]
+    },
+    {
+      "value": "fondo",
+      "label": "Fondo",
+      "default_template": "Imposta il fondo su {OPTION}: descrivi forma e finitura",
+      "options": [
+        { "value": "dritto", "label": "Fondo dritto" },
+        { "value": "arrotondato", "label": "Fondo arrotondato" },
+        { "value": "asimmetrico", "label": "Fondo asimmetrico" },
+        { "value": "taglio_vivo", "label": "Taglio vivo" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi rapporto corpo-spalla-torace",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "boxy", "label": "Boxy" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla",
+      "default_template": "Modifica la spalla in {OPTION}: descrivi punto spalla e costruzione",
+      "options": [
+        { "value": "spalla_naturale", "label": "Spalla naturale" },
+        { "value": "spalla_scivolata", "label": "Spalla scivolata (drop)" },
+        { "value": "spalla_avanzata", "label": "Spalla avanzata" }
+      ]
+    },
+    {
+      "value": "dettagli",
+      "label": "Dettagli",
+      "default_template": "Aggiungi il dettaglio {OPTION}: descrivi posizione e funzione",
+      "options": [
+        { "value": "nessun_dettaglio", "label": "Nessun dettaglio" },
+        { "value": "taschino_petto", "label": "Taschino al petto" },
+        { "value": "impunture_contrasto", "label": "Impunture a contrasto" },
+        { "value": "label_interna", "label": "Label interna visibile" }
+      ]
+    }
+  ]
+},
+
+    {
+  "value": "polo",
+  "label": "Polo",
+  "categories": [
+    {
+      "value": "collo",
+      "label": "Collo (polo)",
+      "default_template": "Modifica il collo in {OPTION}: descrivi forma, struttura, altezza e comportamento in piega",
+      "options": [
+        { "value": "collo_polo_classico", "label": "Collo polo classico" },
+        { "value": "collo_polo_morbido", "label": "Collo polo morbido (non strutturato)" },
+        { "value": "collo_polo_rigido", "label": "Collo polo strutturato (più rigido)" },
+        { "value": "collo_polo_corto", "label": "Collo polo corto" },
+        { "value": "collo_polo_lungo", "label": "Collo polo lungo" }
+      ]
+    },
+    {
+      "value": "altezza_collo",
+      "label": "Collo: altezza e stand",
+      "default_template": "Regola l'altezza del collo su {OPTION}: descrivi stand, apertura e tenuta del bordo",
+      "options": [
+        { "value": "basso", "label": "Basso" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "alto", "label": "Alto" }
+      ]
+    },
+    {
+      "value": "punta_collo",
+      "label": "Collo: forma punte",
+      "default_template": "Imposta la forma delle punte del collo su {OPTION}: descrivi angolo, arrotondamento e simmetria",
+      "options": [
+        { "value": "punte_acute", "label": "Punte acute" },
+        { "value": "punte_morbide", "label": "Punte morbide" },
+        { "value": "punte_arrotondate", "label": "Punte arrotondate" },
+        { "value": "punte_corte", "label": "Punte corte" }
+      ]
+    },
+    {
+      "value": "abbottonatura",
+      "label": "Apertura: abbottonatura (placket)",
+      "default_template": "Modifica l'abbottonatura in {OPTION}: descrivi lunghezza, costruzione e pulizia dei bordi",
+      "options": [
+        { "value": "abbottonatura_corta_2_bottoni", "label": "Abbottonatura corta (2 bottoni)" },
+        { "value": "abbottonatura_standard_3_bottoni", "label": "Abbottonatura standard (3 bottoni)" },
+        { "value": "abbottonatura_lunga_4_bottoni", "label": "Abbottonatura lunga (4 bottoni)" },
+        { "value": "abbottonatura_nascosta", "label": "Abbottonatura nascosta" },
+        { "value": "abbottonatura_contrasto", "label": "Abbottonatura a contrasto" }
+      ]
+    },
+    {
+      "value": "paramontura_patella",
+      "label": "Apertura: paramontura e patella",
+      "default_template": "Imposta la costruzione della paramontura/patella su {OPTION}: descrivi rigidità, spessore e impunture",
+      "options": [
+        { "value": "paramontura_morbida", "label": "Paramontura morbida" },
+        { "value": "paramontura_rinforzata", "label": "Paramontura rinforzata" },
+        { "value": "patella_pulita", "label": "Patella pulita (minimal)" },
+        { "value": "patella_ribattuta", "label": "Patella ribattuta (topstitch)" }
+      ]
+    },
+    {
+      "value": "bottoni",
+      "label": "Bottoni",
+      "default_template": "Modifica i bottoni in {OPTION}: descrivi diametro, materiale e finitura",
+      "options": [
+        { "value": "bottoni_standard", "label": "Bottoni standard" },
+        { "value": "bottoni_piccoli", "label": "Bottoni piccoli" },
+        { "value": "bottoni_grandi", "label": "Bottoni grandi" },
+        { "value": "bottoni_madreperla", "label": "Bottoni effetto madreperla" },
+        { "value": "bottoni_gommati", "label": "Bottoni gommati/soft-touch" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche in {OPTION}: descrivi lunghezza e rapporto con il polso",
+      "options": [
+        { "value": "manica_corta_standard", "label": "Manica corta standard" },
+        { "value": "manica_corta_lunga", "label": "Manica corta lunga" },
+        { "value": "manica_lunga", "label": "Manica lunga" }
+      ]
+    },
+    {
+      "value": "polso",
+      "label": "Manica: finitura polso",
+      "default_template": "Imposta la finitura del polso su {OPTION}: descrivi fascia, elasticità e aderenza",
+      "options": [
+        { "value": "polso_senza_fascia", "label": "Senza polsino (orlo semplice)" },
+        { "value": "polso_fascia_rib", "label": "Polsino a fascia in rib" },
+        { "value": "polso_fascia_larga", "label": "Polsino a fascia larga" },
+        { "value": "polso_contrasto", "label": "Polsino a contrasto" }
+      ]
+    },
+    {
+      "value": "fondo",
+      "label": "Fondo capo",
+      "default_template": "Modifica il fondo in {OPTION}: descrivi linea, finitura e comportamento in movimento",
+      "options": [
+        { "value": "fondo_dritto", "label": "Fondo dritto" },
+        { "value": "fondo_arrotondato", "label": "Fondo arrotondato" },
+        { "value": "fondo_asimmetrico", "label": "Fondo asimmetrico" },
+        { "value": "fondo_con_fascia", "label": "Fondo con fascia" }
+      ]
+    },
+    {
+      "value": "spacchi_laterali",
+      "label": "Fondo: spacchi laterali",
+      "default_template": "Imposta gli spacchi laterali su {OPTION}: descrivi lunghezza, rinforzi e pulizia del bordo",
+      "options": [
+        { "value": "senza_spacchi", "label": "Senza spacchi" },
+        { "value": "spacchi_corti", "label": "Spacchi corti" },
+        { "value": "spacchi_standard", "label": "Spacchi standard" },
+        { "value": "spacchi_lunghi", "label": "Spacchi lunghi" },
+        { "value": "spacchi_rinforzati", "label": "Spacchi rinforzati" }
+      ]
+    },
+    {
+      "value": "fitting",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi torace, spalla, apertura fondo e aderenza",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "boxy", "label": "Boxy" }
+      ]
+    },
+    {
+      "value": "struttura_tessuto",
+      "label": "Tessuto: struttura",
+      "default_template": "Imposta la struttura del tessuto su {OPTION}: descrivi mano, traspirabilità e stabilità dimensionale",
+      "options": [
+        { "value": "piquet", "label": "Piqué (classico polo)" },
+        { "value": "jersey", "label": "Jersey" },
+        { "value": "interlock", "label": "Interlock" },
+        { "value": "maglia_rib", "label": "Maglia rib (più elastica)" }
+      ]
+    },
+    {
+      "value": "rigature_contrasti",
+      "label": "Dettagli: righe e contrasti",
+      "default_template": "Aggiungi o rimuovi righe/contrasti su {OPTION}: descrivi posizione (collo/polsi) e larghezza",
+      "options": [
+        { "value": "nessun_contrasto", "label": "Nessun contrasto" },
+        { "value": "riga_singola_collo", "label": "Riga singola su collo" },
+        { "value": "riga_doppia_collo", "label": "Riga doppia su collo" },
+        { "value": "righe_collo_polsI", "label": "Righe su collo e polsi" },
+        { "value": "contrasto_collo_interno", "label": "Contrasto interno collo" }
+      ]
+    },
+    {
+      "value": "taschino",
+      "label": "Dettagli: taschino",
+      "default_template": "Aggiungi o modifica il taschino su {OPTION}: descrivi posizione, dimensioni e bordo",
+      "options": [
+        { "value": "senza_taschino", "label": "Senza taschino" },
+        { "value": "taschino_petto_applicato", "label": "Taschino al petto applicato" },
+        { "value": "taschino_petto_con_profilo", "label": "Taschino con profilo" }
+      ]
+    }
+  ]
+},
+
+    {
+  "value": "camicia",
+  "label": "Camicia",
+  "categories": [
+    {
+      "value": "colletto",
+      "label": "Colletto",
+      "default_template": "Modifica il colletto in {OPTION}: descrivi forma, altezza piedino, apertura e rigidità (rinforzo)",
+      "options": [
+        { "value": "classico_punte", "label": "Classico a punte" },
+        { "value": "aperto_spread", "label": "Aperto (spread)" },
+        { "value": "button_down", "label": "Button-down" },
+        { "value": "coreano", "label": "Coreano (band)" },
+        { "value": "bowling_camp", "label": "Bowling (camp)" },
+        { "value": "diplomatico_wing", "label": "Diplomatico (wing)" },
+        { "value": "senza_colletto", "label": "Senza colletto" }
+      ]
+    },
+    {
+      "value": "piedino_colletto",
+      "label": "Colletto: piedino (stand) e altezza",
+      "default_template": "Regola il piedino del colletto su {OPTION}: descrivi altezza, postura sul collo e tenuta",
+      "options": [
+        { "value": "basso", "label": "Basso" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "alto", "label": "Alto" }
+      ]
+    },
+    {
+      "value": "apertura_colletto",
+      "label": "Colletto: apertura (spread)",
+      "default_template": "Modifica l'apertura del colletto su {OPTION}: descrivi distanza tra punte e comportamento con cravatta",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "media", "label": "Media" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "punte_colletto",
+      "label": "Colletto: punte (lunghezza e forma)",
+      "default_template": "Imposta le punte del colletto su {OPTION}: descrivi lunghezza, angolo e arrotondamento",
+      "options": [
+        { "value": "corte", "label": "Punte corte" },
+        { "value": "standard", "label": "Punte standard" },
+        { "value": "lunghe", "label": "Punte lunghe" },
+        { "value": "arrotondate", "label": "Punte arrotondate" },
+        { "value": "acute", "label": "Punte acute" }
+      ]
+    },
+    {
+      "value": "rinforzo_colletto",
+      "label": "Colletto: rinforzo interno",
+      "default_template": "Imposta il rinforzo del colletto su {OPTION}: descrivi mano, rigidità, piega e memoria di forma",
+      "options": [
+        { "value": "morbido", "label": "Morbido (non strutturato)" },
+        { "value": "semi_strutturato", "label": "Semi strutturato" },
+        { "value": "strutturato", "label": "Strutturato (fused)" }
+      ]
+    },
+    {
+      "value": "abbottonatura_cannoncino",
+      "label": "Centro davanti: abbottonatura (cannoncino)",
+      "default_template": "Modifica l'abbottonatura in {OPTION}: descrivi larghezza, visibilità bottoni, impuntura e pulizia bordi",
+      "options": [
+        { "value": "standard", "label": "Standard (cannoncino classico)" },
+        { "value": "nascosta", "label": "Nascosta (bottoni coperti)" },
+        { "value": "mezza_apertura", "label": "Mezza apertura (popover)" },
+        { "value": "senza_cannoncino", "label": "Senza cannoncino visibile (front pulito)" },
+        { "value": "pettorina_bib", "label": "Pettorina (bib front)" }
+      ]
+    },
+    {
+      "value": "larghezza_cannoncino",
+      "label": "Centro davanti: larghezza cannoncino",
+      "default_template": "Regola la larghezza del cannoncino su {OPTION}: descrivi proporzione e rigidità percepita",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "larga", "label": "Larga" }
+      ]
+    },
+    {
+      "value": "impunture_cannoncino",
+      "label": "Centro davanti: impunture e ribattiture",
+      "default_template": "Imposta le impunture del cannoncino su {OPTION}: descrivi punto, distanza dal bordo e regolarità",
+      "options": [
+        { "value": "impuntura_minima", "label": "Impuntura minima (pulito)" },
+        { "value": "ribattuto_standard", "label": "Ribattuto standard" },
+        { "value": "ribattuto_pronunciato", "label": "Ribattuto pronunciato" }
+      ]
+    },
+    {
+      "value": "bottoni",
+      "label": "Bottoni",
+      "default_template": "Modifica i bottoni in {OPTION}: descrivi diametro, materiale, finitura e colore",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "piccoli", "label": "Piccoli" },
+        { "value": "grandi", "label": "Grandi" },
+        { "value": "madreperla", "label": "Effetto madreperla" },
+        { "value": "tono_su_tono", "label": "Tono su tono" },
+        { "value": "contrasto", "label": "A contrasto" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Aggiungi o modifica le tasche in {OPTION}: descrivi quantità, posizionamento, forma e finitura bordo",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna tasca" },
+        { "value": "una_petto", "label": "Una tasca al petto" },
+        { "value": "due_petto", "label": "Due tasche al petto" },
+        { "value": "tasca_con_pattina", "label": "Tasca con pattina" },
+        { "value": "tasca_applicata", "label": "Tasca applicata" }
+      ]
+    },
+    {
+      "value": "pattine",
+      "label": "Tasche: pattine",
+      "default_template": "Imposta le pattine tasche su {OPTION}: descrivi forma, chiusura e impunture",
+      "options": [
+        { "value": "senza_pattina", "label": "Senza pattina" },
+        { "value": "pattina_dritta", "label": "Pattina dritta" },
+        { "value": "pattina_a_punta", "label": "Pattina a punta" },
+        { "value": "pattina_arrotondata", "label": "Pattina arrotondata" },
+        { "value": "pattina_con_bottone", "label": "Pattina con bottone" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche in {OPTION}: descrivi lunghezza, ampiezza e rapporto con il polso",
+      "options": [
+        { "value": "lunga", "label": "Manica lunga" },
+        { "value": "corta", "label": "Manica corta" },
+        { "value": "tre_quarti", "label": "Manica a tre quarti" }
+      ]
+    },
+    {
+      "value": "ampiezza_manica",
+      "label": "Manica: ampiezza",
+      "default_template": "Regola l'ampiezza manica su {OPTION}: descrivi volume, piega e caduta",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "polsini",
+      "label": "Polsini",
+      "default_template": "Modifica i polsini in {OPTION}: descrivi altezza, forma, numero bottoni e costruzione",
+      "options": [
+        { "value": "polsino_semplice_1_bottone", "label": "Polsino semplice (1 bottone)" },
+        { "value": "polsino_regolabile_2_bottoni", "label": "Polsino regolabile (2 bottoni)" },
+        { "value": "polsino_doppio_gemelli", "label": "Polsino doppio (gemelli)" },
+        { "value": "polsino_convertibile", "label": "Polsino convertibile" }
+      ]
+    },
+    {
+      "value": "altezza_polsino",
+      "label": "Polsino: altezza",
+      "default_template": "Regola l'altezza del polsino su {OPTION}: descrivi proporzione e impatto visivo",
+      "options": [
+        { "value": "basso", "label": "Basso" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "alto", "label": "Alto" }
+      ]
+    },
+    {
+      "value": "paramanica_spacco",
+      "label": "Manica: paramanica e spacco",
+      "default_template": "Imposta la costruzione del paramanica/spacco su {OPTION}: descrivi lunghezza spacco, pulizia e impunture",
+      "options": [
+        { "value": "spacco_corto", "label": "Spacco corto" },
+        { "value": "spacco_standard", "label": "Spacco standard" },
+        { "value": "spacco_lungo", "label": "Spacco lungo" },
+        { "value": "spacco_rinforzato", "label": "Spacco rinforzato" }
+      ]
+    },
+    {
+      "value": "spalla_giromanica",
+      "label": "Spalla e giromanica",
+      "default_template": "Modifica la spalla/giromanica in {OPTION}: descrivi punto spalla, inclinazione e mobilità",
+      "options": [
+        { "value": "spalla_naturale", "label": "Spalla naturale" },
+        { "value": "spalla_leggermente_scivolata", "label": "Spalla leggermente scivolata" },
+        { "value": "spalla_avanzata", "label": "Spalla avanzata" }
+      ]
+    },
+    {
+      "value": "carre_sprone",
+      "label": "Carrè / Sprone",
+      "default_template": "Imposta lo sprone su {OPTION}: descrivi presenza, forma e cuciture",
+      "options": [
+        { "value": "sprone_singolo", "label": "Sprone singolo" },
+        { "value": "sprone_doppio", "label": "Sprone doppio" },
+        { "value": "sprone_curvo", "label": "Sprone curvo" },
+        { "value": "senza_sprone", "label": "Senza sprone visibile" }
+      ]
+    },
+    {
+      "value": "piega_centro_dietro",
+      "label": "Dietro: piega centro dietro",
+      "default_template": "Imposta la piega dietro su {OPTION}: descrivi ampiezza e funzione (agibilità)",
+      "options": [
+        { "value": "senza_piega", "label": "Senza piega" },
+        { "value": "piega_box", "label": "Piega box" },
+        { "value": "piega_invertita", "label": "Piega invertita" }
+      ]
+    },
+    {
+      "value": "fianchi",
+      "label": "Fianchi: pinces e shaping",
+      "default_template": "Imposta lo shaping fianchi su {OPTION}: descrivi pinces e linea vita",
+      "options": [
+        { "value": "senza_pinces", "label": "Senza pinces" },
+        { "value": "pinces_leggere", "label": "Pinces leggere" },
+        { "value": "pinces_pronunciate", "label": "Pinces pronunciate" }
+      ]
+    },
+    {
+      "value": "lunghezza_corpo",
+      "label": "Corpo: lunghezza",
+      "default_template": "Modifica la lunghezza corpo su {OPTION}: descrivi punto di arrivo e proporzione davanti/dietro",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "orlo",
+      "label": "Orlo: forma",
+      "default_template": "Imposta la forma dell'orlo su {OPTION}: descrivi linea e comportamento in movimento",
+      "options": [
+        { "value": "dritto", "label": "Dritto" },
+        { "value": "arrotondato", "label": "Arrotondato" },
+        { "value": "asimmetrico", "label": "Asimmetrico" }
+      ]
+    },
+    {
+      "value": "fessini_laterali",
+      "label": "Fianchi: fessini e rinforzi",
+      "default_template": "Imposta fessini laterali su {OPTION}: descrivi lunghezza e rinforzi",
+      "options": [
+        { "value": "senza_fessini", "label": "Senza fessini" },
+        { "value": "fessini_corti", "label": "Fessini corti" },
+        { "value": "fessini_standard", "label": "Fessini standard" },
+        { "value": "fessini_rinforzati", "label": "Fessini rinforzati" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi torace, spalla e apertura fondo",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "tessuto_struttura",
+      "label": "Tessuto: struttura e peso",
+      "default_template": "Imposta la struttura tessuto su {OPTION}: descrivi mano, opacità, traspirabilità e stabilità",
+      "options": [
+        { "value": "popeline", "label": "Popeline" },
+        { "value": "oxford", "label": "Oxford" },
+        { "value": "twill", "label": "Twill" },
+        { "value": "flanella", "label": "Flanella" },
+        { "value": "lino", "label": "Lino" },
+        { "value": "denim_leggero", "label": "Denim leggero" }
+      ]
+    },
+    {
+      "value": "finiture_interno",
+      "label": "Finiture interne",
+      "default_template": "Imposta le finiture interne su {OPTION}: descrivi pulizia, ribattiture, eventuali paramonture e nastrature",
+      "options": [
+        { "value": "pulito_standard", "label": "Pulito standard" },
+        { "value": "ribattiture_minime", "label": "Ribattiture minime" },
+        { "value": "ribattiture_pronunciate", "label": "Ribattiture pronunciate" },
+        { "value": "nastro_collo", "label": "Nastro interno collo" }
+      ]
+    }
+  ]
+},
+
+{
+  "value": "maglione_maglieria",
+  "label": "Maglione (Knitwear)",
+  "categories": [
+    {
+      "value": "scollo",
+      "label": "Scollo",
+      "default_template": "Modifica lo scollo in {OPTION}: descrivi forma, altezza, costruzione e finitura bordo",
+      "options": [
+        { "value": "girocollo", "label": "Girocollo" },
+        { "value": "scollo_v", "label": "Scollo a V" },
+        { "value": "dolcevita", "label": "Dolcevita (collo alto ripiegato)" },
+        { "value": "collo_alto", "label": "Collo alto (mock neck)" },
+        { "value": "scollo_barca", "label": "Scollo a barca" },
+        { "value": "scollo_tondo_profondo", "label": "Scollo tondo profondo" },
+        { "value": "henley", "label": "Henley (cannoncino con bottoni)" },
+        { "value": "collo_sciallato", "label": "Collo sciallato" },
+        { "value": "collo_zip_mezza_zip", "label": "Collo con mezza zip" }
+      ]
+    },
+    {
+      "value": "altezza_scollo",
+      "label": "Scollo: altezza sul collo",
+      "default_template": "Regola l'altezza dello scollo su {OPTION}: descrivi quanto aderisce al collo e la stabilità della forma",
+      "options": [
+        { "value": "basso", "label": "Basso (aperto)" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "alto", "label": "Alto (vicino al collo)" },
+        { "value": "molto_alto", "label": "Molto alto (collo esteso)" }
+      ]
+    },
+    {
+      "value": "ampiezza_apertura_scollo",
+      "label": "Scollo: ampiezza apertura",
+      "default_template": "Modifica l'ampiezza dello scollo a {OPTION}: descrivi larghezza, caduta e controllo della forma",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "bordo_scollo",
+      "label": "Scollo: bordo e finitura",
+      "default_template": "Imposta la finitura del bordo scollo su {OPTION}: descrivi pulizia, stabilità e spessore percepito",
+      "options": [
+        { "value": "costa_1x1", "label": "Costa 1x1" },
+        { "value": "costa_2x2", "label": "Costa 2x2" },
+        { "value": "costa_3x3", "label": "Costa 3x3" },
+        { "value": "finitura_tubolare", "label": "Finitura tubolare" },
+        { "value": "bordo_rinforzato", "label": "Bordo rinforzato (più stabile)" }
+      ]
+    },
+    {
+      "value": "spalla_giro",
+      "label": "Spalla: costruzione",
+      "default_template": "Modifica la costruzione spalla su {OPTION}: descrivi linea spalla, appoggio e comportamento in caduta",
+      "options": [
+        { "value": "set_in", "label": "Manica attaccata (set-in)" },
+        { "value": "drop_shoulder", "label": "Spalla scesa (drop shoulder)" },
+        { "value": "raglan", "label": "Raglan" },
+        { "value": "kimono", "label": "Kimono" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche: forma e volume",
+      "default_template": "Modifica le maniche in {OPTION}: descrivi volume, linea e caduta fino al polso",
+      "options": [
+        { "value": "lunga_aderente", "label": "Lunga aderente" },
+        { "value": "lunga_morbida", "label": "Lunga morbida" },
+        { "value": "tre_quarti", "label": "Tre quarti" },
+        { "value": "corta", "label": "Corta" },
+        { "value": "senza_maniche", "label": "Senza maniche" },
+        { "value": "palloncino", "label": "A palloncino" },
+        { "value": "campana", "label": "A campana" }
+      ]
+    },
+    {
+      "value": "polso",
+      "label": "Polso: costa e altezza",
+      "default_template": "Imposta il polso su {OPTION}: descrivi altezza polso, elasticità e aderenza",
+      "options": [
+        { "value": "polso_basso_costa", "label": "Polso basso a costa" },
+        { "value": "polso_standard_costa", "label": "Polso standard a costa" },
+        { "value": "polso_alto_costa", "label": "Polso alto a costa" },
+        { "value": "polso_aderente", "label": "Polso aderente" },
+        { "value": "polso_morbido", "label": "Polso morbido" }
+      ]
+    },
+    {
+      "value": "corpo_lunghezza",
+      "label": "Corpo: lunghezza",
+      "default_template": "Modifica la lunghezza del corpo su {OPTION}: descrivi punto di arrivo e proporzioni",
+      "options": [
+        { "value": "cropped", "label": "Cropped (corto)" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lungo", "label": "Lungo (longline)" }
+      ]
+    },
+    {
+      "value": "fondo",
+      "label": "Fondo: finitura e tenuta",
+      "default_template": "Imposta il fondo su {OPTION}: descrivi costa, elasticità e stabilità della linea",
+      "options": [
+        { "value": "fondo_basso_costa", "label": "Fondo basso a costa" },
+        { "value": "fondo_standard_costa", "label": "Fondo standard a costa" },
+        { "value": "fondo_alto_costa", "label": "Fondo alto a costa" },
+        { "value": "taglio_vivo_controllato", "label": "Taglio vivo controllato" },
+        { "value": "spacchi_laterali", "label": "Spacchi laterali" }
+      ]
+    },
+    {
+      "value": "linea_corpo",
+      "label": "Corpo: linea e vestibilità",
+      "default_template": "Imposta la linea del corpo su {OPTION}: descrivi ampiezza torace, punto vita e caduta",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "boxy", "label": "Boxy" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "filato_fibra",
+      "label": "Filato: fibra",
+      "default_template": "Imposta la fibra del filato su {OPTION}: descrivi mano, calore, resilienza e aspetto superficie",
+      "options": [
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "lana", "label": "Lana" },
+        { "value": "merino", "label": "Merino" },
+        { "value": "cashmere", "label": "Cashmere" },
+        { "value": "mohair", "label": "Mohair" },
+        { "value": "alpaca", "label": "Alpaca" },
+        { "value": "misto_lana", "label": "Misto lana" }
+      ]
+    },
+    {
+      "value": "finezza_maglia",
+      "label": "Finezza maglia (gauge)",
+      "default_template": "Modifica la finezza della maglia su {OPTION}: descrivi densità, compattezza e dettaglio della trama",
+      "options": [
+        { "value": "fine", "label": "Fine (più compatta)" },
+        { "value": "media", "label": "Media" },
+        { "value": "grossa", "label": "Grossa (chunky)" }
+      ]
+    },
+    {
+      "value": "struttura_punto",
+      "label": "Punto maglia: struttura",
+      "default_template": "Imposta il punto maglia su {OPTION}: descrivi rilievo, regolarità e lettura della texture",
+      "options": [
+        { "value": "rasato", "label": "Rasato" },
+        { "value": "coste", "label": "Coste" },
+        { "value": "grana_riso", "label": "Grana di riso" },
+        { "value": "trecce", "label": "Trecce" },
+        { "value": "jacquard", "label": "Jacquard" },
+        { "value": "punto_milano", "label": "Punto Milano (più compatto)" }
+      ]
+    },
+    {
+      "value": "dettagli_chiusura",
+      "label": "Dettagli: chiusura e aperture",
+      "default_template": "Aggiungi o modifica dettagli di chiusura su {OPTION}: descrivi posizione e costruzione senza alterare volumi",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "cannoncino_henley", "label": "Cannoncino Henley" },
+        { "value": "mezza_zip", "label": "Mezza zip" },
+        { "value": "zip_intera", "label": "Zip intera" },
+        { "value": "bottoni_interi", "label": "Apertura totale con bottoni" }
+      ]
+    },
+    {
+      "value": "dettagli_superficie",
+      "label": "Dettagli: superficie e applicazioni",
+      "default_template": "Aggiungi o rimuovi dettaglio superficie {OPTION}: descrivi posizione, scala e tecnica",
+      "options": [
+        { "value": "nessun_dettaglio", "label": "Nessun dettaglio" },
+        { "value": "righe", "label": "Righe" },
+        { "value": "intarsio", "label": "Intarsio" },
+        { "value": "ricamo", "label": "Ricamo" },
+        { "value": "toppe_gomiti", "label": "Toppe gomiti" },
+        { "value": "contrasti_collo_polsI_fondo", "label": "Contrasti su collo/polsi/fondo" }
+      ]
+    },
+    {
+      "value": "finiture_cuciture",
+      "label": "Finiture: bordi e stabilizzazioni",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi pulizia, stabilità, rischio di ondulazione e tenuta forma",
+      "options": [
+        { "value": "pulito_regolare", "label": "Pulito e regolare" },
+        { "value": "rinforzato", "label": "Rinforzato" },
+        { "value": "anti_ondulazione", "label": "Stabilizzato anti-ondulazione" },
+        { "value": "bordo_rullato_controllato", "label": "Bordo rullato controllato" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "cardigan",
+  "label": "Cardigan",
+  "categories": [
+    {
+      "value": "apertura_frontale",
+      "label": "Apertura frontale",
+      "default_template": "Modifica l'apertura frontale in {OPTION}: descrivi continuità del davanti, stabilità e comportamento in uso",
+      "options": [
+        { "value": "apertura_totale", "label": "Apertura totale" },
+        { "value": "mezza_apertura", "label": "Mezza apertura" },
+        { "value": "senza_apertura", "label": "Senza apertura (stile pull-on)" }
+      ]
+    },
+    {
+      "value": "chiusura",
+      "label": "Chiusura",
+      "default_template": "Imposta la chiusura su {OPTION}: descrivi numero elementi, distanza e funzione",
+      "options": [
+        { "value": "bottoni", "label": "Bottoni" },
+        { "value": "zip", "label": "Zip" },
+        { "value": "automatici", "label": "Automatici" },
+        { "value": "lacci", "label": "Lacci" },
+        { "value": "nessuna", "label": "Nessuna chiusura" }
+      ]
+    },
+    {
+      "value": "paramontura",
+      "label": "Paramontura e bordo davanti",
+      "default_template": "Imposta la paramontura su {OPTION}: descrivi larghezza, struttura e stabilità del bordo",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "larga", "label": "Larga" },
+        { "value": "a_costa", "label": "A costa" },
+        { "value": "rinforzata", "label": "Rinforzata" }
+      ]
+    },
+    {
+      "value": "scollo",
+      "label": "Scollo",
+      "default_template": "Modifica lo scollo in {OPTION}: descrivi forma, profondità e continuità con il davanti",
+      "options": [
+        { "value": "scollo_v", "label": "Scollo a V" },
+        { "value": "girocollo", "label": "Girocollo" },
+        { "value": "collo_sciallato", "label": "Collo sciallato" },
+        { "value": "collo_alto", "label": "Collo alto" },
+        { "value": "senza_scollo", "label": "Senza scollo definito" }
+      ]
+    },
+    {
+      "value": "altezza_scollo",
+      "label": "Scollo: altezza",
+      "default_template": "Regola l'altezza dello scollo su {OPTION}: descrivi apertura e stabilità",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla: costruzione",
+      "default_template": "Imposta la costruzione della spalla su {OPTION}: descrivi linea e caduta",
+      "options": [
+        { "value": "set_in", "label": "Manica attaccata (set-in)" },
+        { "value": "drop_shoulder", "label": "Spalla scesa" },
+        { "value": "raglan", "label": "Raglan" },
+        { "value": "kimono", "label": "Kimono" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche in {OPTION}: descrivi volume, lunghezza e caduta",
+      "options": [
+        { "value": "lunghe_aderenti", "label": "Lunghe aderenti" },
+        { "value": "lunghe_morbide", "label": "Lunghe morbide" },
+        { "value": "tre_quarti", "label": "Tre quarti" },
+        { "value": "corte", "label": "Corte" }
+      ]
+    },
+    {
+      "value": "polsi",
+      "label": "Polsi",
+      "default_template": "Imposta i polsi su {OPTION}: descrivi altezza, elasticità e tenuta",
+      "options": [
+        { "value": "costa_bassa", "label": "Costa bassa" },
+        { "value": "costa_standard", "label": "Costa standard" },
+        { "value": "costa_alta", "label": "Costa alta" },
+        { "value": "polso_morbido", "label": "Polso morbido" }
+      ]
+    },
+    {
+      "value": "corpo_lunghezza",
+      "label": "Corpo: lunghezza",
+      "default_template": "Modifica la lunghezza del corpo su {OPTION}: descrivi proporzioni davanti e dietro",
+      "options": [
+        { "value": "cropped", "label": "Cropped" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lungo", "label": "Lungo" }
+      ]
+    },
+    {
+      "value": "fondo",
+      "label": "Fondo",
+      "default_template": "Imposta il fondo su {OPTION}: descrivi finitura e stabilità",
+      "options": [
+        { "value": "costa_bassa", "label": "Costa bassa" },
+        { "value": "costa_standard", "label": "Costa standard" },
+        { "value": "costa_alta", "label": "Costa alta" },
+        { "value": "taglio_vivo_controllato", "label": "Taglio vivo controllato" }
+      ]
+    },
+    {
+      "value": "linea_corpo",
+      "label": "Corpo: linea e vestibilità",
+      "default_template": "Imposta la linea del corpo su {OPTION}: descrivi ampiezza torace e punto vita",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "boxy", "label": "Boxy" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "filato_fibra",
+      "label": "Filato: fibra",
+      "default_template": "Imposta la fibra del filato su {OPTION}: descrivi mano, calore e resilienza",
+      "options": [
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "lana", "label": "Lana" },
+        { "value": "merino", "label": "Merino" },
+        { "value": "cashmere", "label": "Cashmere" },
+        { "value": "alpaca", "label": "Alpaca" },
+        { "value": "misto_fibra", "label": "Misto fibra" }
+      ]
+    },
+    {
+      "value": "finezza_maglia",
+      "label": "Finezza maglia (gauge)",
+      "default_template": "Modifica la finezza della maglia su {OPTION}: descrivi densità e compattezza",
+      "options": [
+        { "value": "fine", "label": "Fine" },
+        { "value": "media", "label": "Media" },
+        { "value": "grossa", "label": "Grossa" }
+      ]
+    },
+    {
+      "value": "punto_maglia",
+      "label": "Punto maglia",
+      "default_template": "Imposta il punto maglia su {OPTION}: descrivi rilievo e regolarità",
+      "options": [
+        { "value": "rasato", "label": "Rasato" },
+        { "value": "coste", "label": "Coste" },
+        { "value": "trecce", "label": "Trecce" },
+        { "value": "jacquard", "label": "Jacquard" },
+        { "value": "punto_milano", "label": "Punto Milano" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Aggiungi o modifica le tasche su {OPTION}: descrivi posizione e costruzione",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "tasche_applicate", "label": "Tasche applicate" },
+        { "value": "tasche_a_filetto", "label": "Tasche a filetto" }
+      ]
+    },
+    {
+      "value": "dettagli_superficie",
+      "label": "Dettagli: superficie",
+      "default_template": "Aggiungi dettaglio superficie {OPTION}: descrivi posizione e scala",
+      "options": [
+        { "value": "nessun_dettaglio", "label": "Nessun dettaglio" },
+        { "value": "righe", "label": "Righe" },
+        { "value": "intarsio", "label": "Intarsio" },
+        { "value": "ricamo", "label": "Ricamo" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e stabilizzazioni",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi pulizia, stabilità e tenuta forma",
+      "options": [
+        { "value": "pulito_regolare", "label": "Pulito regolare" },
+        { "value": "rinforzato", "label": "Rinforzato" },
+        { "value": "anti_ondulazione", "label": "Stabilizzato anti-ondulazione" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "felpa",
+  "label": "Felpa",
+  "categories": [
+    {
+      "value": "tipo_felpa",
+      "label": "Tipologia felpa",
+      "default_template": "Imposta la tipologia di felpa su {OPTION}: descrivi struttura generale e uso previsto",
+      "options": [
+        { "value": "girocollo", "label": "Girocollo" },
+        { "value": "con_cappuccio", "label": "Con cappuccio" },
+        { "value": "mezza_zip", "label": "Mezza zip" },
+        { "value": "zip_intera", "label": "Zip intera" }
+      ]
+    },
+    {
+      "value": "cappuccio",
+      "label": "Cappuccio",
+      "default_template": "Imposta il cappuccio su {OPTION}: descrivi volume, profondità e costruzione",
+      "options": [
+        { "value": "nessuno", "label": "Assente" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampio", "label": "Ampio" },
+        { "value": "strutturato", "label": "Strutturato" },
+        { "value": "doppiato", "label": "Doppiato" }
+      ]
+    },
+    {
+      "value": "coulisse_cappuccio",
+      "label": "Cappuccio: coulisse",
+      "default_template": "Imposta la coulisse del cappuccio su {OPTION}: descrivi tipo, funzione e finitura",
+      "options": [
+        { "value": "nessuna", "label": "Assente" },
+        { "value": "cordino_tessile", "label": "Cordino tessile" },
+        { "value": "cordino_tondo", "label": "Cordino tondo" },
+        { "value": "cordino_piatto", "label": "Cordino piatto" },
+        { "value": "cordino_con_finalini", "label": "Cordino con finalini" }
+      ]
+    },
+    {
+      "value": "scollo",
+      "label": "Scollo",
+      "default_template": "Modifica lo scollo su {OPTION}: descrivi altezza, ampiezza e stabilità",
+      "options": [
+        { "value": "girocollo_standard", "label": "Girocollo standard" },
+        { "value": "girocollo_alto", "label": "Girocollo alto" },
+        { "value": "scollo_zip", "label": "Scollo con zip" },
+        { "value": "scollo_a_v", "label": "Scollo a V" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla: costruzione",
+      "default_template": "Imposta la costruzione della spalla su {OPTION}: descrivi linea e caduta",
+      "options": [
+        { "value": "set_in", "label": "Manica attaccata (set-in)" },
+        { "value": "raglan", "label": "Raglan" },
+        { "value": "drop_shoulder", "label": "Spalla scesa" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche su {OPTION}: descrivi volume e lunghezza",
+      "options": [
+        { "value": "lunghe_standard", "label": "Lunghe standard" },
+        { "value": "lunghe_ampie", "label": "Lunghe ampie" },
+        { "value": "tre_quarti", "label": "Tre quarti" }
+      ]
+    },
+    {
+      "value": "polsi",
+      "label": "Polsi",
+      "default_template": "Imposta i polsi su {OPTION}: descrivi altezza, elasticità e tenuta",
+      "options": [
+        { "value": "costa_bassa", "label": "Costa bassa" },
+        { "value": "costa_standard", "label": "Costa standard" },
+        { "value": "costa_alta", "label": "Costa alta" }
+      ]
+    },
+    {
+      "value": "corpo_lunghezza",
+      "label": "Corpo: lunghezza",
+      "default_template": "Modifica la lunghezza del corpo su {OPTION}: descrivi proporzioni e punto di arrivo",
+      "options": [
+        { "value": "cropped", "label": "Cropped" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "linea_corpo",
+      "label": "Corpo: linea e vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi ampiezza torace e fondo",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "fondo",
+      "label": "Fondo",
+      "default_template": "Imposta il fondo su {OPTION}: descrivi finitura e stabilità",
+      "options": [
+        { "value": "costa_bassa", "label": "Costa bassa" },
+        { "value": "costa_standard", "label": "Costa standard" },
+        { "value": "costa_alta", "label": "Costa alta" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Aggiungi o modifica le tasche su {OPTION}: descrivi posizione e funzione",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "tasca_canguro", "label": "Tasca a canguro" },
+        { "value": "tasche_laterali", "label": "Tasche laterali" },
+        { "value": "tasche_zip", "label": "Tasche con zip" }
+      ]
+    },
+    {
+      "value": "tessuto_struttura",
+      "label": "Tessuto: struttura",
+      "default_template": "Imposta la struttura del tessuto su {OPTION}: descrivi mano, peso e compattezza",
+      "options": [
+        { "value": "french_terry", "label": "French terry" },
+        { "value": "felpa_garzata", "label": "Felpa garzata" },
+        { "value": "felpa_non_garzata", "label": "Felpa non garzata" },
+        { "value": "interlock", "label": "Interlock" }
+      ]
+    },
+    {
+      "value": "peso_tessuto",
+      "label": "Tessuto: peso",
+      "default_template": "Imposta il peso del tessuto su {OPTION}: descrivi stagionalità e struttura",
+      "options": [
+        { "value": "leggero", "label": "Leggero" },
+        { "value": "medio", "label": "Medio" },
+        { "value": "pesante", "label": "Pesante" }
+      ]
+    },
+    {
+      "value": "dettagli_superficie",
+      "label": "Dettagli: superficie",
+      "default_template": "Aggiungi dettaglio superficie {OPTION}: descrivi posizione e tecnica",
+      "options": [
+        { "value": "nessun_dettaglio", "label": "Nessun dettaglio" },
+        { "value": "stampa", "label": "Stampa" },
+        { "value": "ricamo", "label": "Ricamo" },
+        { "value": "applicazioni", "label": "Applicazioni" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi pulizia interna e stabilità",
+      "options": [
+        { "value": "pulito_standard", "label": "Pulito standard" },
+        { "value": "ribattuto", "label": "Ribattuto" },
+        { "value": "rinforzato", "label": "Rinforzato" }
+      ]
+    }
+  ]
+},
+
+{
+  "value": "gilet_smanicato",
+  "label": "Gilet / Smanicato",
+  "categories": [
+    {
+      "value": "tipologia",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia di gilet su {OPTION}: descrivi funzione principale e contesto d’uso",
+      "options": [
+        { "value": "gilet_maglieria", "label": "Gilet in maglieria" },
+        { "value": "gilet_tessuto", "label": "Gilet in tessuto" },
+        { "value": "gilet_imbottito", "label": "Gilet imbottito" },
+        { "value": "gilet_tecnico", "label": "Gilet tecnico" }
+      ]
+    },
+    {
+      "value": "apertura_frontale",
+      "label": "Apertura frontale",
+      "default_template": "Modifica l’apertura frontale su {OPTION}: descrivi continuità del davanti e comportamento in uso",
+      "options": [
+        { "value": "apertura_totale", "label": "Apertura totale" },
+        { "value": "mezza_apertura", "label": "Mezza apertura" },
+        { "value": "senza_apertura", "label": "Senza apertura" }
+      ]
+    },
+    {
+      "value": "chiusura",
+      "label": "Chiusura",
+      "default_template": "Imposta la chiusura su {OPTION}: descrivi tipo, visibilità e funzione",
+      "options": [
+        { "value": "bottoni", "label": "Bottoni" },
+        { "value": "zip", "label": "Zip" },
+        { "value": "automatici", "label": "Automatici" },
+        { "value": "velcro", "label": "Velcro" },
+        { "value": "nessuna", "label": "Nessuna chiusura" }
+      ]
+    },
+    {
+      "value": "scollo",
+      "label": "Scollo",
+      "default_template": "Modifica lo scollo su {OPTION}: descrivi forma, profondità e stabilità",
+      "options": [
+        { "value": "girocollo", "label": "Girocollo" },
+        { "value": "scollo_v", "label": "Scollo a V" },
+        { "value": "collo_alto", "label": "Collo alto" },
+        { "value": "collo_sciallato", "label": "Collo sciallato" },
+        { "value": "senza_scollo", "label": "Senza scollo definito" }
+      ]
+    },
+    {
+      "value": "altezza_scollo",
+      "label": "Scollo: altezza",
+      "default_template": "Regola l’altezza dello scollo su {OPTION}: descrivi apertura e copertura",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla e giromanica",
+      "default_template": "Imposta la costruzione spalla/giromanica su {OPTION}: descrivi ampiezza e mobilità",
+      "options": [
+        { "value": "giromanica_standard", "label": "Giromanica standard" },
+        { "value": "giromanica_ampio", "label": "Giromanica ampio" },
+        { "value": "giromanica_rifinito", "label": "Giromanica rifinito con bordino" },
+        { "value": "giromanica_rinforzato", "label": "Giromanica rinforzato" }
+      ]
+    },
+    {
+      "value": "corpo_lunghezza",
+      "label": "Corpo: lunghezza",
+      "default_template": "Modifica la lunghezza del corpo su {OPTION}: descrivi punto di arrivo e proporzione",
+      "options": [
+        { "value": "corto", "label": "Corto" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lungo", "label": "Lungo" }
+      ]
+    },
+    {
+      "value": "linea_corpo",
+      "label": "Corpo: linea e vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi ampiezza torace e linea fianchi",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "fondo",
+      "label": "Fondo",
+      "default_template": "Imposta il fondo su {OPTION}: descrivi finitura e stabilità",
+      "options": [
+        { "value": "dritto", "label": "Dritto" },
+        { "value": "arrotondato", "label": "Arrotondato" },
+        { "value": "elastico", "label": "Elastico" },
+        { "value": "regolabile_coulisse", "label": "Regolabile con coulisse" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Aggiungi o modifica le tasche su {OPTION}: descrivi numero, posizione e funzione",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "tasche_laterali", "label": "Tasche laterali" },
+        { "value": "tasche_petto", "label": "Tasche al petto" },
+        { "value": "tasche_con_zip", "label": "Tasche con zip" },
+        { "value": "tasche_applicate", "label": "Tasche applicate" }
+      ]
+    },
+    {
+      "value": "imbottitura",
+      "label": "Imbottitura",
+      "default_template": "Imposta l’imbottitura su {OPTION}: descrivi volume, calore e distribuzione",
+      "options": [
+        { "value": "nessuna", "label": "Assente" },
+        { "value": "leggera", "label": "Leggera" },
+        { "value": "media", "label": "Media" },
+        { "value": "pesante", "label": "Pesante" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, resistenza e aspetto",
+      "options": [
+        { "value": "maglia", "label": "Maglia" },
+        { "value": "tessuto", "label": "Tessuto" },
+        { "value": "nylon_tecnico", "label": "Nylon tecnico" },
+        { "value": "softshell", "label": "Softshell" }
+      ]
+    },
+    {
+      "value": "dettagli_superficie",
+      "label": "Dettagli: superficie",
+      "default_template": "Aggiungi dettaglio superficie {OPTION}: descrivi posizione e tecnica",
+      "options": [
+        { "value": "nessun_dettaglio", "label": "Nessun dettaglio" },
+        { "value": "impunture_contrasto", "label": "Impunture a contrasto" },
+        { "value": "logo_ricamato", "label": "Logo ricamato" },
+        { "value": "patch_applicata", "label": "Patch applicata" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi pulizia interna, bordature e stabilità",
+      "options": [
+        { "value": "pulito_standard", "label": "Pulito standard" },
+        { "value": "bordato", "label": "Bordato" },
+        { "value": "rinforzato", "label": "Rinforzato" }
+      ]
+    }
+  ]
+},
+
+{
+  "value": "pantaloni",
+  "label": "Pantaloni",
+  "categories": [
+    {
+      "value": "tipologia_base",
+      "label": "Tipologia base",
+      "default_template": "Imposta la tipologia base su {OPTION}: descrivi costruzione generale e contesto d’uso",
+      "options": [
+        { "value": "cinque_tasche", "label": "Cinque tasche" },
+        { "value": "chino", "label": "Chino" },
+        { "value": "classico", "label": "Classico sartoriale" },
+        { "value": "cargo", "label": "Cargo" },
+        { "value": "tecnico", "label": "Tecnico" }
+      ]
+    },
+    {
+      "value": "vita",
+      "label": "Vita: altezza",
+      "default_template": "Regola l’altezza vita su {OPTION}: descrivi punto vita e comfort",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "media", "label": "Media" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "costruzione_vita",
+      "label": "Vita: costruzione",
+      "default_template": "Imposta la costruzione della vita su {OPTION}: descrivi struttura, rigidità e adattabilità",
+      "options": [
+        { "value": "vita_dritta", "label": "Vita dritta" },
+        { "value": "vita_sagomata", "label": "Vita sagomata" },
+        { "value": "vita_elasticizzata", "label": "Vita elasticizzata" },
+        { "value": "vita_con_coulisse", "label": "Vita con coulisse" }
+      ]
+    },
+    {
+      "value": "chiusura_vita",
+      "label": "Vita: chiusura",
+      "default_template": "Imposta la chiusura vita su {OPTION}: descrivi tipo e visibilità",
+      "options": [
+        { "value": "zip_e_bottone", "label": "Zip e bottone" },
+        { "value": "zip_e_gancio", "label": "Zip e gancio" },
+        { "value": "bottoni", "label": "Bottoni" },
+        { "value": "senza_chiusura", "label": "Senza chiusura (pull-on)" }
+      ]
+    },
+    {
+      "value": "passanti_cintura",
+      "label": "Vita: passanti cintura",
+      "default_template": "Imposta i passanti cintura su {OPTION}: descrivi numero, larghezza e posizionamento",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "larghi", "label": "Larghi" },
+        { "value": "stretti", "label": "Stretti" },
+        { "value": "assenti", "label": "Assenti" }
+      ]
+    },
+    {
+      "value": "pinces",
+      "label": "Vita: pinces",
+      "default_template": "Imposta le pinces su {OPTION}: descrivi numero, profondità e funzione",
+      "options": [
+        { "value": "senza_pinces", "label": "Senza pinces" },
+        { "value": "una_pince", "label": "Una pince" },
+        { "value": "due_pinces", "label": "Due pinces" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi ampiezza bacino, coscia e gamba",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "coscia",
+      "label": "Gamba: coscia",
+      "default_template": "Regola l’ampiezza coscia su {OPTION}: descrivi comfort e caduta",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "gamba_linea",
+      "label": "Gamba: linea",
+      "default_template": "Imposta la linea gamba su {OPTION}: descrivi progressione verso il fondo",
+      "options": [
+        { "value": "dritta", "label": "Dritta" },
+        { "value": "affusolata", "label": "Affusolata" },
+        { "value": "svasata", "label": "Svasata" },
+        { "value": "cropped", "label": "Cropped" }
+      ]
+    },
+    {
+      "value": "lunghezza_gamba",
+      "label": "Gamba: lunghezza",
+      "default_template": "Imposta la lunghezza gamba su {OPTION}: descrivi punto di arrivo e proporzione",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "fondo_gamba",
+      "label": "Fondo gamba",
+      "default_template": "Imposta il fondo gamba su {OPTION}: descrivi apertura e finitura",
+      "options": [
+        { "value": "orlo_dritto", "label": "Orlo dritto" },
+        { "value": "orlo_risvoltato", "label": "Orlo risvoltato" },
+        { "value": "polsino", "label": "Polsino" },
+        { "value": "elastico", "label": "Elastico" }
+      ]
+    },
+    {
+      "value": "tasche_frontali",
+      "label": "Tasche frontali",
+      "default_template": "Imposta le tasche frontali su {OPTION}: descrivi forma e accessibilità",
+      "options": [
+        { "value": "alla_francese", "label": "Alla francese" },
+        { "value": "america", "label": "All’americana" },
+        { "value": "a_filetto", "label": "A filetto" },
+        { "value": "applicate", "label": "Applicate" },
+        { "value": "nessuna", "label": "Nessuna" }
+      ]
+    },
+    {
+      "value": "tasche_posteriori",
+      "label": "Tasche posteriori",
+      "default_template": "Imposta le tasche posteriori su {OPTION}: descrivi numero, chiusura e pulizia",
+      "options": [
+        { "value": "una_tasca", "label": "Una tasca" },
+        { "value": "due_tasche", "label": "Due tasche" },
+        { "value": "con_pattina", "label": "Con pattina" },
+        { "value": "a_filetto", "label": "A filetto" },
+        { "value": "nessuna", "label": "Nessuna" }
+      ]
+    },
+    {
+      "value": "tasche_laterali",
+      "label": "Tasche laterali",
+      "default_template": "Aggiungi o modifica tasche laterali su {OPTION}: descrivi volume e funzione",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "cargo", "label": "Cargo" },
+        { "value": "con_zip", "label": "Con zip" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, peso e resistenza",
+      "options": [
+        { "value": "denim", "label": "Denim" },
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "lana", "label": "Lana" },
+        { "value": "velluto", "label": "Velluto" },
+        { "value": "tessuto_tecnico", "label": "Tessuto tecnico" }
+      ]
+    },
+    {
+      "value": "elasticita",
+      "label": "Elasticità",
+      "default_template": "Imposta l’elasticità su {OPTION}: descrivi comfort e recupero",
+      "options": [
+        { "value": "rigido", "label": "Rigido" },
+        { "value": "leggermente_elastico", "label": "Leggermente elastico" },
+        { "value": "elastico", "label": "Elastico" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi pulizia interna, ribattiture e durabilità",
+      "options": [
+        { "value": "pulito_standard", "label": "Pulito standard" },
+        { "value": "ribattuto", "label": "Ribattuto" },
+        { "value": "rinforzato", "label": "Rinforzato" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "jogger",
+  "label": "Jogger",
+  "categories": [
+    {
+      "value": "tipologia_base",
+      "label": "Tipologia jogger",
+      "default_template": "Imposta la tipologia di jogger su {OPTION}: descrivi funzione principale e contesto d’uso",
+      "options": [
+        { "value": "jogger_sportivo", "label": "Jogger sportivo" },
+        { "value": "jogger_lifestyle", "label": "Jogger lifestyle" },
+        { "value": "jogger_tecnico", "label": "Jogger tecnico" },
+        { "value": "jogger_maglieria", "label": "Jogger in maglieria" }
+      ]
+    },
+    {
+      "value": "vita_altezza",
+      "label": "Vita: altezza",
+      "default_template": "Regola l’altezza della vita su {OPTION}: descrivi punto vita e comfort",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "media", "label": "Media" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "costruzione_vita",
+      "label": "Vita: costruzione",
+      "default_template": "Imposta la costruzione della vita su {OPTION}: descrivi elasticità, struttura e adattabilità",
+      "options": [
+        { "value": "elastico_integrale", "label": "Elastico integrale" },
+        { "value": "elastico_con_coulisse", "label": "Elastico con coulisse" },
+        { "value": "vita_mista", "label": "Vita mista (elastico + pannello)" }
+      ]
+    },
+    {
+      "value": "coulisse",
+      "label": "Vita: coulisse",
+      "default_template": "Imposta la coulisse su {OPTION}: descrivi tipo, funzione e visibilità",
+      "options": [
+        { "value": "interna", "label": "Interna" },
+        { "value": "esterna", "label": "Esterna" },
+        { "value": "assente", "label": "Assente" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi ampiezza bacino, coscia e gamba",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "coscia",
+      "label": "Gamba: coscia",
+      "default_template": "Regola l’ampiezza coscia su {OPTION}: descrivi comfort e mobilità",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "linea_gamba",
+      "label": "Gamba: linea",
+      "default_template": "Imposta la linea gamba su {OPTION}: descrivi progressione verso il fondo",
+      "options": [
+        { "value": "dritta", "label": "Dritta" },
+        { "value": "affusolata", "label": "Affusolata" },
+        { "value": "tapered", "label": "Tapered (stringe al fondo)" }
+      ]
+    },
+    {
+      "value": "lunghezza_gamba",
+      "label": "Gamba: lunghezza",
+      "default_template": "Imposta la lunghezza gamba su {OPTION}: descrivi punto di arrivo e proporzione",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "fondo_gamba",
+      "label": "Fondo gamba",
+      "default_template": "Imposta il fondo gamba su {OPTION}: descrivi chiusura, elasticità e tenuta",
+      "options": [
+        { "value": "polsino_elastico", "label": "Polsino elastico" },
+        { "value": "polsino_rinforzato", "label": "Polsino rinforzato" },
+        { "value": "fondo_dritto", "label": "Fondo dritto" },
+        { "value": "fondo_con_zip", "label": "Fondo con zip" }
+      ]
+    },
+    {
+      "value": "tasche_frontali",
+      "label": "Tasche frontali",
+      "default_template": "Imposta le tasche frontali su {OPTION}: descrivi forma e accessibilità",
+      "options": [
+        { "value": "alla_francese", "label": "Alla francese" },
+        { "value": "laterali", "label": "Laterali" },
+        { "value": "con_zip", "label": "Con zip" },
+        { "value": "nessuna", "label": "Nessuna" }
+      ]
+    },
+    {
+      "value": "tasche_posteriori",
+      "label": "Tasche posteriori",
+      "default_template": "Imposta le tasche posteriori su {OPTION}: descrivi numero e chiusura",
+      "options": [
+        { "value": "una_tasca", "label": "Una tasca" },
+        { "value": "due_tasche", "label": "Due tasche" },
+        { "value": "con_zip", "label": "Con zip" },
+        { "value": "nessuna", "label": "Nessuna" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, elasticità e traspirabilità",
+      "options": [
+        { "value": "felpa", "label": "Felpa" },
+        { "value": "interlock", "label": "Interlock" },
+        { "value": "jersey", "label": "Jersey" },
+        { "value": "tessuto_tecnico", "label": "Tessuto tecnico" }
+      ]
+    },
+    {
+      "value": "peso_tessuto",
+      "label": "Tessuto: peso",
+      "default_template": "Imposta il peso del tessuto su {OPTION}: descrivi stagionalità e struttura",
+      "options": [
+        { "value": "leggero", "label": "Leggero" },
+        { "value": "medio", "label": "Medio" },
+        { "value": "pesante", "label": "Pesante" }
+      ]
+    },
+    {
+      "value": "dettagli_funzione",
+      "label": "Dettagli funzionali",
+      "default_template": "Aggiungi dettaglio funzionale {OPTION}: descrivi posizione e utilità",
+      "options": [
+        { "value": "nessuno", "label": "Nessun dettaglio" },
+        { "value": "inserti_rinforzo", "label": "Inserti di rinforzo" },
+        { "value": "pannelli_ergonomici", "label": "Pannelli ergonomici" },
+        { "value": "cuciture_sigillate", "label": "Cuciture sigillate" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi pulizia interna, ribattiture e durabilità",
+      "options": [
+        { "value": "pulito_standard", "label": "Pulito standard" },
+        { "value": "ribattuto", "label": "Ribattuto" },
+        { "value": "rinforzato", "label": "Rinforzato" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "shorts_bermuda",
+  "label": "Shorts / Bermuda",
+  "categories": [
+    {
+      "value": "tipologia_base",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia di shorts/bermuda su {OPTION}: descrivi costruzione generale e contesto d’uso",
+      "options": [
+        { "value": "shorts_casual", "label": "Casual" },
+        { "value": "bermuda", "label": "Bermuda" },
+        { "value": "shorts_sportivi", "label": "Sportivi" },
+        { "value": "shorts_tecnici", "label": "Tecnici" },
+        { "value": "shorts_sartoriali", "label": "Sartoriali" }
+      ]
+    },
+    {
+      "value": "vita_altezza",
+      "label": "Vita: altezza",
+      "default_template": "Regola l’altezza della vita su {OPTION}: descrivi punto vita e comfort",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "media", "label": "Media" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "costruzione_vita",
+      "label": "Vita: costruzione",
+      "default_template": "Imposta la costruzione della vita su {OPTION}: descrivi struttura, adattabilità ed elasticità",
+      "options": [
+        { "value": "vita_dritta", "label": "Vita dritta" },
+        { "value": "vita_elasticizzata", "label": "Vita elasticizzata" },
+        { "value": "vita_con_coulisse", "label": "Vita con coulisse" },
+        { "value": "vita_mista", "label": "Vita mista" }
+      ]
+    },
+    {
+      "value": "chiusura_vita",
+      "label": "Vita: chiusura",
+      "default_template": "Imposta la chiusura vita su {OPTION}: descrivi tipo e visibilità",
+      "options": [
+        { "value": "zip_e_bottone", "label": "Zip e bottone" },
+        { "value": "zip_e_gancio", "label": "Zip e gancio" },
+        { "value": "bottoni", "label": "Bottoni" },
+        { "value": "senza_chiusura", "label": "Senza chiusura (pull-on)" }
+      ]
+    },
+    {
+      "value": "passanti_cintura",
+      "label": "Vita: passanti cintura",
+      "default_template": "Imposta i passanti cintura su {OPTION}: descrivi numero, larghezza e posizionamento",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "larghi", "label": "Larghi" },
+        { "value": "stretti", "label": "Stretti" },
+        { "value": "assenti", "label": "Assenti" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi ampiezza bacino e coscia",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "lunghezza",
+      "label": "Lunghezza gamba",
+      "default_template": "Imposta la lunghezza gamba su {OPTION}: descrivi punto di arrivo sulla coscia o al ginocchio",
+      "options": [
+        { "value": "corta_coscia", "label": "Corta (sopra metà coscia)" },
+        { "value": "media_coscia", "label": "Media (metà coscia)" },
+        { "value": "sopra_ginocchio", "label": "Sopra il ginocchio" },
+        { "value": "al_ginocchio", "label": "Al ginocchio" }
+      ]
+    },
+    {
+      "value": "apertura_gamba",
+      "label": "Apertura gamba",
+      "default_template": "Regola l’apertura gamba su {OPTION}: descrivi ampiezza e caduta",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "tasche_frontali",
+      "label": "Tasche frontali",
+      "default_template": "Imposta le tasche frontali su {OPTION}: descrivi forma e accessibilità",
+      "options": [
+        { "value": "alla_francese", "label": "Alla francese" },
+        { "value": "america", "label": "All’americana" },
+        { "value": "a_filetto", "label": "A filetto" },
+        { "value": "applicate", "label": "Applicate" },
+        { "value": "nessuna", "label": "Nessuna" }
+      ]
+    },
+    {
+      "value": "tasche_posteriori",
+      "label": "Tasche posteriori",
+      "default_template": "Imposta le tasche posteriori su {OPTION}: descrivi numero, chiusura e pulizia",
+      "options": [
+        { "value": "una_tasca", "label": "Una tasca" },
+        { "value": "due_tasche", "label": "Due tasche" },
+        { "value": "con_pattina", "label": "Con pattina" },
+        { "value": "a_filetto", "label": "A filetto" },
+        { "value": "nessuna", "label": "Nessuna" }
+      ]
+    },
+    {
+      "value": "tasche_laterali",
+      "label": "Tasche laterali",
+      "default_template": "Aggiungi o modifica tasche laterali su {OPTION}: descrivi volume e funzione",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "cargo", "label": "Cargo" },
+        { "value": "con_zip", "label": "Con zip" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, peso e traspirabilità",
+      "options": [
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "denim", "label": "Denim" },
+        { "value": "lino", "label": "Lino" },
+        { "value": "tessuto_tecnico", "label": "Tessuto tecnico" }
+      ]
+    },
+    {
+      "value": "elasticita",
+      "label": "Elasticità",
+      "default_template": "Imposta l’elasticità su {OPTION}: descrivi comfort e recupero",
+      "options": [
+        { "value": "rigido", "label": "Rigido" },
+        { "value": "leggermente_elastico", "label": "Leggermente elastico" },
+        { "value": "elastico", "label": "Elastico" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi pulizia interna, ribattiture e durabilità",
+      "options": [
+        { "value": "pulito_standard", "label": "Pulito standard" },
+        { "value": "ribattuto", "label": "Ribattuto" },
+        { "value": "rinforzato", "label": "Rinforzato" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "giacca",
+  "label": "Giacca",
+  "categories": [
+    {
+      "value": "tipologia_base",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia di giacca su {OPTION}: descrivi costruzione generale e funzione",
+      "options": [
+        { "value": "bomber", "label": "Bomber" },
+        { "value": "denim", "label": "Denim" },
+        { "value": "field", "label": "Field / Utility" },
+        { "value": "harrington", "label": "Harrington" },
+        { "value": "trucker", "label": "Trucker" },
+        { "value": "workwear", "label": "Workwear" },
+        { "value": "tecnica", "label": "Tecnica" }
+      ]
+    },
+    {
+      "value": "apertura_frontale",
+      "label": "Apertura frontale",
+      "default_template": "Modifica l’apertura frontale su {OPTION}: descrivi continuità del davanti e comportamento in uso",
+      "options": [
+        { "value": "apertura_totale", "label": "Apertura totale" },
+        { "value": "mezza_apertura", "label": "Mezza apertura" }
+      ]
+    },
+    {
+      "value": "chiusura",
+      "label": "Chiusura",
+      "default_template": "Imposta la chiusura su {OPTION}: descrivi tipo, visibilità e funzione",
+      "options": [
+        { "value": "zip", "label": "Zip" },
+        { "value": "bottoni", "label": "Bottoni" },
+        { "value": "automatici", "label": "Automatici" },
+        { "value": "zip_e_bottoni", "label": "Zip + bottoni" }
+      ]
+    },
+    {
+      "value": "collo",
+      "label": "Collo",
+      "default_template": "Modifica il collo su {OPTION}: descrivi forma, altezza e struttura",
+      "options": [
+        { "value": "collo_classico", "label": "Collo classico" },
+        { "value": "collo_camicia", "label": "Collo a camicia" },
+        { "value": "collo_alto", "label": "Collo alto" },
+        { "value": "collo_coreano", "label": "Collo coreano" },
+        { "value": "senza_collo", "label": "Senza collo" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla",
+      "default_template": "Imposta la costruzione della spalla su {OPTION}: descrivi linea e caduta",
+      "options": [
+        { "value": "set_in", "label": "Manica attaccata (set-in)" },
+        { "value": "raglan", "label": "Raglan" },
+        { "value": "drop_shoulder", "label": "Spalla scesa" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche su {OPTION}: descrivi volume e lunghezza",
+      "options": [
+        { "value": "lunghe", "label": "Lunghe" },
+        { "value": "regolabili", "label": "Regolabili" },
+        { "value": "con_polsino", "label": "Con polsino" }
+      ]
+    },
+    {
+      "value": "polsi",
+      "label": "Polsi",
+      "default_template": "Imposta i polsi su {OPTION}: descrivi chiusura e stabilità",
+      "options": [
+        { "value": "elastico", "label": "Elastico" },
+        { "value": "polsino_bottone", "label": "Polsino con bottone" },
+        { "value": "polsino_regolabile", "label": "Polsino regolabile" }
+      ]
+    },
+    {
+      "value": "lunghezza_corpo",
+      "label": "Corpo: lunghezza",
+      "default_template": "Modifica la lunghezza del corpo su {OPTION}: descrivi proporzione e punto di arrivo",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "linea_corpo",
+      "label": "Corpo: linea e vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi ampiezza torace e fondo",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "fondo",
+      "label": "Fondo",
+      "default_template": "Imposta il fondo su {OPTION}: descrivi finitura e stabilità",
+      "options": [
+        { "value": "dritto", "label": "Dritto" },
+        { "value": "elastico", "label": "Elastico" },
+        { "value": "regolabile_coulisse", "label": "Regolabile con coulisse" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Aggiungi o modifica le tasche su {OPTION}: descrivi numero, posizione e funzione",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "tasche_laterali", "label": "Laterali" },
+        { "value": "tasche_petto", "label": "Al petto" },
+        { "value": "tasche_con_pattina", "label": "Con pattina" },
+        { "value": "tasche_con_zip", "label": "Con zip" }
+      ]
+    },
+    {
+      "value": "fodera",
+      "label": "Fodera",
+      "default_template": "Imposta la fodera su {OPTION}: descrivi copertura e funzione termica",
+      "options": [
+        { "value": "sfoderata", "label": "Sfoderata" },
+        { "value": "parzialmente_foderata", "label": "Parzialmente foderata" },
+        { "value": "completamente_foderata", "label": "Completamente foderata" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, resistenza e aspetto",
+      "options": [
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "denim", "label": "Denim" },
+        { "value": "nylon", "label": "Nylon" },
+        { "value": "tessuto_tecnico", "label": "Tessuto tecnico" },
+        { "value": "lana", "label": "Lana" }
+      ]
+    },
+    {
+      "value": "imbottitura",
+      "label": "Imbottitura",
+      "default_template": "Imposta l’imbottitura su {OPTION}: descrivi volume e isolamento",
+      "options": [
+        { "value": "nessuna", "label": "Assente" },
+        { "value": "leggera", "label": "Leggera" },
+        { "value": "media", "label": "Media" }
+      ]
+    },
+    {
+      "value": "dettagli_funzione",
+      "label": "Dettagli funzionali",
+      "default_template": "Aggiungi dettaglio funzionale {OPTION}: descrivi posizione e utilità",
+      "options": [
+        { "value": "nessuno", "label": "Nessuno" },
+        { "value": "coulisse_interna", "label": "Coulisse interna" },
+        { "value": "regolatori_polsi", "label": "Regolatori polsi" },
+        { "value": "cappuccio_rimovibile", "label": "Cappuccio rimovibile" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi pulizia interna, ribattiture e durabilità",
+      "options": [
+        { "value": "pulito_standard", "label": "Pulito standard" },
+        { "value": "ribattuto", "label": "Ribattuto" },
+        { "value": "rinforzato", "label": "Rinforzato" }
+      ]
+    }
+  ]
+},
+
+
+
+{
+  "value": "blazer",
+  "label": "Blazer",
+  "categories": [
+    {
+      "value": "struttura",
+      "label": "Struttura",
+      "default_template": "Imposta la struttura del blazer su {OPTION}: descrivi costruzione interna, rigidità e formalità",
+      "options": [
+        { "value": "destrutturato", "label": "Destrutturato" },
+        { "value": "semi_strutturato", "label": "Semi strutturato" },
+        { "value": "strutturato", "label": "Strutturato" }
+      ]
+    },
+    {
+      "value": "apertura_frontale",
+      "label": "Apertura frontale",
+      "default_template": "Imposta l’apertura frontale su {OPTION}: descrivi proporzione e uso",
+      "options": [
+        { "value": "monopetto", "label": "Monopetto" },
+        { "value": "doppiopetto", "label": "Doppiopetto" }
+      ]
+    },
+    {
+      "value": "abbottonatura",
+      "label": "Abbottonatura",
+      "default_template": "Imposta l’abbottonatura su {OPTION}: descrivi numero bottoni e posizione",
+      "options": [
+        { "value": "uno_bottone", "label": "Un bottone" },
+        { "value": "due_bottoni", "label": "Due bottoni" },
+        { "value": "tre_bottoni", "label": "Tre bottoni" },
+        { "value": "doppiopetto_6x2", "label": "Doppiopetto 6x2" },
+        { "value": "doppiopetto_4x2", "label": "Doppiopetto 4x2" }
+      ]
+    },
+    {
+      "value": "rever",
+      "label": "Rever",
+      "default_template": "Modifica il rever su {OPTION}: descrivi forma, ampiezza e inclinazione",
+      "options": [
+        { "value": "classico_notch", "label": "Classico (notch)" },
+        { "value": "a_lancia", "label": "A lancia (peak)" },
+        { "value": "sciallato", "label": "Sciallato" }
+      ]
+    },
+    {
+      "value": "ampiezza_rever",
+      "label": "Rever: ampiezza",
+      "default_template": "Regola l’ampiezza del rever su {OPTION}: descrivi proporzione con il torace",
+      "options": [
+        { "value": "stretto", "label": "Stretto" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampio", "label": "Ampio" }
+      ]
+    },
+    {
+      "value": "lunghezza_rever",
+      "label": "Rever: lunghezza",
+      "default_template": "Regola la lunghezza del rever su {OPTION}: descrivi punto di chiusura visivo",
+      "options": [
+        { "value": "corto", "label": "Corto" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lungo", "label": "Lungo" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla",
+      "default_template": "Imposta la costruzione della spalla su {OPTION}: descrivi linea e supporto",
+      "options": [
+        { "value": "naturale", "label": "Naturale" },
+        { "value": "strutturata", "label": "Strutturata" },
+        { "value": "con_spallina", "label": "Con spallina" },
+        { "value": "senza_spallina", "label": "Senza spallina" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche su {OPTION}: descrivi lunghezza e proporzione",
+      "options": [
+        { "value": "lunghe", "label": "Lunghe" },
+        { "value": "leggermente_corte", "label": "Leggermente corte" }
+      ]
+    },
+    {
+      "value": "paramanica",
+      "label": "Manica: paramanica",
+      "default_template": "Imposta il paramanica su {OPTION}: descrivi finitura e dettaglio sartoriale",
+      "options": [
+        { "value": "finta", "label": "Finta" },
+        { "value": "aperta", "label": "Aperta (funzionante)" }
+      ]
+    },
+    {
+      "value": "bottoni_manica",
+      "label": "Manica: bottoni",
+      "default_template": "Imposta i bottoni manica su {OPTION}: descrivi numero e spaziatura",
+      "options": [
+        { "value": "due", "label": "Due" },
+        { "value": "tre", "label": "Tre" },
+        { "value": "quattro", "label": "Quattro" }
+      ]
+    },
+    {
+      "value": "lunghezza_corpo",
+      "label": "Corpo: lunghezza",
+      "default_template": "Modifica la lunghezza corpo su {OPTION}: descrivi proporzione busto/gamba",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi torace, punto vita e apertura fondo",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" }
+      ]
+    },
+    {
+      "value": "pinces",
+      "label": "Corpo: pinces e shaping",
+      "default_template": "Imposta le pinces su {OPTION}: descrivi modellatura del punto vita",
+      "options": [
+        { "value": "senza_pinces", "label": "Senza pinces" },
+        { "value": "pinces_leggere", "label": "Pinces leggere" },
+        { "value": "pinces_pronunciate", "label": "Pinces pronunciate" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Imposta le tasche su {OPTION}: descrivi forma e livello di formalità",
+      "options": [
+        { "value": "a_filetto", "label": "A filetto" },
+        { "value": "con_pattina", "label": "Con pattina" },
+        { "value": "applicate", "label": "Applicate" },
+        { "value": "taschino_petto", "label": "Taschino al petto" }
+      ]
+    },
+    {
+      "value": "spacco",
+      "label": "Spacco posteriore",
+      "default_template": "Imposta lo spacco su {OPTION}: descrivi mobilità e linea",
+      "options": [
+        { "value": "senza_spacco", "label": "Senza spacco" },
+        { "value": "spacco_centrale", "label": "Spacco centrale" },
+        { "value": "doppio_spacco", "label": "Doppio spacco" }
+      ]
+    },
+    {
+      "value": "fodera",
+      "label": "Fodera",
+      "default_template": "Imposta la fodera su {OPTION}: descrivi copertura e traspirabilità",
+      "options": [
+        { "value": "sfoderato", "label": "Sfoderato" },
+        { "value": "mezza_fodera", "label": "Mezza fodera" },
+        { "value": "completamente_foderato", "label": "Completamente foderato" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, peso e caduta",
+      "options": [
+        { "value": "lana", "label": "Lana" },
+        { "value": "misto_lana", "label": "Misto lana" },
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "lino", "label": "Lino" },
+        { "value": "velluto", "label": "Velluto" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture sartoriali",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi livello di pulizia e dettaglio sartoriale",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "alta_sartoria", "label": "Alta sartoria" },
+        { "value": "ribattiture_visibili", "label": "Ribattiture visibili" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "cappotto_overcoat",
+  "label": "Cappotto / Overcoat",
+  "categories": [
+    {
+      "value": "struttura",
+      "label": "Struttura",
+      "default_template": "Imposta la struttura del cappotto su {OPTION}: descrivi costruzione interna, rigidità e grado di formalità",
+      "options": [
+        { "value": "destrutturato", "label": "Destrutturato" },
+        { "value": "semi_strutturato", "label": "Semi strutturato" },
+        { "value": "strutturato", "label": "Strutturato" }
+      ]
+    },
+    {
+      "value": "apertura_frontale",
+      "label": "Apertura frontale",
+      "default_template": "Imposta l’apertura frontale su {OPTION}: descrivi proporzione e bilanciamento del davanti",
+      "options": [
+        { "value": "monopetto", "label": "Monopetto" },
+        { "value": "doppiopetto", "label": "Doppiopetto" }
+      ]
+    },
+    {
+      "value": "abbottonatura",
+      "label": "Abbottonatura",
+      "default_template": "Imposta l’abbottonatura su {OPTION}: descrivi numero bottoni e posizione",
+      "options": [
+        { "value": "due_bottoni", "label": "Due bottoni" },
+        { "value": "tre_bottoni", "label": "Tre bottoni" },
+        { "value": "quattro_bottoni", "label": "Quattro bottoni" },
+        { "value": "doppiopetto_6x2", "label": "Doppiopetto 6x2" },
+        { "value": "doppiopetto_8x4", "label": "Doppiopetto 8x4" }
+      ]
+    },
+    {
+      "value": "collo_rever",
+      "label": "Collo e rever",
+      "default_template": "Modifica collo e rever su {OPTION}: descrivi forma, ampiezza e inclinazione",
+      "options": [
+        { "value": "rever_classico", "label": "Rever classico (notch)" },
+        { "value": "rever_lancia", "label": "Rever a lancia (peak)" },
+        { "value": "rever_sciallato", "label": "Rever sciallato" },
+        { "value": "collo_camicia", "label": "Collo a camicia" },
+        { "value": "collo_alto", "label": "Collo alto / militare" }
+      ]
+    },
+    {
+      "value": "ampiezza_rever",
+      "label": "Rever: ampiezza",
+      "default_template": "Regola l’ampiezza del rever su {OPTION}: descrivi proporzione con il torace",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla",
+      "default_template": "Imposta la costruzione della spalla su {OPTION}: descrivi linea e supporto",
+      "options": [
+        { "value": "naturale", "label": "Naturale" },
+        { "value": "strutturata", "label": "Strutturata" },
+        { "value": "con_spallina", "label": "Con spallina" },
+        { "value": "senza_spallina", "label": "Senza spallina" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche su {OPTION}: descrivi lunghezza e ampiezza",
+      "options": [
+        { "value": "lunghe", "label": "Lunghe" },
+        { "value": "ampie", "label": "Ample" },
+        { "value": "regolari", "label": "Regolari" }
+      ]
+    },
+    {
+      "value": "paramanica",
+      "label": "Manica: paramanica",
+      "default_template": "Imposta il paramanica su {OPTION}: descrivi finitura e dettaglio sartoriale",
+      "options": [
+        { "value": "finta", "label": "Finta" },
+        { "value": "aperta", "label": "Aperta (funzionante)" }
+      ]
+    },
+    {
+      "value": "lunghezza_corpo",
+      "label": "Corpo: lunghezza",
+      "default_template": "Imposta la lunghezza del cappotto su {OPTION}: descrivi punto di arrivo sulla gamba",
+      "options": [
+        { "value": "sopra_ginocchio", "label": "Sopra il ginocchio" },
+        { "value": "al_ginocchio", "label": "Al ginocchio" },
+        { "value": "sotto_ginocchio", "label": "Sotto il ginocchio" },
+        { "value": "lungo", "label": "Lungo" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi torace, vita e ampiezza fondo",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Imposta le tasche su {OPTION}: descrivi forma e livello di formalità",
+      "options": [
+        { "value": "a_filetto", "label": "A filetto" },
+        { "value": "con_pattina", "label": "Con pattina" },
+        { "value": "applicate", "label": "Applicate" },
+        { "value": "tasche_verticali", "label": "Tasche verticali" }
+      ]
+    },
+    {
+      "value": "spacco",
+      "label": "Spacco posteriore",
+      "default_template": "Imposta lo spacco su {OPTION}: descrivi mobilità e linea",
+      "options": [
+        { "value": "senza_spacco", "label": "Senza spacco" },
+        { "value": "spacco_centrale", "label": "Spacco centrale" },
+        { "value": "doppio_spacco", "label": "Doppio spacco" }
+      ]
+    },
+    {
+      "value": "fodera",
+      "label": "Fodera",
+      "default_template": "Imposta la fodera su {OPTION}: descrivi copertura e isolamento termico",
+      "options": [
+        { "value": "sfoderato", "label": "Sfoderato" },
+        { "value": "mezza_fodera", "label": "Mezza fodera" },
+        { "value": "completamente_foderato", "label": "Completamente foderato" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, peso e calore",
+      "options": [
+        { "value": "lana", "label": "Lana" },
+        { "value": "cashmere", "label": "Cashmere" },
+        { "value": "misto_lana", "label": "Misto lana" },
+        { "value": "panno", "label": "Panno" },
+        { "value": "tessuto_tecnico", "label": "Tessuto tecnico" }
+      ]
+    },
+    {
+      "value": "peso",
+      "label": "Peso",
+      "default_template": "Imposta il peso del cappotto su {OPTION}: descrivi stagionalità e protezione",
+      "options": [
+        { "value": "leggero", "label": "Leggero" },
+        { "value": "medio", "label": "Medio" },
+        { "value": "pesante", "label": "Pesante" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture sartoriali",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi livello di pulizia e dettaglio sartoriale",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "alta_sartoria", "label": "Alta sartoria" },
+        { "value": "ribattiture_visibili", "label": "Ribattiture visibili" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "parka_giacca_imbottita",
+  "label": "Parka / Giacca imbottita",
+  "categories": [
+    {
+      "value": "tipologia",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia del capo su {OPTION}: descrivi funzione principale e contesto d’uso",
+      "options": [
+        { "value": "parka", "label": "Parka" },
+        { "value": "piumino", "label": "Giacca imbottita (piumino)" },
+        { "value": "giacca_termica", "label": "Giacca termica" },
+        { "value": "giacca_tecnica", "label": "Giacca tecnica imbottita" }
+      ]
+    },
+    {
+      "value": "struttura",
+      "label": "Struttura",
+      "default_template": "Imposta la struttura su {OPTION}: descrivi costruzione e rigidità",
+      "options": [
+        { "value": "morbida", "label": "Morbida" },
+        { "value": "semi_strutturata", "label": "Semi strutturata" },
+        { "value": "strutturata", "label": "Strutturata" }
+      ]
+    },
+    {
+      "value": "apertura_frontale",
+      "label": "Apertura frontale",
+      "default_template": "Imposta l’apertura frontale su {OPTION}: descrivi praticità e protezione",
+      "options": [
+        { "value": "apertura_totale", "label": "Apertura totale" }
+      ]
+    },
+    {
+      "value": "chiusura",
+      "label": "Chiusura",
+      "default_template": "Imposta la chiusura su {OPTION}: descrivi sistema di protezione",
+      "options": [
+        { "value": "zip", "label": "Zip" },
+        { "value": "zip_e_bottoni", "label": "Zip + bottoni" },
+        { "value": "zip_e_automatici", "label": "Zip + automatici" }
+      ]
+    },
+    {
+      "value": "collo",
+      "label": "Collo",
+      "default_template": "Modifica il collo su {OPTION}: descrivi altezza e isolamento",
+      "options": [
+        { "value": "collo_alto", "label": "Collo alto" },
+        { "value": "collo_imbottito", "label": "Collo imbottito" },
+        { "value": "collo_con_pile", "label": "Collo con interno in pile" }
+      ]
+    },
+    {
+      "value": "cappuccio",
+      "label": "Cappuccio",
+      "default_template": "Imposta il cappuccio su {OPTION}: descrivi volume e regolazioni",
+      "options": [
+        { "value": "fisso", "label": "Fisso" },
+        { "value": "rimovibile", "label": "Rimovibile" },
+        { "value": "regolabile", "label": "Regolabile" },
+        { "value": "con_pelliccia", "label": "Con bordo in pelliccia sintetica" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla",
+      "default_template": "Imposta la spalla su {OPTION}: descrivi linea e comfort in movimento",
+      "options": [
+        { "value": "set_in", "label": "Manica attaccata (set-in)" },
+        { "value": "raglan", "label": "Raglan" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche su {OPTION}: descrivi volume e protezione",
+      "options": [
+        { "value": "lunghe", "label": "Lunghe" },
+        { "value": "preformate", "label": "Preformate" }
+      ]
+    },
+    {
+      "value": "polsi",
+      "label": "Polsi",
+      "default_template": "Imposta i polsi su {OPTION}: descrivi chiusura e isolamento",
+      "options": [
+        { "value": "elastici", "label": "Elastici" },
+        { "value": "regolabili", "label": "Regolabili" },
+        { "value": "polsino_interno", "label": "Polsino interno antivento" }
+      ]
+    },
+    {
+      "value": "lunghezza_corpo",
+      "label": "Corpo: lunghezza",
+      "default_template": "Imposta la lunghezza corpo su {OPTION}: descrivi copertura",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "media", "label": "Media" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi stratificazione possibile",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Imposta le tasche su {OPTION}: descrivi numero, posizione e funzione",
+      "options": [
+        { "value": "laterali", "label": "Laterali" },
+        { "value": "con_pattina", "label": "Con pattina" },
+        { "value": "con_zip", "label": "Con zip" },
+        { "value": "tasche_interni", "label": "Tasche interne" }
+      ]
+    },
+    {
+      "value": "imbottitura",
+      "label": "Imbottitura",
+      "default_template": "Imposta l’imbottitura su {OPTION}: descrivi potere termico e volume",
+      "options": [
+        { "value": "piuma_naturale", "label": "Piuma naturale" },
+        { "value": "imbottitura_sintetica", "label": "Imbottitura sintetica" },
+        { "value": "mista", "label": "Mista" }
+      ]
+    },
+    {
+      "value": "livello_calore",
+      "label": "Livello di calore",
+      "default_template": "Imposta il livello di calore su {OPTION}: descrivi stagionalità",
+      "options": [
+        { "value": "medio", "label": "Medio" },
+        { "value": "alto", "label": "Alto" },
+        { "value": "estremo", "label": "Estremo" }
+      ]
+    },
+    {
+      "value": "materiale_esterno",
+      "label": "Materiale esterno",
+      "default_template": "Imposta il materiale esterno su {OPTION}: descrivi resistenza e protezione",
+      "options": [
+        { "value": "nylon", "label": "Nylon" },
+        { "value": "poliestere", "label": "Poliestere" },
+        { "value": "tessuto_tecnico", "label": "Tessuto tecnico" },
+        { "value": "cotone_trattato", "label": "Cotone trattato" }
+      ]
+    },
+    {
+      "value": "impermeabilita",
+      "label": "Impermeabilità",
+      "default_template": "Imposta il livello di impermeabilità su {OPTION}: descrivi protezione da pioggia e neve",
+      "options": [
+        { "value": "idrorepellente", "label": "Idrorepellente" },
+        { "value": "impermeabile", "label": "Impermeabile" },
+        { "value": "impermeabile_trattato", "label": "Impermeabile con trattamento" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi cuciture, nastrature e durabilità",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "cuciture_nastrate", "label": "Cuciture nastrate" },
+        { "value": "rinforzate", "label": "Rinforzate" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "abito_completo",
+  "label": "Abito completo (Suit)",
+  "categories": [
+    {
+      "value": "configurazione",
+      "label": "Configurazione",
+      "default_template": "Imposta la configurazione dell’abito su {OPTION}: descrivi composizione e contesto d’uso",
+      "options": [
+        { "value": "due_pezzi", "label": "Due pezzi (giacca + pantalone)" },
+        { "value": "tre_pezzi", "label": "Tre pezzi (giacca + pantalone + gilet)" }
+      ]
+    },
+    {
+      "value": "struttura_giacca",
+      "label": "Giacca: struttura",
+      "default_template": "Imposta la struttura della giacca su {OPTION}: descrivi costruzione interna e formalità",
+      "options": [
+        { "value": "destrutturata", "label": "Destrutturata" },
+        { "value": "semi_strutturata", "label": "Semi strutturata" },
+        { "value": "strutturata", "label": "Strutturata" }
+      ]
+    },
+    {
+      "value": "apertura_giacca",
+      "label": "Giacca: apertura",
+      "default_template": "Imposta l’apertura della giacca su {OPTION}: descrivi proporzione e stile",
+      "options": [
+        { "value": "monopetto", "label": "Monopetto" },
+        { "value": "doppiopetto", "label": "Doppiopetto" }
+      ]
+    },
+    {
+      "value": "abbottonatura_giacca",
+      "label": "Giacca: abbottonatura",
+      "default_template": "Imposta l’abbottonatura della giacca su {OPTION}: descrivi numero bottoni e posizione",
+      "options": [
+        { "value": "uno_bottone", "label": "Un bottone" },
+        { "value": "due_bottoni", "label": "Due bottoni" },
+        { "value": "tre_bottoni", "label": "Tre bottoni" },
+        { "value": "doppiopetto_6x2", "label": "Doppiopetto 6x2" }
+      ]
+    },
+    {
+      "value": "rever",
+      "label": "Giacca: rever",
+      "default_template": "Imposta il rever su {OPTION}: descrivi forma e carattere sartoriale",
+      "options": [
+        { "value": "classico_notch", "label": "Classico (notch)" },
+        { "value": "a_lancia", "label": "A lancia (peak)" },
+        { "value": "sciallato", "label": "Sciallato" }
+      ]
+    },
+    {
+      "value": "spalla_giacca",
+      "label": "Giacca: spalla",
+      "default_template": "Imposta la spalla su {OPTION}: descrivi linea e supporto",
+      "options": [
+        { "value": "naturale", "label": "Naturale" },
+        { "value": "strutturata", "label": "Strutturata" },
+        { "value": "con_spallina", "label": "Con spallina" }
+      ]
+    },
+    {
+      "value": "vestibilita_giacca",
+      "label": "Giacca: vestibilità",
+      "default_template": "Imposta la vestibilità della giacca su {OPTION}: descrivi torace e punto vita",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" }
+      ]
+    },
+    {
+      "value": "spacco_giacca",
+      "label": "Giacca: spacco",
+      "default_template": "Imposta lo spacco su {OPTION}: descrivi mobilità e linea",
+      "options": [
+        { "value": "senza_spacco", "label": "Senza spacco" },
+        { "value": "spacco_centrale", "label": "Spacco centrale" },
+        { "value": "doppio_spacco", "label": "Doppio spacco" }
+      ]
+    },
+    {
+      "value": "fodera_giacca",
+      "label": "Giacca: fodera",
+      "default_template": "Imposta la fodera della giacca su {OPTION}: descrivi copertura e traspirabilità",
+      "options": [
+        { "value": "sfoderata", "label": "Sfoderata" },
+        { "value": "mezza_fodera", "label": "Mezza fodera" },
+        { "value": "completamente_foderata", "label": "Completamente foderata" }
+      ]
+    },
+    {
+      "value": "vita_pantalone",
+      "label": "Pantalone: vita",
+      "default_template": "Imposta la vita del pantalone su {OPTION}: descrivi altezza e struttura",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "media", "label": "Media" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "costruzione_vita_pantalone",
+      "label": "Pantalone: costruzione vita",
+      "default_template": "Imposta la costruzione della vita su {OPTION}: descrivi adattabilità e comfort",
+      "options": [
+        { "value": "classica", "label": "Classica" },
+        { "value": "con_pinces", "label": "Con pinces" },
+        { "value": "doppia_pinces", "label": "Doppia pinces" },
+        { "value": "con_regolatori", "label": "Con regolatori laterali" }
+      ]
+    },
+    {
+      "value": "chiusura_pantalone",
+      "label": "Pantalone: chiusura",
+      "default_template": "Imposta la chiusura del pantalone su {OPTION}: descrivi sistema e pulizia frontale",
+      "options": [
+        { "value": "zip_e_bottone", "label": "Zip e bottone" },
+        { "value": "zip_e_gancio", "label": "Zip e gancio" },
+        { "value": "bottoni", "label": "Bottoni" }
+      ]
+    },
+    {
+      "value": "vestibilita_pantalone",
+      "label": "Pantalone: vestibilità",
+      "default_template": "Imposta la vestibilità del pantalone su {OPTION}: descrivi ampiezza coscia e gamba",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" }
+      ]
+    },
+    {
+      "value": "lunghezza_pantalone",
+      "label": "Pantalone: lunghezza",
+      "default_template": "Imposta la lunghezza del pantalone su {OPTION}: descrivi rapporto con la scarpa",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "fondo_pantalone",
+      "label": "Pantalone: fondo",
+      "default_template": "Imposta il fondo del pantalone su {OPTION}: descrivi apertura e stile",
+      "options": [
+        { "value": "dritto", "label": "Dritto" },
+        { "value": "risvolto", "label": "Con risvolto" }
+      ]
+    },
+    {
+      "value": "tasche_pantalone",
+      "label": "Pantalone: tasche",
+      "default_template": "Imposta le tasche del pantalone su {OPTION}: descrivi livello di formalità",
+      "options": [
+        { "value": "alla_francese", "label": "Alla francese" },
+        { "value": "a_filetto", "label": "A filetto" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, peso e stagionalità",
+      "options": [
+        { "value": "lana", "label": "Lana" },
+        { "value": "lana_fresca", "label": "Lana fresca" },
+        { "value": "flanella", "label": "Flanella" },
+        { "value": "misto_lana", "label": "Misto lana" }
+      ]
+    },
+    {
+      "value": "peso_tessuto",
+      "label": "Peso tessuto",
+      "default_template": "Imposta il peso del tessuto su {OPTION}: descrivi stagionalità",
+      "options": [
+        { "value": "leggero", "label": "Leggero" },
+        { "value": "medio", "label": "Medio" },
+        { "value": "pesante", "label": "Pesante" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture sartoriali",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi livello di lavorazione e pulizia",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "alta_sartoria", "label": "Alta sartoria" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "tuta",
+  "label": "Tuta (Tracksuit / Jumpsuit)",
+  "categories": [
+    {
+      "value": "tipologia",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia della tuta su {OPTION}: descrivi funzione principale e contesto d’uso",
+      "options": [
+        { "value": "tracksuit_due_pezzi", "label": "Tracksuit due pezzi (felpa + pantalone)" },
+        { "value": "jumpsuit_intera", "label": "Jumpsuit intera" },
+        { "value": "tuta_tecnica", "label": "Tuta tecnica" },
+        { "value": "tuta_lifestyle", "label": "Tuta lifestyle" }
+      ]
+    },
+    {
+      "value": "struttura_generale",
+      "label": "Struttura generale",
+      "default_template": "Imposta la struttura generale su {OPTION}: descrivi costruzione e rigidità",
+      "options": [
+        { "value": "morbida", "label": "Morbida" },
+        { "value": "semi_strutturata", "label": "Semi strutturata" },
+        { "value": "strutturata", "label": "Strutturata" }
+      ]
+    },
+    {
+      "value": "apertura_frontale",
+      "label": "Apertura frontale",
+      "default_template": "Imposta l’apertura frontale su {OPTION}: descrivi praticità e continuità visiva",
+      "options": [
+        { "value": "zip_totale", "label": "Zip totale" },
+        { "value": "zip_parziale", "label": "Zip parziale" },
+        { "value": "bottoni", "label": "Bottoni" },
+        { "value": "senza_apertura", "label": "Senza apertura (pull-on)" }
+      ]
+    },
+    {
+      "value": "collo",
+      "label": "Collo",
+      "default_template": "Modifica il collo su {OPTION}: descrivi altezza e protezione",
+      "options": [
+        { "value": "girocollo", "label": "Girocollo" },
+        { "value": "collo_alto", "label": "Collo alto" },
+        { "value": "collo_con_zip", "label": "Collo con zip" },
+        { "value": "con_cappuccio", "label": "Con cappuccio" }
+      ]
+    },
+    {
+      "value": "spalla",
+      "label": "Spalla",
+      "default_template": "Imposta la spalla su {OPTION}: descrivi linea e comfort in movimento",
+      "options": [
+        { "value": "set_in", "label": "Manica attaccata (set-in)" },
+        { "value": "raglan", "label": "Raglan" },
+        { "value": "drop_shoulder", "label": "Spalla scesa" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Modifica le maniche su {OPTION}: descrivi lunghezza e volume",
+      "options": [
+        { "value": "lunghe", "label": "Lunghe" },
+        { "value": "corte", "label": "Corte" },
+        { "value": "regolabili", "label": "Regolabili" }
+      ]
+    },
+    {
+      "value": "vita",
+      "label": "Vita",
+      "default_template": "Imposta la vita su {OPTION}: descrivi altezza e adattabilità",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "media", "label": "Media" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "costruzione_vita",
+      "label": "Vita: costruzione",
+      "default_template": "Imposta la costruzione della vita su {OPTION}: descrivi comfort e regolazione",
+      "options": [
+        { "value": "elasticizzata", "label": "Elasticizzata" },
+        { "value": "con_coulisse", "label": "Con coulisse" },
+        { "value": "mista", "label": "Mista" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi libertà di movimento e proporzioni",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "oversize", "label": "Oversize" }
+      ]
+    },
+    {
+      "value": "lunghezza_gamba",
+      "label": "Gamba: lunghezza",
+      "default_template": "Imposta la lunghezza della gamba su {OPTION}: descrivi punto di arrivo",
+      "options": [
+        { "value": "alla_caviglia", "label": "Alla caviglia" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "fondo_gamba",
+      "label": "Gamba: fondo",
+      "default_template": "Imposta il fondo gamba su {OPTION}: descrivi chiusura e stabilità",
+      "options": [
+        { "value": "elastico", "label": "Elastico" },
+        { "value": "dritto", "label": "Dritto" },
+        { "value": "con_zip", "label": "Con zip" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Imposta le tasche su {OPTION}: descrivi numero, posizione e funzione",
+      "options": [
+        { "value": "laterali", "label": "Laterali" },
+        { "value": "con_zip", "label": "Con zip" },
+        { "value": "tasche_posteriori", "label": "Posteriori" },
+        { "value": "tasche_cargo", "label": "Cargo" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, elasticità e traspirabilità",
+      "options": [
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "felpa", "label": "Felpa" },
+        { "value": "jersey", "label": "Jersey" },
+        { "value": "tessuto_tecnico", "label": "Tessuto tecnico" }
+      ]
+    },
+    {
+      "value": "elasticita",
+      "label": "Elasticità",
+      "default_template": "Imposta l’elasticità su {OPTION}: descrivi comfort e recupero",
+      "options": [
+        { "value": "rigida", "label": "Rigida" },
+        { "value": "leggermente_elastica", "label": "Leggermente elastica" },
+        { "value": "elastica", "label": "Elastica" }
+      ]
+    },
+    {
+      "value": "stagionalita",
+      "label": "Stagionalità",
+      "default_template": "Imposta la stagionalità su {OPTION}: descrivi peso e utilizzo",
+      "options": [
+        { "value": "quattro_stagioni", "label": "Quattro stagioni" },
+        { "value": "primavera_estate", "label": "Primavera / Estate" },
+        { "value": "autunno_inverno", "label": "Autunno / Inverno" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi cuciture e durabilità",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "rinforzate", "label": "Rinforzate" },
+        { "value": "ribattute", "label": "Ribattute" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "loungewear_pigiama",
+  "label": "Loungewear / Pigiama",
+  "categories": [
+    {
+      "value": "tipologia",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia del capo su {OPTION}: descrivi uso principale e contesto domestico",
+      "options": [
+        { "value": "pigiama_due_pezzi", "label": "Pigiama due pezzi (top + bottom)" },
+        { "value": "pigiama_intero", "label": "Pigiama intero" },
+        { "value": "loungewear_due_pezzi", "label": "Loungewear due pezzi" },
+        { "value": "loungewear_misto", "label": "Loungewear mix & match" }
+      ]
+    },
+    {
+      "value": "struttura_generale",
+      "label": "Struttura generale",
+      "default_template": "Imposta la struttura generale su {OPTION}: descrivi costruzione e morbidezza",
+      "options": [
+        { "value": "morbida", "label": "Morbida" },
+        { "value": "molto_morbida", "label": "Molto morbida" },
+        { "value": "semi_strutturata", "label": "Semi strutturata" }
+      ]
+    },
+    {
+      "value": "apertura_top",
+      "label": "Top: apertura",
+      "default_template": "Imposta l’apertura del top su {OPTION}: descrivi praticità e comfort",
+      "options": [
+        { "value": "bottoni", "label": "Bottoni" },
+        { "value": "zip", "label": "Zip" },
+        { "value": "pull_on", "label": "Pull-on (senza apertura)" }
+      ]
+    },
+    {
+      "value": "collo",
+      "label": "Collo",
+      "default_template": "Modifica il collo su {OPTION}: descrivi comfort e libertà",
+      "options": [
+        { "value": "girocollo", "label": "Girocollo" },
+        { "value": "scollo_v", "label": "Scollo a V" },
+        { "value": "collo_camicia", "label": "Collo a camicia" },
+        { "value": "collo_morbido", "label": "Collo morbido" }
+      ]
+    },
+    {
+      "value": "maniche",
+      "label": "Maniche",
+      "default_template": "Imposta le maniche su {OPTION}: descrivi lunghezza e comfort termico",
+      "options": [
+        { "value": "lunghe", "label": "Lunghe" },
+        { "value": "corte", "label": "Corte" },
+        { "value": "tre_quarti", "label": "Tre quarti" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi libertà di movimento",
+      "options": [
+        { "value": "rilassata", "label": "Relaxed" },
+        { "value": "ampia", "label": "Ampia" },
+        { "value": "regolare", "label": "Regolare" }
+      ]
+    },
+    {
+      "value": "vita_bottom",
+      "label": "Bottom: vita",
+      "default_template": "Imposta la vita del bottom su {OPTION}: descrivi comfort e adattabilità",
+      "options": [
+        { "value": "elasticizzata", "label": "Elasticizzata" },
+        { "value": "con_coulisse", "label": "Con coulisse" },
+        { "value": "mista", "label": "Mista" }
+      ]
+    },
+    {
+      "value": "lunghezza_bottom",
+      "label": "Bottom: lunghezza",
+      "default_template": "Imposta la lunghezza del bottom su {OPTION}: descrivi copertura",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "media", "label": "Media" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "fondo_bottom",
+      "label": "Bottom: fondo",
+      "default_template": "Imposta il fondo del bottom su {OPTION}: descrivi stabilità",
+      "options": [
+        { "value": "dritto", "label": "Dritto" },
+        { "value": "elastico", "label": "Elastico" },
+        { "value": "aperto", "label": "Aperto" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Imposta le tasche su {OPTION}: descrivi funzione e presenza",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "laterali", "label": "Laterali" },
+        { "value": "una_posteriore", "label": "Una posteriore" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, traspirabilità e comfort",
+      "options": [
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "jersey", "label": "Jersey" },
+        { "value": "flanella", "label": "Flanella" },
+        { "value": "modal", "label": "Modal" },
+        { "value": "misto_cotone", "label": "Misto cotone" }
+      ]
+    },
+    {
+      "value": "peso_tessuto",
+      "label": "Peso tessuto",
+      "default_template": "Imposta il peso del tessuto su {OPTION}: descrivi stagionalità",
+      "options": [
+        { "value": "leggero", "label": "Leggero" },
+        { "value": "medio", "label": "Medio" }
+      ]
+    },
+    {
+      "value": "stagionalita",
+      "label": "Stagionalità",
+      "default_template": "Imposta la stagionalità su {OPTION}: descrivi utilizzo domestico",
+      "options": [
+        { "value": "primavera_estate", "label": "Primavera / Estate" },
+        { "value": "autunno_inverno", "label": "Autunno / Inverno" },
+        { "value": "quattro_stagioni", "label": "Quattro stagioni" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi cuciture e comfort a contatto con la pelle",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "cuciture_morbide", "label": "Cuciture morbide" },
+        { "value": "senza_etichetta", "label": "Senza etichetta interna" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "intimo_top",
+  "label": "Intimo top (canottiera / t-shirt intima)",
+  "categories": [
+    {
+      "value": "tipologia",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia dell’intimo top su {OPTION}: descrivi forma e funzione",
+      "options": [
+        { "value": "canottiera", "label": "Canottiera" },
+        { "value": "tshirt_intima", "label": "T-shirt intima" },
+        { "value": "intimo_termico", "label": "Intimo termico" }
+      ]
+    },
+    {
+      "value": "struttura",
+      "label": "Struttura",
+      "default_template": "Imposta la struttura su {OPTION}: descrivi aderenza e supporto",
+      "options": [
+        { "value": "molto_aderente", "label": "Molto aderente" },
+        { "value": "aderente", "label": "Aderente" },
+        { "value": "regolare", "label": "Regolare" }
+      ]
+    },
+    {
+      "value": "scollo",
+      "label": "Scollo",
+      "default_template": "Modifica lo scollo su {OPTION}: descrivi profondità e invisibilità sotto altri capi",
+      "options": [
+        { "value": "girocollo", "label": "Girocollo" },
+        { "value": "scollo_v", "label": "Scollo a V" },
+        { "value": "scollo_profondo", "label": "Scollo profondo" }
+      ]
+    },
+    {
+      "value": "spalline_maniche",
+      "label": "Spalline / maniche",
+      "default_template": "Imposta spalline o maniche su {OPTION}: descrivi copertura della spalla",
+      "options": [
+        { "value": "senza_maniche", "label": "Senza maniche" },
+        { "value": "spallina_stretta", "label": "Spallina stretta" },
+        { "value": "spallina_larga", "label": "Spallina larga" },
+        { "value": "manica_corta", "label": "Manica corta" }
+      ]
+    },
+    {
+      "value": "lunghezza_corpo",
+      "label": "Lunghezza corpo",
+      "default_template": "Imposta la lunghezza del corpo su {OPTION}: descrivi copertura del busto",
+      "options": [
+        { "value": "corta", "label": "Corta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi effetto seconda pelle",
+      "options": [
+        { "value": "skin_fit", "label": "Skin fit" },
+        { "value": "aderente", "label": "Aderente" },
+        { "value": "regolare", "label": "Regolare" }
+      ]
+    },
+    {
+      "value": "elasticita",
+      "label": "Elasticità",
+      "default_template": "Imposta l’elasticità su {OPTION}: descrivi comfort e recupero",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "media", "label": "Media" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, traspirabilità e assorbimento",
+      "options": [
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "cotone_elasticizzato", "label": "Cotone elasticizzato" },
+        { "value": "modal", "label": "Modal" },
+        { "value": "microfibra", "label": "Microfibra" },
+        { "value": "lana_merino", "label": "Lana merino" }
+      ]
+    },
+    {
+      "value": "traspirabilita",
+      "label": "Traspirabilità",
+      "default_template": "Imposta la traspirabilità su {OPTION}: descrivi gestione dell’umidità",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "costruzione",
+      "label": "Costruzione",
+      "default_template": "Imposta la costruzione su {OPTION}: descrivi cuciture e comfort a contatto con la pelle",
+      "options": [
+        { "value": "cuciture_standard", "label": "Cuciture standard" },
+        { "value": "flatlock", "label": "Cuciture flatlock" },
+        { "value": "senza_cuciture", "label": "Senza cuciture" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi bordi e pulizia",
+      "options": [
+        { "value": "bordi_tagliati", "label": "Bordi tagliati" },
+        { "value": "orli_ribattuti", "label": "Orli ribattuti" },
+        { "value": "senza_etichetta", "label": "Senza etichetta interna" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "intimo_bottom",
+  "label": "Intimo bottom (boxer / slip)",
+  "categories": [
+    {
+      "value": "tipologia",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia dell’intimo bottom su {OPTION}: descrivi forma e copertura",
+      "options": [
+        { "value": "slip", "label": "Slip" },
+        { "value": "boxer_aderente", "label": "Boxer aderente" },
+        { "value": "boxer_largo", "label": "Boxer largo" },
+        { "value": "intimo_termico", "label": "Intimo termico" }
+      ]
+    },
+    {
+      "value": "struttura",
+      "label": "Struttura",
+      "default_template": "Imposta la struttura su {OPTION}: descrivi aderenza e supporto anatomico",
+      "options": [
+        { "value": "molto_aderente", "label": "Molto aderente" },
+        { "value": "aderente", "label": "Aderente" },
+        { "value": "regolare", "label": "Regolare" }
+      ]
+    },
+    {
+      "value": "vita_altezza",
+      "label": "Vita: altezza",
+      "default_template": "Imposta l’altezza della vita su {OPTION}: descrivi posizione sul bacino",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "media", "label": "Media" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "vita_costruzione",
+      "label": "Vita: costruzione",
+      "default_template": "Imposta la costruzione della vita su {OPTION}: descrivi stabilità e comfort",
+      "options": [
+        { "value": "elastico_esterno", "label": "Elastico esterno" },
+        { "value": "elastico_rivestito", "label": "Elastico rivestito" },
+        { "value": "senza_elastico", "label": "Senza elastico visibile" }
+      ]
+    },
+    {
+      "value": "lunghezza_gamba",
+      "label": "Gamba: lunghezza",
+      "default_template": "Imposta la lunghezza della gamba su {OPTION}: descrivi copertura della coscia",
+      "options": [
+        { "value": "senza_gamba", "label": "Senza gamba (slip)" },
+        { "value": "corta", "label": "Corta" },
+        { "value": "media", "label": "Media" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "apertura_gamba",
+      "label": "Gamba: apertura",
+      "default_template": "Imposta l’apertura gamba su {OPTION}: descrivi aderenza e stabilità",
+      "options": [
+        { "value": "aderente", "label": "Aderente" },
+        { "value": "elasticizzata", "label": "Elasticizzata" },
+        { "value": "libera", "label": "Libera" }
+      ]
+    },
+    {
+      "value": "supporto_frontale",
+      "label": "Supporto frontale",
+      "default_template": "Imposta il supporto frontale su {OPTION}: descrivi costruzione e contenimento",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "anatomico", "label": "Anatomico" },
+        { "value": "con_conchiglia", "label": "Con conchiglia modellata" }
+      ]
+    },
+    {
+      "value": "cuciture",
+      "label": "Cuciture",
+      "default_template": "Imposta le cuciture su {OPTION}: descrivi comfort a contatto con la pelle",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "flatlock", "label": "Flatlock" },
+        { "value": "senza_cuciture", "label": "Senza cuciture" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi effetto seconda pelle",
+      "options": [
+        { "value": "skin_fit", "label": "Skin fit" },
+        { "value": "aderente", "label": "Aderente" },
+        { "value": "regolare", "label": "Regolare" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi mano, traspirabilità ed elasticità",
+      "options": [
+        { "value": "cotone", "label": "Cotone" },
+        { "value": "cotone_elasticizzato", "label": "Cotone elasticizzato" },
+        { "value": "modal", "label": "Modal" },
+        { "value": "microfibra", "label": "Microfibra" },
+        { "value": "lana_merino", "label": "Lana merino" }
+      ]
+    },
+    {
+      "value": "traspirabilita",
+      "label": "Traspirabilità",
+      "default_template": "Imposta la traspirabilità su {OPTION}: descrivi gestione dell’umidità",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi bordi e comfort prolungato",
+      "options": [
+        { "value": "orli_ribattuti", "label": "Orli ribattuti" },
+        { "value": "bordi_tagliati", "label": "Bordi tagliati" },
+        { "value": "senza_etichetta", "label": "Senza etichetta interna" }
+      ]
+    }
+  ]
+},
+
+
+{
+  "value": "costume_da_bagno",
+  "label": "Costume da bagno",
+  "categories": [
+    {
+      "value": "tipologia",
+      "label": "Tipologia",
+      "default_template": "Imposta la tipologia del costume su {OPTION}: descrivi forma e contesto d’uso",
+      "options": [
+        { "value": "short_mare", "label": "Short mare" },
+        { "value": "bermuda_mare", "label": "Bermuda mare" },
+        { "value": "slip_mare", "label": "Slip mare" },
+        { "value": "boardshort", "label": "Boardshort" }
+      ]
+    },
+    {
+      "value": "vita_altezza",
+      "label": "Vita: altezza",
+      "default_template": "Imposta l’altezza della vita su {OPTION}: descrivi posizione e comfort",
+      "options": [
+        { "value": "bassa", "label": "Bassa" },
+        { "value": "media", "label": "Media" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "costruzione_vita",
+      "label": "Vita: costruzione",
+      "default_template": "Imposta la costruzione della vita su {OPTION}: descrivi regolazione e stabilità",
+      "options": [
+        { "value": "elasticizzata", "label": "Elasticizzata" },
+        { "value": "con_coulisse", "label": "Con coulisse" },
+        { "value": "vita_fissa", "label": "Vita fissa" }
+      ]
+    },
+    {
+      "value": "chiusura_vita",
+      "label": "Vita: chiusura",
+      "default_template": "Imposta la chiusura della vita su {OPTION}: descrivi sicurezza e praticità",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "laccio", "label": "Laccio" },
+        { "value": "velcro", "label": "Velcro" },
+        { "value": "bottone_e_zip", "label": "Bottone e zip" }
+      ]
+    },
+    {
+      "value": "vestibilita",
+      "label": "Vestibilità",
+      "default_template": "Imposta la vestibilità su {OPTION}: descrivi libertà di movimento",
+      "options": [
+        { "value": "slim", "label": "Slim" },
+        { "value": "regolare", "label": "Regolare" },
+        { "value": "rilassata", "label": "Relaxed" }
+      ]
+    },
+    {
+      "value": "lunghezza_gamba",
+      "label": "Gamba: lunghezza",
+      "default_template": "Imposta la lunghezza della gamba su {OPTION}: descrivi punto di arrivo",
+      "options": [
+        { "value": "molto_corta", "label": "Molto corta" },
+        { "value": "corta", "label": "Corta" },
+        { "value": "media", "label": "Media" },
+        { "value": "lunga", "label": "Lunga" }
+      ]
+    },
+    {
+      "value": "apertura_gamba",
+      "label": "Gamba: apertura",
+      "default_template": "Imposta l’apertura gamba su {OPTION}: descrivi ampiezza e stabilità",
+      "options": [
+        { "value": "stretta", "label": "Stretta" },
+        { "value": "standard", "label": "Standard" },
+        { "value": "ampia", "label": "Ampia" }
+      ]
+    },
+    {
+      "value": "tasche",
+      "label": "Tasche",
+      "default_template": "Imposta le tasche su {OPTION}: descrivi numero, posizione e drenaggio",
+      "options": [
+        { "value": "nessuna", "label": "Nessuna" },
+        { "value": "laterali", "label": "Laterali" },
+        { "value": "posteriore", "label": "Posteriore" },
+        { "value": "laterali_e_posteriore", "label": "Laterali + posteriore" }
+      ]
+    },
+    {
+      "value": "rete_interna",
+      "label": "Rete interna",
+      "default_template": "Imposta la rete interna su {OPTION}: descrivi supporto e comfort",
+      "options": [
+        { "value": "presente", "label": "Presente" },
+        { "value": "assente", "label": "Assente" },
+        { "value": "boxer_interno", "label": "Boxer interno" }
+      ]
+    },
+    {
+      "value": "materiale_principale",
+      "label": "Materiale principale",
+      "default_template": "Imposta il materiale principale su {OPTION}: descrivi asciugatura e resistenza",
+      "options": [
+        { "value": "poliestere", "label": "Poliestere" },
+        { "value": "nylon", "label": "Nylon" },
+        { "value": "tessuto_tecnico", "label": "Tessuto tecnico" },
+        { "value": "poliestere_riciclato", "label": "Poliestere riciclato" }
+      ]
+    },
+    {
+      "value": "asciugatura",
+      "label": "Asciugatura",
+      "default_template": "Imposta la velocità di asciugatura su {OPTION}: descrivi performance",
+      "options": [
+        { "value": "rapida", "label": "Rapida" },
+        { "value": "standard", "label": "Standard" }
+      ]
+    },
+    {
+      "value": "resistenza_cloro_salsedine",
+      "label": "Resistenza a cloro e salsedine",
+      "default_template": "Imposta la resistenza su {OPTION}: descrivi durabilità",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "alta", "label": "Alta" }
+      ]
+    },
+    {
+      "value": "finiture",
+      "label": "Finiture e costruzione",
+      "default_template": "Imposta le finiture su {OPTION}: descrivi cuciture e robustezza",
+      "options": [
+        { "value": "standard", "label": "Standard" },
+        { "value": "cuciture_rinforzate", "label": "Cuciture rinforzate" },
+        { "value": "termonastrate", "label": "Termanastrate" }
+      ]
+    }
+  ]
+}
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
