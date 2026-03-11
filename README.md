@@ -4,6 +4,9 @@
 
 Neural Atelier NA01 is a professional ComfyUI node for fashion visualization and product photography. It orchestrates Google's Gemini AI models to transform sketches, materials, and briefs into photorealistic product images.
 
+![patreion](https://github.com/user-attachments/assets/8a8dad8b-f554-463c-baf5-82e63328c82b)
+
+
 ### Architecture
 
 ```
