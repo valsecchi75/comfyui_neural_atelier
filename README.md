@@ -134,3 +134,11 @@ You can provide your API key in two ways:
 ## License
 
 MIT License
+
+## Where to Find All Workflows
+
+If you want access to the full workflow collection, the latest updates, exclusive releases, and ongoing development for Neural Atelier, you can find everything on my Patreon:
+
+**Join here:** https://www.patreon.com/c/SergioValsecchi
+
+Patreon is the main hub for all workflow packs, custom node updates, advanced R&D, and new tools as they are released.
